@@ -5527,11 +5527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Backend\\EComApplication.csproj",
+      "projectUniqueName": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Backend\\EComApplication.csproj",
       "projectName": "EComApplication",
-      "projectPath": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Backend\\EComApplication.csproj",
+      "projectPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Backend\\EComApplication.csproj",
       "packagesPath": "C:\\Users\\ashutoshgupta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Backend\\obj\\",
+      "outputPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ashutoshgupta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5549,8 +5549,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

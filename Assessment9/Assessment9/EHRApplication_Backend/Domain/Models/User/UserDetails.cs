@@ -19,11 +19,12 @@ namespace Domain.Models.User
             public string Email {  get; set; }
           public    string  BloodGroup {  get; set; }
           public  string  Address {  get; set; }
-           public   string City {  get; set; }
+           public   int CityId {  get; set; }
            public   int StateId {  get; set; }
-        public int CountryId { get; set; }
+       // public int CountryId { get; set; }
           public     int PinCode {  get; set; }
         public string Profile {  get; set; }
+        public string Mobile { get; set; }
 
         [ForeignKey("UserType")]
         public   int UserType_ID {  get; set; }

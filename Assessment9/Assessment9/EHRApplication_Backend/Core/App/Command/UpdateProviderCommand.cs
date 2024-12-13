@@ -49,9 +49,10 @@ namespace App.Core.App.Command
                 oldProviderDetails.Gender = newProviderDetails.Gender;
                 oldProviderDetails.BloodGroup = newProviderDetails.BloodGroup;
                 oldProviderDetails.Address = newProviderDetails.Address;
-                oldProviderDetails.City = newProviderDetails.City;
+                oldProviderDetails.CityId = newProviderDetails.CityId;
                 oldProviderDetails.StateId = newProviderDetails.StateId;
-                oldProviderDetails.CountryId= newProviderDetails.CountryId;
+                oldProviderDetails.Mobile = newProviderDetails.Mobile;
+                //oldProviderDetails.CountryId= newProviderDetails.CountryId;
                 oldProviderDetails.PinCode= newProviderDetails.PinCode;
                 oldProviderDetails.Profile = newProviderDetails.Profile;
 

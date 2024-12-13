@@ -19,6 +19,13 @@ namespace Infrastructure
 
         public DbSet<UserDetails> Users { get; set; }
         public DbSet<Otp>OtpDetails { get; set; }
+
+        public DbSet<UserType> UserTypes { get; set; }
+
+        public DbSet<Specialisation> SpecialisationDetails { get; set; }
+        public DbSet<State> StateDetails { get; set; }
+        public DbSet<Cities> Cities { get; set; }
+        public DbSet<Country> Country { get; set; }
     
     }
 }

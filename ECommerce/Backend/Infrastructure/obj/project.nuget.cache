@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N0BQvJ5MH+Y=",
+  "dgSpecHash": "4SWgjaWgtYc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ashutoshgupta\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ashutoshgupta\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -20,3 +20,15 @@ C:\Users\ashutoshgupta\Desktop\Assessment9\EHRApplication_Backend\Domain\obj\Deb
 C:\Users\ashutoshgupta\Desktop\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\ashutoshgupta\Desktop\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\ashutoshgupta\Desktop\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Domain\obj\Debug\net8.0\ref\Domain.dll

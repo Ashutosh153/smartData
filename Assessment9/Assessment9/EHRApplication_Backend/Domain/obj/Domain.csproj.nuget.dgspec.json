@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Downloads\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj": {}
+    "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Downloads\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj": {
+    "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Downloads\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Asus\\Downloads\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Downloads\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\ashutoshgupta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ashutoshgupta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

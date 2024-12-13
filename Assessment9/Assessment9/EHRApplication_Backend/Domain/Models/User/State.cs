@@ -14,10 +14,5 @@ namespace Domain.Models.User
         public int Id { get; set; }
 
         public string Name { get; set; }
-
-
-        [ForeignKey("Country")]
-        public int Country_Id { get; set; }
-        public Country Country { get; set; }
     }
 }

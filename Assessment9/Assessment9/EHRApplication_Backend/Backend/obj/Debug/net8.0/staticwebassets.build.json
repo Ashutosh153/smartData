@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qBXKdp/9f+1HTyUvAB3NXgcdYc/zpf0lF0exDOOyTcU=",
+  "Hash": "YJp7jGjg/gRdMTekRzZG3te8Pf/xvigD2fq3pbekurQ=",
   "Source": "EHRApplication",
   "BasePath": "_content/EHRApplication",
   "Mode": "Default",
@@ -10,10 +10,30 @@
     {
       "Name": "EHRApplication\\wwwroot",
       "Source": "EHRApplication",
-      "ContentRoot": "C:\\Users\\ashutoshgupta\\Desktop\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
       "BasePath": "_content/EHRApplication",
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\d40f96cf-0bbe-4d14-ad18-b0b45166dc7a.jpeg",
+      "SourceId": "EHRApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
+      "BasePath": "_content/EHRApplication",
+      "RelativePath": "Uploads/d40f96cf-0bbe-4d14-ad18-b0b45166dc7a.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\d40f96cf-0bbe-4d14-ad18-b0b45166dc7a.jpeg"
+    }
+  ]
 }

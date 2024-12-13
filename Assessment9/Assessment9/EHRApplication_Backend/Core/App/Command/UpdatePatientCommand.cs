@@ -47,8 +47,9 @@ namespace App.Core.App.Command
                 oldPatientDetails.BloodGroup=NewPatientDetails.BloodGroup;
                 oldPatientDetails.Address=NewPatientDetails.Address;
                 oldPatientDetails.StateId=NewPatientDetails.StateId;
-                oldPatientDetails.City=NewPatientDetails.City;
-                oldPatientDetails.CountryId=NewPatientDetails.CountryId;
+                oldPatientDetails.CityId=NewPatientDetails.CityId;
+                oldPatientDetails.Mobile = NewPatientDetails.Mobile;
+               // oldPatientDetails.CountryId=NewPatientDetails.CountryId;
                 oldPatientDetails.PinCode=NewPatientDetails.PinCode;
                 oldPatientDetails.Profile = NewPatientDetails.Profile;
 

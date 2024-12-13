@@ -41,7 +41,7 @@ namespace App.Core.App.Command
             }
             else
             {
-                string userNameVal = null;
+                string userNameVal = "";
                 if (request.newUser.UserType_ID == 1) 
                 {
                      userNameVal = ("PT_"

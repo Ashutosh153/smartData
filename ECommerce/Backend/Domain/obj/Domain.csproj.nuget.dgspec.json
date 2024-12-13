@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\Domain.csproj": {}
+    "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\Domain.csproj": {
+    "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ashutoshgupta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ashutoshgupta\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -22,7 +22,7 @@ namespace Infrastructure.Service
             _logger = logger;
         }
 
-        public async Task<object> SendEmailAsync(string to, string subject, string body)
+        public async Task<object> SendEmailAsync(string subject, string to, string body)
         {
             if (string.IsNullOrEmpty(to))
             {

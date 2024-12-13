@@ -1,1 +1,76 @@
-[]
+[
+  {
+    "ContainingType": "EHRApplication.Controllers.SaveImageController",
+    "Method": "DoUploadFile",
+    "RelativePath": "api/SaveImage/saveImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/User/createUserController",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reg",
+        "Type": "App.Core.ModelsDto.RegModelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "getAllStates",
+    "RelativePath": "api/User/getAllCities/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "getAllStates",
+    "RelativePath": "api/User/getAllStates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User/getAllUsers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

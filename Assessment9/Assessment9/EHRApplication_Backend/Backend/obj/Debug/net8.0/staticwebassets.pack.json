@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\d40f96cf-0bbe-4d14-ad18-b0b45166dc7a.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\d40f96cf-0bbe-4d14-ad18-b0b45166dc7a.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EHRApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EHRApplication.props",
+      "PackagePath": "build\\EHRApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EHRApplication.props",
+      "PackagePath": "buildMultiTargeting\\EHRApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EHRApplication.props",
+      "PackagePath": "buildTransitive\\EHRApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
