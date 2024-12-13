@@ -4,3 +4,7 @@ git push origin main
 
 
 git pull origin main
+
+
+
+git clone https://github.com/Ashutosh153/smartData.git
