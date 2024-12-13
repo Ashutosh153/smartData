@@ -1,0 +1,187 @@
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Domain\obj\Debug\net8.0\ref\Domain.dll

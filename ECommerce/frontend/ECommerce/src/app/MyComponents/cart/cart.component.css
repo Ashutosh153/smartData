@@ -1,0 +1,13 @@
+.d-flex {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .cart-items {
+    max-width: 40%;
+  }
+  
+  .cart-summary {
+    flex: 1;
+  }
+  

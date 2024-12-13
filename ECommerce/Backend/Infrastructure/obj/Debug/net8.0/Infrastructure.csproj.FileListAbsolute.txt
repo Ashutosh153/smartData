@@ -1,0 +1,323 @@
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ashutoshgupta\Downloads\Backend Skeleton\Backend Skeleton\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Asus\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Asus\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (1)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Asus\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (2)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Asus\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (3)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Asus\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ashutoshgupta\Downloads\Assessment 8 (4)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Asus\Downloads\Assessment 8 (5)\Assessment 8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Asus\Downloads\Assessment8(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_new\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Asus\Downloads\Assessment8_new(1)\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\App.Core.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ashutoshgupta\Downloads\Assessment8_10\Assessment8\ECommerce\Backend\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

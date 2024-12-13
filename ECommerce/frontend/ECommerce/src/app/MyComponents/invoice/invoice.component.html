@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!--JSPDF CDN-->
+
+
+</head>
+
+<body>
+    <button class="download-btn btn btn-outline-primary mt-3 ms-2" (click)="downloadPDF()">Download PDF</button>
+    <div class="invoice-details">
+        <div class="container mt-5" id="invoice-details">
+
+
+
+            <!-- Invoice Header -->
+            <div class="mb-4">
+                <h2 class="text-center">Invoice</h2>
+            </div>
+
+            <!-- Customer Name -->
+            <div class="invoice-details">
+
+                <div class="mb-4">
+                    <label class="font-weight-bold">Customer Name:</label>
+                    <span style="color: black; font-size: 20px;"> {{ invoiceDetails[0]?.firstName }} &nbsp;{{
+                        invoiceDetails[0]?.lastName }}</span>
+                </div>
+                <div class="mb-4">
+                    <label class="font-weight-bold">Purchase Date:</label>
+                    <span style="color: black; font-size: 20px;"> {{ invoiceDetails[0]?.date | date: "dd/MM/yyyy" }} </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-4 col-md-3">
+                    <label class="font-weight-bold">Country:</label>
+                    <span style="color: black; font-size: 20px;"> {{ invoiceDetails[0]?.country }} </span>
+                </div>
+
+                <div class="mb-4 col-md-3">
+                    <label class="font-weight-bold">State:</label>
+                    <span style="color: black; font-size: 20px;"> {{ invoiceDetails[0]?.state }} </span>
+                </div>
+            </div>
+
+
+            <!-- Invoice Table -->
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of invoiceDetails">
+                            <td>{{ item.productName }}</td>
+                            <td>{{ item.quentity }}</td>
+                            <td>{{ item.price | currency:'INR' }}</td>
+                            <td>{{ item.price * item.quentity | currency:'INR' }}</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+
+                        <tr>
+                            <td colspan="3" class="text-right"><strong>Grand Total:</strong></td>
+                            <td>{{ invoiceDetails[0].total | currency:'INR' }}</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <!-- Thank You Message -->
+            <div class="text-center mt-4">
+                <p>Thank you for your business!</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

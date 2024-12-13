@@ -1,0 +1,92 @@
+
+<div class="container mt-5">
+  
+    <h2>Product Information Form</h2>
+  
+    <form [formGroup]="productForm" (ngSubmit)="onSubmit() " enctype="multipart/form-data">
+      
+      
+      <div class="form-group">
+        <label for="productName">Product Name</label>
+        <input type="text" id="productName" class="form-control" 
+        (input)="limitInputLength($event,20)" formControlName="productName">
+        <div *ngIf="productName?.invalid && (productName?.dirty || productName?.touched)" class="text-danger">
+          <small *ngIf="productName?.errors?.['required']">Product name is required.</small>
+          <small *ngIf="productName?.errors?.['minlength']">Product name must be at least 3 characters long.</small>
+        </div>
+      </div>
+  
+  
+     
+      <div class="form-group">
+        <label for="productImage">Product Image (Optional)</label>
+        <!-- <input type="file" id="productImage" class="form-control" formControlName="productImage"> -->
+        <input type="file" id="productImage" class="form-control" formControlName="productImage" (change)="onFileChange($event)">
+      </div>
+  
+      <div class="form-group">
+        <label for="category">Category</label>
+        <input type="text" id="category"  (input)="limitInputLength($event,20)"class="form-control" formControlName="category">
+        <div *ngIf="category?.invalid && (category?.dirty || category?.touched)" class="text-danger">
+          <small *ngIf="category?.errors?.['required']">Category is required.</small>
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="brand">Brand</label>
+        <input type="text" id="brand"  (input)="limitInputLength($event,20)" class="form-control" formControlName="brand">
+        <div *ngIf="brand?.invalid && (brand?.dirty || brand?.touched)" class="text-danger">
+          <small *ngIf="brand?.errors?.['required']">Brand is required.</small>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="purchasePrice">Purchase Price</label>
+        <input type="number" id="purchasePrice" class="form-control" formControlName="purchasePrice" step="0.01">
+        <div *ngIf="purchasePrice?.invalid && (purchasePrice?.dirty || purchasePrice?.touched)" class="text-danger">
+          <small *ngIf="purchasePrice?.errors?.['required']">Purchase price is required.</small>
+          <small *ngIf="purchasePrice?.errors?.['min']">Purchase price must be greater than 0.</small>
+        </div>
+      </div>
+  
+  
+      <div class="form-group">
+        <label for="sellingPrice">Selling Price</label>
+        <input type="number" id="sellingPrice" class="form-control" formControlName="sellingPrice" step="0.01">
+        <div *ngIf="sellingPrice?.invalid && (sellingPrice?.dirty || sellingPrice?.touched)" class="text-danger">
+          <small *ngIf="sellingPrice?.errors?.['required']">Selling price is required.</small>
+          <small *ngIf="sellingPrice?.errors?.['min']">Selling price must be greater than 0.</small>
+          
+          <!-- <small *nfIf="purchasePrice.value > sellingPrice.value">selling price must be grater than purchase price</small> -->
+        </div>
+      </div>
+
+    
+  
+
+      <div class="form-group">
+        <label for="purchaseDate">Purchase Date</label>
+        <input type="date" id="purchaseDate" class="form-control" [max]="maxDate" formControlName="purchaseDate">
+        <div *ngIf="purchaseDate?.invalid && (purchaseDate?.dirty || purchaseDate?.touched)" class="text-danger">
+          <small *ngIf="purchaseDate?.errors?.['required']">Purchase date is required.</small>
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="stock">Stock</label>
+        <input type="number" id="stock" class="form-control" formControlName="stock">
+        <div *ngIf="stock?.invalid && (stock?.dirty || stock?.touched)" class="text-danger">
+          <small *ngIf="stock?.errors?.['required']">Stock is required.</small>
+          <small *ngIf="stock?.errors?.['min']">Stock must be at least 0.</small>
+        </div>
+      </div>
+      <div class="text-danger" *ngIf="productForm.hasError('sellingPriceLessThanPurchasePrice')
+      && (purchaseDate?.dirty || purchaseDate?.touched)
+      &&(sellingPrice?.dirty || sellingPrice?.touched)">
+        Selling Price must be greater than Purchase Price.
+      </div>
+  
+      <button type="submit" class="btn btn-primary" [disabled]="productForm.invalid">Submit</button>
+    </form>
+  </div>
+  

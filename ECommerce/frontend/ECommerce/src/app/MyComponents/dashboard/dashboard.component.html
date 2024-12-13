@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <!-- <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+</head>
+
+<body>
+  <!-- Dashboard Container -->
+
+  <div class="dashboard-container">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-left">
+        <h1>EComApplication </h1>
+        <!-- <button (click)="show()">show</button> -->
+
+      </div>
+
+      <div class="navbar-right">
+        <div class="profile-icon">
+          <a (click)="openProfileModal()"> <img [src]="userObj?.profileImage" alt="Profile" class="profile-img"
+              id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+          <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div> -->
+        </div>
+      </div>
+      <!-- <a routerLink="/changePassword">changePassword</a> -->
+
+
+      <a routerLink="/cart" *ngIf="user" class="btn btn-primary">
+        <img class="img-cart" src="../../../assets/image.png"> {{cartCount}}
+      </a>
+
+
+
+    </nav>
+
+    <!-- Sidebar (Optional) -->
+    <div class="sidebar">
+      <ul>
+
+        <li><a href="#">Log Out</a></li>
+        <li><a (click)="openChangePassModel()">Change Password</a></li>
+
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="row"></div>
+
+      <div *ngIf="editProduct">
+
+
+
+        <div class="container mt-5">
+
+          <div class="form">
+            <h2>Edit Product Form</h2>
+
+            <form [formGroup]="productForm" (ngSubmit)="onSubmit() " enctype="multipart/form-data">
+
+
+              <div class="form-group">
+                <label for="productName">Product Name</label>
+                <input type="text" id="productName" class="form-control" formControlName="productName">
+                <div *ngIf="productName?.invalid && (productName?.dirty || productName?.touched)" class="text-danger">
+                  <small *ngIf="productName?.errors?.['required']">Product name is required.</small>
+                  <small *ngIf="productName?.errors?.['minlength']">Product name must be at least 3 characters
+                    long.</small>
+                </div>
+              </div>
+
+
+
+              <div class="form-group">
+                <label for="productImage">Product Image (Optional)</label>
+                <!-- <input type="file" id="productImage" class="form-control" formControlName="productImage"> -->
+                <input type="file" id="productImage" class="form-control" formControlName="productImage"
+                  (change)="onFileChange($event)">
+              </div>
+
+              <div class="form-group">
+                <label for="category">Category</label>
+                <input type="text" id="category" class="form-control" formControlName="category">
+                <div *ngIf="category?.invalid && (category?.dirty || category?.touched)" class="text-danger">
+                  <small *ngIf="category?.errors?.['required']">Category is required.</small>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="brand">Brand</label>
+                <input type="text" id="brand" class="form-control" formControlName="brand">
+                <div *ngIf="brand?.invalid && (brand?.dirty || brand?.touched)" class="text-danger">
+                  <small *ngIf="brand?.errors?.['required']">Brand is required.</small>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="purchasePrice">Purchase Price</label>
+                <input type="number" id="purchasePrice" class="form-control" formControlName="purchasePrice"
+                  step="0.01">
+                <div *ngIf="purchasePrice?.invalid && (purchasePrice?.dirty || purchasePrice?.touched)"
+                  class="text-danger">
+                  <small *ngIf="purchasePrice?.errors?.['required']">Purchase price is required.</small>
+                  <small *ngIf="purchasePrice?.errors?.['min']">Purchase price must be greater than 0.</small>
+                </div>
+              </div>
+
+
+              <div class="form-group">
+                <label for="sellingPrice">Selling Price</label>
+                <input type="number" id="sellingPrice" class="form-control" formControlName="sellingPrice" step="0.01">
+                <div *ngIf="sellingPrice?.invalid && (sellingPrice?.dirty || sellingPrice?.touched)"
+                  class="text-danger">
+                  <small *ngIf="sellingPrice?.errors?.['required']">Selling price is required.</small>
+                  <small *ngIf="sellingPrice?.errors?.['min']">Selling price must be greater than 0.</small>
+                  <!-- <small *nfIf="purchasePrice.value > sellingPrice.value">selling price must be grater than purchase price</small> -->
+                </div>
+              </div>
+
+
+              <div class="form-group">
+                <label for="purchaseDate">Purchase Date</label>
+                <input type="date" id="purchaseDate" class="form-control" formControlName="purchaseDate">
+                <div *ngIf="purchaseDate?.invalid && (purchaseDate?.dirty || purchaseDate?.touched)"
+                  class="text-danger">
+                  <small *ngIf="purchaseDate?.errors?.['required']">Purchase date is required.</small>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="stock">Stock</label>
+                <input type="number" id="stock" class="form-control" formControlName="stock">
+                <div *ngIf="stock?.invalid && (stock?.dirty || stock?.touched)" class="text-danger">
+                  <small *ngIf="stock?.errors?.['required']">Stock is required.</small>
+                  <small *ngIf="stock?.errors?.['min']">Stock must be at least 0.</small>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary" [disabled]="productForm.invalid">Submit</button>
+            </form>
+          </div>
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+      <div *ngIf="admin">
+
+        <div *ngIf="noProductAdded">
+          <h2>you have not added any product yet</h2>
+          <button type="button" class="btn btn-primary btn-lg" routerLink="/addProduct">Add New Product</button>
+
+        </div>
+        <div *ngIf="!noProductAdded">
+
+          <button type="button" class="btn btn-primary btn-lg" routerLink="/addProduct">Add New Product</button>
+
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">image</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Product Code</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let product of products">
+                <th scope="row"><img [src]="product.productImage" alt="Profile" class="profile-img"></th>
+                <td>{{ product.productName }}</td>
+                <td>{{product.productCode}}</td>
+                <td>{{product.sellingPrice}}</td>
+                <button class="btn btn-primary" (click)="onViewProduct(product)">view</button>
+                <button class="btn btn-warning" (click)="onEdit(product)">edit</button>
+                <button class="btn btn-danger" (click)="onDelete(product.id)">delete</button>
+
+                <td></td>
+              </tr>
+
+
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="container mt-4" *ngIf="user">
+
+
+        &nbsp;
+        <div class="row">
+          <!-- Loop over products using *ngFor -->
+          <div class="col-md-3 mb-4" *ngFor="let product of products">
+            <div class="product-card ">
+
+              <div class="card " style="width: 14rem;max-height:22rem;min-height:22rem">
+                <img [src]="product.productImage" class="card-img-top" alt="..."
+                  style="max-height:10rem;min-height:10rem">
+                <div class="card-body">
+                  <h5 class="card-title">Product Name:{{product.productName}}</h5>
+
+                  <h5 class="card-title">Brand:{{product.brand}}</h5>
+                  <h5 class="card-title">Price:₹{{product.sellingPrice}}</h5>
+
+                  <a class="btn btn-primary" (click)="onAddToCart(product.id)">Add To Cart</a>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+
+
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">Edit Product form</h2>
+        <button type="button" class="btn-close" (click)="closeEditProductModal()" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="form">
+
+
+          <form [formGroup]="productForm" enctype="multipart/form-data">
+
+
+            <div class="form-group">
+              <label for="productName">Product Name</label>
+              <input type="text" id="productName" class="form-control" (input)="limitInputLength($event,20)"
+                formControlName="productName">
+              <div *ngIf="productName?.invalid && (productName?.dirty || productName?.touched)" class="text-danger">
+                <small *ngIf="productName?.errors?.['required']">Product name is required.</small>
+                <small *ngIf="productName?.errors?.['minlength']">Product name must be at least 3 characters
+                  long.</small>
+              </div>
+            </div>
+
+
+
+            <div class="form-group">
+              <label for="productImage">Product Image (Optional)</label>
+              <!-- <input type="file" id="productImage" class="form-control" formControlName="productImage"> -->
+              <input type="file" id="productImage" class="form-control" formControlName="productImage"
+                (change)="onFileChange($event)">
+            </div>
+
+            <div class="form-group">
+              <label for="category">Category</label>
+              <input type="text" id="category" class="form-control" (input)="limitInputLength($event,20)"
+                formControlName="category">
+              <div *ngIf="category?.invalid && (category?.dirty || category?.touched)" class="text-danger">
+                <small *ngIf="category?.errors?.['required']">Category is required.</small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="brand">Brand</label>
+              <input type="text" id="brand" class="form-control" (input)="limitInputLength($event,20)"
+                formControlName="brand">
+              <div *ngIf="brand?.invalid && (brand?.dirty || brand?.touched)" class="text-danger">
+                <small *ngIf="brand?.errors?.['required']">Brand is required.</small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="purchasePrice">Purchase Price</label>
+              <input type="number" id="purchasePrice" class="form-control" formControlName="purchasePrice" step="0.01">
+              <div *ngIf="purchasePrice?.invalid && (purchasePrice?.dirty || purchasePrice?.touched)"
+                class="text-danger">
+                <small *ngIf="purchasePrice?.errors?.['required']">Purchase price is required.</small>
+                <small *ngIf="purchasePrice?.errors?.['min']">Purchase price must be greater than 0.</small>
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <label for="sellingPrice">Selling Price</label>
+              <input type="number" id="sellingPrice" class="form-control" formControlName="sellingPrice" step="0.01">
+              <div *ngIf="sellingPrice?.invalid && (sellingPrice?.dirty || sellingPrice?.touched)" class="text-danger">
+                <small *ngIf="sellingPrice?.errors?.['required']">Selling price is required.</small>
+                <small *ngIf="sellingPrice?.errors?.['min']">Selling price must be greater than 0.</small>
+                <!-- <small *nfIf="purchasePrice.value > sellingPrice.value">selling price must be grater than purchase price</small> -->
+              </div>
+            </div>
+            <div class="text-danger" *ngIf="productForm.hasError('sellingPriceLessThanPurchasePrice')
+            && (purchaseDate?.dirty || purchaseDate?.touched)
+            &&(sellingPrice?.dirty || sellingPrice?.touched)">
+              Selling Price must be greater than Purchase Price.
+            </div>
+
+
+            <div class="form-group">
+              <label for="purchaseDate">Purchase Date</label>
+              <input type="date" id="purchaseDate" class="form-control" [max]="maxDate" formControlName="purchaseDate">
+              <div *ngIf="purchaseDate?.invalid && (purchaseDate?.dirty || purchaseDate?.touched)" class="text-danger">
+                <small *ngIf="purchaseDate?.errors?.['required']">Purchase date is required.</small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="stock">Stock</label>
+              <input type="number" id="stock" class="form-control" formControlName="stock">
+              <div *ngIf="stock?.invalid && (stock?.dirty || stock?.touched)" class="text-danger">
+                <small *ngIf="stock?.errors?.['required']">Stock is required.</small>
+                <small *ngIf="stock?.errors?.['min']">Stock must be at least 0.</small>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary" [disabled]="productForm.invalid"
+          (click)="onSubmit()">Submit</button>
+
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+          (click)="closeEditProductModal()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="modal" id="myProfileModal">
+  <div class="modal-dialog">
+    <div class="modal-content" style="width: 700px;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">profile</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeProfilrModal()"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div>
+          <section style="background-color: #eee;">
+            <div class="container py-5">
+              <div class="row">
+
+              </div>
+
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card mb-4">
+                    <div class="card-body text-center">
+                      <img [src]="userObj?.profileImage" alt="avatar" class="rounded-circle img-fluid"
+                        style="width: 150px;height: 140px;">
+                      <h5 class="my-3">UserName: {{userObj?.username}}</h5>
+                      <!-- <p class="text-muted mb-1">Full Stack Developer</p>
+                      <p class="text-muted mb-4">Bay Area, San Francisco, CA</p>
+                      -->
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-lg-8">
+                  <div class="card mb-4">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <p class="mb-0">Full Name</p>
+                        </div>
+                        <div class="col-sm-9">
+                          <p class="text-muted mb-0">{{userObj?.firstName}}&nbsp;{{userObj?.lastName}}</p>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <p class="mb-0">Email</p>
+                        </div>
+                        <div class="col-sm-9">
+                          <p class="text-muted mb-0">{{userObj?.email}}</p>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <p class="mb-0">DOB</p>
+                        </div>
+                        <div class="col-sm-9">
+                          <p class="text-muted mb-0">{{userObj?.dob}}</p>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <p class="mb-0">Mobile</p>
+                        </div>
+                        <div class="col-sm-9">
+                          <p class="text-muted mb-0">{{userObj?.mobile}}</p>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="col-sm-3">
+                          <p class="mb-0">Address</p>
+                        </div>
+                        <div class="col-sm-9">
+                          <p class="text-muted mb-0">{{userObj?.address}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <a routerLink="/profile"> <button type="submit" class="btn btn-primary">EDIT</button></a>
+
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+          (click)="closeProfilrModal()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- <div><button (click)="openProfileModal()" class="btn btn-primary btn-lg">open profile</button></div> -->
+
+
+
+
+<div class="modal" id="MyChangePassModel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">Change password</h2>
+        <button type="button" class="btn-close " (click)="closeChangePassModel()" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="container">
+
+          <form [formGroup]="changePasswordForm">
+            <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+            <div>
+              <label for="password">New Password</label>
+              <input [type]="showPassword ? 'text' : 'password'" id="password" formControlName="password"
+                placeholder="Enter new password"
+                [class.invalid]="changePasswordForm.get('password')?.invalid && changePasswordForm.get('password')?.touched" />
+
+              <div class="error"
+                *ngIf="changePasswordForm.get('password')?.errors?.['required'] && changePasswordForm.get('password')?.touched">
+                Password is required.
+              </div>
+              <div class="error"
+                *ngIf="changePasswordForm.get('password')?.errors?.['minlength'] && changePasswordForm.get('password')?.touched">
+                Password must be at least 8 characters long.
+              </div>
+              <div class="error"
+                *ngIf="changePasswordForm.get('password')?.errors?.['pattern'] && changePasswordForm.get('password')?.touched">
+                Password must contain an uppercase letter, a number, and a special character.
+              </div>
+            </div>
+
+            <div>
+              <label for="confirmPassword">Confirm Password</label>
+              <input [type]="showPassword ? 'text' : 'password'" id="confirmPassword" formControlName="confirmPassword"
+                placeholder="Confirm new password"
+                [class.invalid]="changePasswordForm.get('confirmPassword')?.invalid && changePasswordForm.get('confirmPassword')?.touched" />
+              <div class="error"
+                *ngIf="changePasswordForm.errors?.['mismatch'] && changePasswordForm.get('confirmPassword')?.touched">
+                Passwords do not match.
+              </div>
+              <button type="button" class="btn btn-outline-secondary" (click)="togglePasswordVisibility()">show
+                Password</button>
+
+            </div>
+
+
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary" [disabled]="changePasswordForm.invalid"
+          (click)="onSubmitChangePassword()">Submit</button>
+
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+          (click)="closeChangePassModel()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="MyViewProductModel">
+  <div class="modal-dialog">
+    <div class="modal-content " style="width: 600px;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">Change password</h2>
+        <button type="button" class="btn-close " (click)="closeViewProductModel()" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div>
+
+          <div>
+            <div class="row">
+              <div class=" col-4">
+                <img [src]="viewProductObject?.productImage" alt="Placeholder Image"
+                  style="width: 150px; height: 150px;" />
+              </div>
+              <div class=" col-8">
+                <h2>Product Name: {{viewProductObject?.productName}}</h2>
+                <h2> Code: {{viewProductObject?.productCode}}</h2>
+                <h2> brand: {{viewProductObject?.brand}}</h2>
+                <h2> category: {{viewProductObject?.category}}</h2>
+                <h2> purchaseDate: {{viewProductObject?.purchaseDate}}</h2>
+                <h2> purchasePrice: {{viewProductObject?.purchasePrice}}</h2>
+                <h2> sellingPrice: {{viewProductObject?.sellingPrice}}</h2>
+                <h2> Available stock: {{viewProductObject?.stock}}</h2>
+
+
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+          (click)="closeViewProductModel()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>

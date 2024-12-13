@@ -1,0 +1,181 @@
+<div class="container my-5">
+  <form [formGroup]="profileForm" class="shadow p-4 rounded bg-light">
+    <h3 class="text-center mb-4">Update Profile</h3>
+    <!-- First Name -->
+    <div class="form-group mb-3">
+      <label for="FirstName" class="form-label">First Name</label>
+      <input
+        id="FirstName"
+        formControlName="FirstName"
+        type="text"
+        (input)="limitInputLength($event,20)"
+        class="form-control"
+        placeholder="Enter your first name"
+      />
+      <div
+        *ngIf="profileForm.get('FirstName')?.invalid && profileForm.get('FirstName')?.touched"
+        class="text-danger"
+      >
+        First Name is required and must be at least 2 characters
+      </div>
+    </div>
+    <!-- Last Name -->
+    <div class="form-group mb-3">
+      <label for="LastName" class="form-label">Last Name</label>
+      <input
+        id="LastName"
+        formControlName="LastName"
+        type="text"
+        (input)="limitInputLength($event,20)"
+        class="form-control"
+        placeholder="Enter your last name"
+      />
+      <div
+        *ngIf="profileForm.get('LastName')?.invalid && profileForm.get('LastName')?.touched"
+        class="text-danger"
+      >
+        Last Name is required and must be at least 2 characters
+      </div>
+    </div>
+    <!-- Mobile -->
+    <div class="form-group mb-3">
+      <label for="Mobile" class="form-label">Mobile</label>
+      <input
+        id="Mobile"
+        formControlName="Mobile"
+        type="number"
+        (input)="limitInputLength($event,10)"
+        class="form-control"
+        placeholder="Enter your mobile number"
+      />
+      <div
+        *ngIf="profileForm.get('Mobile')?.invalid && profileForm.get('Mobile')?.touched"
+        class="text-danger"
+      >
+        Mobile number is required and must be valid
+      </div>
+    </div>
+    <!-- Profile Image -->
+    <div class="form-group mb-3">
+      <label for="profileImage" class="form-label">Profile Image</label>
+      <input
+        id="profileImage"
+        formControlName="profileImage"
+        type="file"
+        class="form-control"
+        (change)="onFileChange($event)"
+      />
+    </div>
+    <!-- Date of Birth -->
+    <div class="form-group mb-3">
+      <label for="DOB" class="form-label">Date of Birth</label>
+      <input
+        id="DOB"
+        formControlName="DOB"
+        type="date"
+        [max]="maxDate"
+        class="form-control"
+      />
+      <div
+        *ngIf="profileForm.get('DOB')?.invalid && profileForm.get('DOB')?.touched"
+        class="text-danger"
+      >
+        Date of Birth is required
+      </div>
+    </div>
+    <!-- Address -->
+    <div class="form-group mb-3">
+      <label for="Address" class="form-label">Address</label>
+      <input
+        id="Address"
+        formControlName="Address"
+        type="text"
+        class="form-control"
+        placeholder="Enter your address"
+      />
+      <div
+        *ngIf="profileForm.get('Address')?.invalid && profileForm.get('Address')?.touched"
+        class="text-danger"
+      >
+        Address is required
+      </div>
+    </div>
+    <!-- Zipcode -->
+    <div class="row mb-4">
+      <!-- Zipcode -->
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="Zipcode" class="form-label">Zipcode</label>
+          <input
+            id="Zipcode"
+            formControlName="Zipcode"
+            type="number"
+            (input)="limitInputLength($event,6)"
+            class="form-control"
+            placeholder="Enter your zipcode"
+          />
+          <div
+            *ngIf="profileForm.get('Zipcode')?.invalid && profileForm.get('Zipcode')?.touched"
+            class="text-danger"
+          >
+            Zipcode is required and must be 5 digits
+          </div>
+        </div>
+      </div>
+      <!-- Country -->
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="Country" class="form-label">Country</label>
+          <select
+            id="Country"
+            formControlName="Country"
+            class="form-control"
+            (change)="onChange(this.profileForm.get('Country')?.value)"
+          >
+            <option value="">Select Country</option>
+            <option *ngFor="let item of allCountry" [value]="item.id">
+              {{ item.name }}
+            </option>
+          </select>
+          <div
+            *ngIf="profileForm.get('Country')?.invalid && profileForm.get('Country')?.touched"
+            class="text-danger"
+          >
+            Country is required
+          </div>
+        </div>
+      </div>
+      <!-- State -->
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="State" class="form-label">State</label>
+          <select id="State" formControlName="State" class="form-control">
+            <option value="">Select State</option>
+            <option *ngFor="let item of allState" [value]="item.id">
+              {{ item.name }}
+            </option>
+          </select>
+          <div
+            *ngIf="profileForm.get('State')?.invalid && profileForm.get('State')?.touched"
+            class="text-danger"
+          >
+            State is required
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Buttons -->
+    <div class="d-flex justify-content-between">
+      <button
+        type="button"
+        [disabled]="profileForm.invalid"
+        (click)="onSubmit()"
+        class="btn btn-primary"
+      >
+        Update
+      </button>
+      <a routerLink="/dashboard" class="btn btn-danger">Cancel</a>
+    </div>
+  </form>
+</div>

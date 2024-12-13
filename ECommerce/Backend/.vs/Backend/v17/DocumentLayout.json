@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\domain\\user\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\domain\\user\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\domain\\user\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\domain\\user\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\domain\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\interface\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\interface\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\model\\changepasswordcto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\model\\changepasswordcto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\app\\query\\getinvoicedetailsquerry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\app\\query\\getinvoicedetailsquerry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\app\\command\\addproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\addproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\UserType.cs",
+              "RelativeDocumentMoniker": "Domain\\User\\UserType.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\UserType.cs",
+              "RelativeToolTip": "Domain\\User\\UserType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:57:19.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Otp.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\Otp.cs",
+              "RelativeDocumentMoniker": "Domain\\User\\Otp.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\Otp.cs",
+              "RelativeToolTip": "Domain\\User\\Otp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:56:42.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\State.cs",
+              "RelativeDocumentMoniker": "Domain\\User\\State.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\State.cs",
+              "RelativeToolTip": "Domain\\User\\State.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:56:05.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\Country.cs",
+              "RelativeDocumentMoniker": "Domain\\User\\Country.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\Country.cs",
+              "RelativeToolTip": "Domain\\User\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:55:11.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User\\User.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\User.cs",
+              "RelativeToolTip": "Domain\\User\\User.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:28:39.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:31:18.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Interface\\IFileService.cs",
+              "RelativeDocumentMoniker": "Core\\Interface\\IFileService.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Interface\\IFileService.cs",
+              "RelativeToolTip": "Core\\Interface\\IFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:39:55.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Interface\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "Core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Interface\\IAppDbContext.cs",
+              "RelativeToolTip": "Core\\Interface\\IAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:33:59.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:31:57.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\FileService.cs",
+              "RelativeDocumentMoniker": "Core\\FileService.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\FileService.cs",
+              "RelativeToolTip": "Core\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:29:11.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Backend\\appsettings.json",
+              "RelativeToolTip": "Backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-12T10:28:26.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T10:28:13.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetInvoiceDEtailsQuerry.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
+              "RelativeToolTip": "Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwC4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:44:33.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\App\\Command\\AddProductCommand.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Command\\AddProductCommand.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\App\\Command\\AddProductCommand.cs",
+              "RelativeToolTip": "Core\\App\\Command\\AddProductCommand.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T04:33:10.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangePasswordCto.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Model\\ChangePasswordCto.cs",
+              "RelativeDocumentMoniker": "Core\\Model\\ChangePasswordCto.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Model\\ChangePasswordCto.cs",
+              "RelativeToolTip": "Core\\Model\\ChangePasswordCto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:33:25.507Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

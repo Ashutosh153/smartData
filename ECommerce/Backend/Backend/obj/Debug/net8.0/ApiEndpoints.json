@@ -1,0 +1,364 @@
+[
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoAddDataToSalesMaster",
+    "RelativePath": "api/User/addDataToSalesMaster",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salesMasterDto",
+        "Type": "App.Core.Model.SalesMasterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoAddProduct",
+    "RelativePath": "api/User/addProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "App.Core.Model.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoAddToCaet",
+    "RelativePath": "api/User/addToCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartValue",
+        "Type": "App.Core.Model.AddToCartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoChangeUserPassword",
+    "RelativePath": "api/User/chnageUserPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePass",
+        "Type": "App.Core.Model.ChangePasswordCto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoDecrementData",
+    "RelativePath": "api/User/decrementTheQuantity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incDecObjDto",
+        "Type": "App.Core.Model.IncDecObjDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoDeletePRoduct",
+    "RelativePath": "api/User/doDeleteAllProduct/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoUpdateProduct",
+    "RelativePath": "api/User/doEditProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "App.Core.Model.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoForgetPassword",
+    "RelativePath": "api/User/forgetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoGetAllCountries",
+    "RelativePath": "api/User/getAllCountries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoGetAllInvoiceData",
+    "RelativePath": "api/User/getAllInvoiceData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoiceId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoGetAllProducts",
+    "RelativePath": "api/User/getAllProducts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoGetAllStates",
+    "RelativePath": "api/User/getAllStates/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoGetCartCount",
+    "RelativePath": "api/User/getCartItemQuantity/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoGetAllCartProducts",
+    "RelativePath": "api/User/getProductsFromCart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoGetUserById",
+    "RelativePath": "api/User/getUserById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoIncrementQuantity",
+    "RelativePath": "api/User/incrementTheQuantity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "incdecobj",
+        "Type": "App.Core.Model.IncDecObjDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoCreateUser",
+    "RelativePath": "api/User/Regester",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regestration",
+        "Type": "App.Core.Model.RegestrationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoRemoveFromCart",
+    "RelativePath": "api/User/removeFromCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "removeProduct",
+        "Type": "App.Core.Model.RemoveFromCartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoLogin",
+    "RelativePath": "api/User/sendOtp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginData",
+        "Type": "App.Core.Model.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoUpdateUser",
+    "RelativePath": "api/User/updateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateUser",
+        "Type": "App.Core.Model.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoUploadFile",
+    "RelativePath": "api/User/uploadFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoValidateCardDetails",
+    "RelativePath": "api/User/validateCardDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cardDetailsDto",
+        "Type": "App.Core.Model.CardDetailsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EComApplication.Controllers.UserController",
+    "Method": "DoVerifyOtp",
+    "RelativePath": "api/User/varifyOtpAndLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "otp",
+        "Type": "Domain.User.Otp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

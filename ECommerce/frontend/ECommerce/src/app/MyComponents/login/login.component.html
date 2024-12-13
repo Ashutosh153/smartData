@@ -1,0 +1,66 @@
+<div class="container mt-5">
+  <div class="loading" *ngIf="isLoading"></div>
+  <div class="card shadow-lg p-4 rounded" style="max-width: 400px; margin: auto;">
+    <h2 class="text-center mb-4">User Login Form</h2>
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+      
+      <!-- User Name -->
+       <div *ngIf="validateCrededntials">
+      <div class="form-group mb-3">
+        <label for="userName">Username</label>
+        <input id="userName"  formControlName="userName" type="text" class="form-control" placeholder="Enter username" 
+        (input)="limitInputLength($event,40)"
+        [ngClass]="{'is-invalid': userForm.get('userName')?.invalid && userForm.get('userName')?.touched}" />
+        <div *ngIf="userForm.get('userName')?.invalid && userForm.get('userName')?.touched" class="invalid-feedback">
+          Please enter a valid username.
+        </div>
+      </div>
+      
+      <!-- Password -->
+      <div class="form-group mb-3">
+        <label for="password">Password</label>
+        <input id="password" formControlName="password" type="password" class="form-control" 
+        placeholder="Enter password" [ngClass]="{'is-invalid': userForm.get('password')?.invalid && userForm.get('password')?.touched}" 
+        (input)="limitInputLength($event,15)"/>
+        <div *ngIf="userForm.get('password')?.invalid && userForm.get('password')?.touched" class="invalid-feedback">
+          Please enter a valid password.
+        </div>
+      </div>
+      
+      <!-- Send OTP Button -->
+      <div class="mb-3">
+        <button type="button" (click)="sendOtp()" 
+        class="btn btn-info w-100 py-2" 
+        [disabled]="userForm.get('userName')?.invalid || userForm.get('password')?.invalid">Send OTP</button>
+      </div>
+
+  </div>
+
+
+    <div *ngIf="validateOtp">
+      <!-- OTP Section -->
+      <div class="form-group mb-3">
+        <label for="otp">OTP</label>
+        <input id="otp" formControlName="otp" type="number" class="form-control" placeholder="Enter OTP"
+           [ngClass]="{'is-invalid': userForm.get('otp')?.invalid && userForm.get('otp')?.touched}" 
+           (input)="limitInputLength($event, 6)" />
+        <div *ngIf="userForm.get('otp')?.invalid && userForm.get('otp')?.touched" class="invalid-feedback">
+          Please enter the OTP sent to your email or phone.
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="mb-3">
+        <button type="submit" [disabled]="userForm.get('otp')?.invalid" class="btn btn-primary w-100 py-2 mt-4">
+          Verify OTP and Login
+        </button>
+      </div>
+    </div>
+    <div *ngIf="validateCrededntials">
+    <span>Don't have an account?</span><br>
+      <a routerLink="/regester" style="text-decoration: none; cursor: pointer;">Register</a> 
+      <a routerLink="/forgetPassword" style="float:right; text-decoration: none; cursor: pointer;">Forget Password</a>
+    </div>
+    </form>
+  </div>
+</div>

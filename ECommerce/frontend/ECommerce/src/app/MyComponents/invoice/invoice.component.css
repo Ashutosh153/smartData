@@ -1,0 +1,68 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+h4 {
+    color: #555;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #ddd;
+}
+
+tfoot td {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 20px;
+}
+.invoice-details{
+    display: flex;
+    justify-content: space-between;
+}

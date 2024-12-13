@@ -1,0 +1,379 @@
+<a routerLink="/dashboard" class="btn btn btn-outline-primary mt-2 ms-2">Back to Dashboard</a>
+<h1 class="text-center fs-3">Cart</h1>
+
+
+
+<div *ngIf="!isCartEmpty">
+<div class="container">
+<!-- <div class="col-md-3 mb-4" *ngFor="let product of cartItem">
+    <div class="product-card">
+
+      <div class="card mb-3 shadow-sm p-2 rounded" style="max-width: 540px;">
+        <div class="row g-0 align-items-center">
+         
+          <div class="col-md-4">
+            <img
+              [src]="product.imageUrl"
+              class="img-fluid rounded-start"
+              alt="Product Image"
+              style="height: 100px; object-fit: cover;"
+            />
+          </div>
+        
+          <div class="col-md-8">
+            <div class="card-body p-2">
+              <h6 class="card-title mb-1">Name: {{ product.productName }}</h6>
+              <p class="card-text mb-1 small">Brand: {{ product.brand }}</p>
+              <p class="card-text mb-1 small">Price: ₹{{ product.price }}</p>
+              <p class="card-text mb-1 small">Stock: {{ product.stock }}</p>
+              <p class="card-text mb-1 small">Quantity: {{ product.quantity }}</p>
+
+              <div class="d-flex mt-2">
+                <button
+                  class="btn btn-secondary btn-sm me-2"
+                  (click)="incrementQuantity(product.cartId, product.productId)"
+                >
+                  +
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-danger btn-sm me-2"
+                  (click)="OnRemoveFromCart(product.productId)"
+                >
+                  Remove
+                </button>
+                <button
+                  class="btn btn-secondary btn-sm"
+                  (click)="decrementQuantity(product.cartId, product.productId)"
+                >
+                  -
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      </div>
+      </div> -->
+    
+      <div class="container">
+        <div class="row">
+          <!-- Cart Section -->
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12 mb-4" *ngFor="let product of cartItem">
+                <div class="card mb-3 shadow-sm p-2 rounded" style="max-width: 100%;">
+                  <div class="row g-0 align-items-center">
+                    <!-- Product Image -->
+                    <div class="col-md-4">
+                      <img
+                        [src]="product.imageUrl"
+                        class="img-fluid rounded-start"
+                        alt="Product Image"
+                        style="height: 100px; object-fit: cover;"
+                      />
+                    </div>
+                    <!-- Product Details -->
+                    <div class="col-md-8">
+                      <div class="card-body p-2">
+                        <p class="card-title mb-1">Name: {{ product.productName }}</p>
+                        <p class="card-text mb-1 small">Brand: {{ product.brand }}</p>
+                        <p class="card-text mb-1 small">Price: ₹{{ product.price }}</p>
+                        <!-- <p class="card-text mb-1 small">Stock: {{ product.stock }}</p> -->
+                        <p class="card-text mb-1 small">Quantity: {{ product.quantity }}</p>
+                        <!-- Action Buttons -->
+                        <div class="d-flex mt-2">
+                          <button
+                            class="btn btn-secondary btn-sm"
+                            (click)="decrementQuantity(product.cartId, product.productId)"
+                          >
+                            -
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-danger btn-sm "
+                            (click)="OnRemoveFromCart(product.productId)"
+                          >
+                            Remove
+                          </button>
+                          <button
+                            class="btn btn-secondary btn-sm"
+                            (click)="incrementQuantity(product.cartId, product.productId)"
+                          >
+                            +
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Table Section -->
+          <div class="col-md-6">
+            <div class="card shadow-sm p-3 rounded">
+              <h5 class="card-title mb-3">Order Summary</h5>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let product of cartItem">
+                    <td>{{ product.productName }}</td>
+                    <td>₹{{ product.price }}</td>
+                    <td>{{ product.quantity }}</td>
+                    <td>₹{{ product.price * product.quantity }}</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <th colspan="3" class="text-end">Grand Total</th>
+                    <th>{{ grandTotal | currency:'INR'}}</th>
+                  </tr>
+                </tfoot>
+              </table>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              (click)="openAddressModal()" data-bs-target="#myModal">
+               Make Payment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+
+    
+      
+
+
+
+<!-- The Modal -->
+<div class="modal" id="addPaymentModel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Card Details</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closePaymentModal()"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="container">
+          <form [formGroup]="cardForm" (ngSubmit)="onSubmitValidateCardDetails()">
+            <div class="form-group">
+              <label for="cardNumber">Card Number</label>
+              <input id="cardNumber" formControlName="cardNumber" class="form-control" type="number"
+              placeholder="Enter 16-digit card number" (input)="limitInputLength($event,16)"/>
+              <div *ngIf="cardForm.get('cardNumber')?.touched && cardForm.get('cardNumber')?.invalid">
+                <small class="text-danger" *ngIf="cardForm.get('cardNumber')?.hasError('required')">Card number is required</small>
+                <small class="text-danger" *ngIf="cardForm.get('cardNumber')?.hasError('pattern')">Invalid card number</small>
+              </div>
+            </div>
+        
+            <div class="form-group">
+              <label for="expiryDate">Expiry Date (MM/YY)</label>
+              <input id="expiryDate" formControlName="expiryDate" class="form-control" 
+              (input)="limitInputLength($event,5)" placeholder="Enter expiry date (MM/YY)" />
+              <div *ngIf="cardForm.get('expiryDate')?.touched && cardForm.get('expiryDate')?.invalid">
+                <small class="text-danger" *ngIf="cardForm.get('expiryDate')?.hasError('required')">Expiry date is required</small>
+                <small class="text-danger" *ngIf="cardForm.get('expiryDate')?.hasError('pattern')">Invalid expiry date</small>
+              </div>
+            </div>
+        
+            <div class="form-group">
+              <label for="cvv">CVV</label>
+              <input id="cvv" formControlName="cvv" class="form-control" type="number"
+              (input)="limitInputLength($event,3)"placeholder="Enter 3-digit CVV" />
+              <div *ngIf="cardForm.get('cvv')?.touched && cardForm.get('cvv')?.invalid">
+                <small class="text-danger" *ngIf="cardForm.get('cvv')?.hasError('required')">CVV is required</small>
+                <small class="text-danger" *ngIf="cardForm.get('cvv')?.hasError('pattern')">Invalid CVV</small>
+              </div>
+            </div>
+        
+           
+          </form>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary" [disabled]="cardForm.invalid"
+         (click)="onSubmitValidateCardDetails()">Pay</button>
+
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" 
+        (click)="closePaymentModal()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- new model  *************************************-->
+<!-- Button to Open the Modal -->
+
+
+<!-- The Modal -->
+<div class="modal" id="myAddressModel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Confirm Address</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form [formGroup]="userForm" (ngSubmit)="onSubmitAddress()">
+           
+          <div class="mb-3">
+            <label for="deliveryAddress">Delivery Address</label>
+            <input
+              id="deliveryAddress"
+              formControlName="deliveryAddress"
+              type="text"
+              class="form-control"
+            />
+            <div
+              *ngIf="
+                userForm.get('deliveryAddress')?.invalid &&
+                userForm.get('deliveryAddress')?.touched
+              "
+              class="text-danger"
+            >
+              Delivery Address is required.
+            </div>
+          </div>
+      
+    
+          <div class="mb-3">
+            <label for="deliveryZipcode">Delivery Zipcode</label>
+            <input
+              id="deliveryZipcode"
+              formControlName="deliveryZipcode"
+              type="number"
+              class="form-control"
+            />
+            <div
+              *ngIf="
+                userForm.get('deliveryZipcode')?.invalid &&
+                userForm.get('deliveryZipcode')?.touched
+              "
+              class="text-danger"
+            >
+              Zipcode is required and must be exactly 6 digits.
+            </div>
+          </div>
+      
+       
+          <div class="mb-3">
+            <label for="countryId">Country</label>
+            <select
+              id="country_Id"
+              formControlName="country_Id"
+              class="form-select"
+              (change)="onChange(userForm.get('country_Id')?.value)"
+            >
+              <option value="">Select Country</option>
+              <option *ngFor="let item of allCountry" [value]="item.id">
+                {{ item.name }}
+              </option>
+            </select>
+            <div
+              *ngIf="
+                userForm.get('country_Id')?.invalid &&
+                userForm.get('country_Id')?.touched
+              "
+              class="text-danger"
+            >
+              Country is required.
+            </div>
+          </div>
+      
+    
+          <div class="mb-3">
+            <label for="stateId">State</label>
+            <select id="stateId" formControlName="state_Id" class="form-select">
+              <option value="">Select State</option>
+              <option *ngFor="let item of allState" [value]="item.id">
+                {{ item.name }}
+              </option>
+            </select>
+            <div
+              *ngIf="
+                userForm.get('state_Id')?.invalid &&
+                userForm.get('state_Id')?.touched
+              "
+              class="text-danger"
+            >
+              State is required.
+            </div>
+          </div>
+      
+         
+        
+        </form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="submit" [disabled]="userForm.invalid" 
+        class="btn btn-primary" (click)="onSubmitAddress()"  >
+          Submit
+        </button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+         (click)="closeAddressModal()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    
+    </div>
+
+    <div *ngIf="isCartEmpty">
+
+      <div class="empty-cart-container" style="text-align: center; margin-top: 50px;">
+        <img 
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcVZ3sU_FjNWLh8uASOfQLTzgsI669zQZ87w&s" 
+          alt="Empty Cart" 
+          style="width: 150px; height: 150px; margin-bottom: 20px;"
+        />
+        <h2>Your Cart is Empty</h2>
+        <p style="font-size: 16px; color: #666;">
+          Looks like you haven't added any items to your cart yet.
+        </p>
+        <a 
+        routerLink="/dashboard"
+          class="btn btn-primary" 
+          style="margin-top: 20px; padding: 10px 20px; font-size: 16px;"
+        >
+          Start Shopping
+        </a>
+      </div>
+      
+    </div>
