@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "qBXKdp/9f+1HTyUvAB3NXgcdYc/zpf0lF0exDOOyTcU=",
+  "Source": "EHRApplication",
+  "BasePath": "_content/EHRApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EHRApplication\\wwwroot",
+      "Source": "EHRApplication",
+      "ContentRoot": "C:\\Users\\ashutoshgupta\\Desktop\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
+      "BasePath": "_content/EHRApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
