@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "DoCreateAppointment",
+    "RelativePath": "api/User/createAppointment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addAppointment",
+        "Type": "App.Core.ModelsDto.AddAppointmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
     "Method": "CreateUser",
     "RelativePath": "api/User/createUserController",
     "HttpMethod": "POST",
@@ -27,6 +43,38 @@
         "Name": "reg",
         "Type": "App.Core.ModelsDto.RegModelDto",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "DoverifyCredentials",
+    "RelativePath": "api/User/DoVerifyCredentials",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "App.Core.ModelsDto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "DoForgetPassword",
+    "RelativePath": "api/User/forgetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -45,6 +93,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "GetAllSpecilizations",
+    "RelativePath": "api/User/getAllSpecilizations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -68,6 +126,86 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "DoGetPractionersAsRequired",
+    "RelativePath": "api/User/getPractionersAsRequired/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "DoGetUserById",
+    "RelativePath": "api/User/getUserByID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "DoUpdatePatient",
+    "RelativePath": "api/User/updatePatientController",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePatient",
+        "Type": "App.Core.ModelsDto.UpdatePatientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "DoUpdateProvider",
+    "RelativePath": "api/User/updateProviderCommand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateProvider",
+        "Type": "App.Core.ModelsDto.UpdateProviderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "DoVerifyOtp",
+    "RelativePath": "api/User/varifyOtpAndLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "otp",
+        "Type": "Domain.Models.User.Otp",
         "IsRequired": true
       }
     ],

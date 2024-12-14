@@ -1,0 +1,209 @@
+/* General Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-toggler {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-links a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      display: block;
+    }
+  
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      gap: 0.5rem;
+      background-color: #0056b3;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  }
+  /* General Styles */
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .navbar-profile {
+    margin-left: auto; /* Push profile icon to the far right */
+    cursor: pointer;
+  }
+  
+  .profile-icon {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Ensure width and height are equal */
+    border-radius: 50%; /* Makes the icon circular */
+    object-fit: cover; /* Ensures the image scales nicely */
+    border: 2px solid white; /* Optional: Add a border for contrast */
+    transition: border-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .profile-icon:hover {
+    border-color: #ffc107; /* Highlight border on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      gap: 0.5rem;
+      background-color: #0056b3;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  }
+  
+  /* Profile Modal Scoped Styles */
+.profile-modal {
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .profile-modal-body {
+    padding: 1.5rem;
+  }
+  
+  .profile-section {
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .profile-card {
+    border: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #007bff;
+  }
+  
+  .profile-username {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .profile-details-card {
+    border: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-detail {
+    margin-bottom: 1rem;
+  }
+  
+  .profile-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .profile-value {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .profile-modal-footer {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(45deg, #2196f3, #21cbf3);
+    border: none;
+  }
+  
+  .btn-danger {
+    background: linear-gradient(45deg, #e53935, #e35d5b);
+    border: none;
+  }
+  table {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  img {
+    border: 1px solid #ddd;
+    padding: 2px;
+    border-radius: 50%;
+  }
+  

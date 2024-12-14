@@ -18,7 +18,7 @@ namespace App.Core.ModelsDto
         public string Email { get; set; }
         public string BloodGroup { get; set; }
         public string Address { get; set; }
-        public int CityID { get; set; }
+        public int CityId { get; set; }
         public int StateId { get; set; }
         //public int CountryId { get; set; }
         public int PinCode { get; set; }
@@ -30,7 +30,7 @@ namespace App.Core.ModelsDto
         public string? Qualification { get; set; }
         public int? Specialisation_ID { get; set; }
         public string? Registration_Number { get; set; }
-        public float? Visiting_Charge { get; set; }
+        public int? Visiting_Charge { get; set; }
 
     }
 }

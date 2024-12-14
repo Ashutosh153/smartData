@@ -12,11 +12,12 @@ import { Router, RouterLink } from '@angular/router';
 export class HomeComponetComponent {
  router=inject(Router)
   onClickPatient()
-  {
-    this.router.navigateByUrl("login");
+  { debugger
+    this.router.navigateByUrl("login/1");
   }
   onClickDoctor(){
-    this.router.navigate(["/login",2])
+    debugger
+    this.router.navigate(["login/2"])
   }
 
 }

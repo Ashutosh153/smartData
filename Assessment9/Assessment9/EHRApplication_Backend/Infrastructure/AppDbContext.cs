@@ -26,6 +26,8 @@ namespace Infrastructure
         public DbSet<State> StateDetails { get; set; }
         public DbSet<Cities> Cities { get; set; }
         public DbSet<Country> Country { get; set; }
+
+        public DbSet<Appointments>  appointments { get; set; }
     
     }
 }

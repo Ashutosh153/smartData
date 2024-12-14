@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App.Core.csproj": {}
+    "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\App.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App.Core.csproj": {
+    "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\App.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\App.Core.csproj",
         "projectName": "App.Core",
-        "projectPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App.Core.csproj",
-        "packagesPath": "C:\\Users\\ashutoshgupta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\App.Core.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ashutoshgupta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj"
+              "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj"
               }
             }
           }
@@ -105,17 +105,17 @@
         }
       }
     },
-    "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj": {
+    "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\ashutoshgupta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ashutoshgupta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

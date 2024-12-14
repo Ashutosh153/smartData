@@ -1,0 +1,192 @@
+<nav class="navbar">
+    <div class="navbar-container">
+      <!-- Brand Name -->
+      <a class="navbar-brand" href="/">MyApp</a>
+  
+      <!-- Hamburger menu for small screens -->
+      <button class="navbar-toggler" (click)="toggleNavbar()">
+        <span class="navbar-toggler-icon">☰</span>
+      </button>
+  
+      <!-- Links -->
+      <div class="navbar-links" [class.active]="isNavbarOpen">
+        <a routerLink="/specialities" routerLinkActive="active">Specialities</a>
+        <a routerLink="/appointments" routerLinkActive="active">Appointments</a>
+        <a routerLink="/providers" routerLinkActive="active">Providers</a>
+      </div>
+  
+      <!-- Profile Icon -->
+      <div class="navbar-profile">
+        <img
+          [src]="UserObject?.profile"
+          alt="."
+          class="profile-icon"
+         (click)="openProfileModal()"
+        />
+      </div>
+    </div>
+  </nav>
+  
+  <div class="modal" id="myProfileModal">
+    <div class="modal-dialog">
+      <div class="modal-content profile-modal" style="width: 700px;">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h2 class="modal-title">Profile</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeProfilrModal()"></button>
+        </div>
+  
+        <!-- Modal Body -->
+        <div class="modal-body profile-modal-body">
+          <div>
+            <section class="profile-section">
+              <div class="container py-5">
+                <div class="row"></div>
+                <div class="row">
+                  <!-- Profile Picture -->
+                  <div class="col-lg-4">
+                    <div class="card profile-card">
+                      <div class="card-body text-center">
+                        <img [src]="UserObject?.profile" alt="avatar" class="rounded-circle img-fluid profile-img">
+                        <h5 class="my-3 profile-username">UserName: {{UserObject?.userName}}</h5>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- Profile Details -->
+                  <div class="col-lg-8">
+                    <div class="card profile-details-card">
+                      <div class="card-body">
+                        <div class="row profile-detail">
+                          <div class="col-sm-3">
+                            <p class="mb-0 profile-label"> Name</p>
+                          </div>
+                          <div class="col-sm-9">
+                            <p class="text-muted mb-0 profile-value">{{UserObject?.firstName}} {{UserObject?.lastName}}</p>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row profile-detail">
+                          <div class="col-sm-3">
+                            <p class="mb-0 profile-label">Email</p>
+                          </div>
+                          <div class="col-sm-9">
+                            <p class="text-muted mb-0 profile-value">{{UserObject?.email}}</p>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row profile-detail">
+                          <div class="col-sm-3">
+                            <p class="mb-0 profile-label">DOB</p>
+                          </div>
+                          <div class="col-sm-9">
+                            <p class="text-muted mb-0 profile-value">{{UserObject?.dateOfBirth}}</p>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row profile-detail">
+                          <div class="col-sm-3">
+                            <p class="mb-0 profile-label">Mobile</p>
+                          </div>
+                          <div class="col-sm-9">
+                            <p class="text-muted mb-0 profile-value">{{UserObject?.mobile}}</p>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="row profile-detail">
+                            <div class="col-sm-3">
+                              <p class="mb-0 profile-label">Gender</p>
+                            </div>
+                            <div class="col-sm-9">
+                              <p class="text-muted mb-0 profile-value">{{UserObject?.gender}}</p>
+                            </div>
+                          </div>
+
+                          <div *ngIf="isProvider">
+
+
+                            <hr>
+                            <div class="row profile-detail">
+                              <div class="col-sm-3">
+                                <p class="mb-0 profile-label">Mobile</p>
+                              </div>
+                              <div class="col-sm-9">
+                                <p class="text-muted mb-0 profile-value">{{UserObject?.mobile}}</p>
+                              </div>
+                            </div>
+                            <hr>
+                            <div class="row profile-detail">
+                                <div class="col-sm-3">
+                                  <p class="mb-0 profile-label">Gender</p>
+                                </div>
+                                <div class="col-sm-9">
+                                  <p class="text-muted mb-0 profile-value">{{UserObject?.gender}}</p>
+                                </div>
+                              </div>
+
+                          </div>
+                        <!-- <div class="row profile-detail">
+                          <div class="col-sm-3">
+                            <p class="mb-0 profile-label">Address</p>
+                          </div>
+                          <div class="col-sm-9">
+                            <p class="text-muted mb-0 profile-value">{{UserObject?.address}}</p>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+  
+        <!-- Modal Footer -->
+        <div class="modal-footer profile-modal-footer">
+          <a routerLink="/profile">
+            <button type="submit" class="btn btn-primary">EDIT</button>
+          </a>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="closeProfilrModal()">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <div class="form-group mb-3">
+    <label for="specialities">specilization</label>
+    <select id="specialist_id"  class="form-select" (change)="onChange()">
+      <option value=0>get all specialist</option>
+      <option *ngFor="let item of allSpecilisation"  [value]=item.id >{{item.specialisationType}}</option>
+    </select>
+    
+  </div>
+  <table border="1" style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th>Profile</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Qualification</th>
+        <th>Registration Number</th>
+        <th>Specialisation Type</th>
+        <th>Visiting Charge</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let doctor of allPractioners">
+        <td>
+          <img [src]="doctor.profile" alt="Profile Image" width="50" height="50" style="border-radius: 50%;" />
+        </td>
+        <td>{{ doctor.firstName }}</td>
+        <td>{{ doctor.lastName }}</td>
+        <td>{{ doctor.qualification }}</td>
+        <td>{{ doctor.registration_Number }}</td>
+        <td>{{ doctor.specialisationType }}</td>
+        <td>{{ doctor.visiting_Charge }}</td>
+        <td><button class="btn btn-primary">Book AppointMent</button></td>
+      </tr>
+    </tbody>
+  </table>
+  

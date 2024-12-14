@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Infrastructure\\Migrations\\20241213123538_changeModeileData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20241213123538_changeModeileData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|c:\\users\\asus\\desktop\\smartdata\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\modelsdto\\updateproviderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\modelsdto\\updateproviderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\asus\\desktop\\smartdata\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\query\\getallpractionerquerry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\query\\getallpractionerquerry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\modelsdto\\updatepatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\modelsdto\\updatepatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\modelsdto\\regmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\modelsdto\\regmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\domain\\models\\user\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\command\\updatepatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\updatepatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\asus\\desktop\\smartdata\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\query\\getuserbyidquerry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\query\\getuserbyidquerry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,92 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241213123538_changeModeileData.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Infrastructure\\Migrations\\20241213123538_changeModeileData.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241213123538_changeModeileData.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Infrastructure\\Migrations\\20241213123538_changeModeileData.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20241213123538_changeModeileData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "Backend\\Controllers\\UserController.cs*",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:35:39.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserDetails.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Models\\User\\UserDetails.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\User\\UserDetails.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Models\\User\\UserDetails.cs",
-              "RelativeToolTip": "Domain\\Models\\User\\UserDetails.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:34:12.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdatePatientDto.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\UpdatePatientDto.cs",
-              "RelativeDocumentMoniker": "Core\\ModelsDto\\UpdatePatientDto.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\UpdatePatientDto.cs",
-              "RelativeToolTip": "Core\\ModelsDto\\UpdatePatientDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:33:35.672Z",
+              "WhenOpened": "2024-12-14T16:01:20.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UpdateProviderDto.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\UpdateProviderDto.cs",
-              "RelativeDocumentMoniker": "Core\\ModelsDto\\UpdateProviderDto.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\UpdateProviderDto.cs",
-              "RelativeToolTip": "Core\\ModelsDto\\UpdateProviderDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Title": "GetAllPractionerQuerry.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\GetAllPractionerQuerry.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Query\\GetAllPractionerQuerry.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\GetAllPractionerQuerry.cs*",
+              "RelativeToolTip": "Core\\App\\Query\\GetAllPractionerQuerry.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:33:23.282Z",
+              "WhenOpened": "2024-12-14T15:41:41.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdatePatientCommand.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\UpdatePatientCommand.cs",
-              "RelativeDocumentMoniker": "Core\\App\\Command\\UpdatePatientCommand.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\UpdatePatientCommand.cs",
-              "RelativeToolTip": "Core\\App\\Command\\UpdatePatientCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GetUserByIdQuerry.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\GetUserByIdQuerry.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Query\\GetUserByIdQuerry.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\GetUserByIdQuerry.cs",
+              "RelativeToolTip": "Core\\App\\Query\\GetUserByIdQuerry.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAC4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:33:05.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegModelDto.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\RegModelDto.cs",
-              "RelativeDocumentMoniker": "Core\\ModelsDto\\RegModelDto.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\RegModelDto.cs",
-              "RelativeToolTip": "Core\\ModelsDto\\RegModelDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:25:08.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\CreateUserCommand.cs",
-              "RelativeDocumentMoniker": "Core\\App\\Command\\CreateUserCommand.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\CreateUserCommand.cs",
-              "RelativeToolTip": "Core\\App\\Command\\CreateUserCommand.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAASwEkAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:22:54.701Z",
+              "WhenOpened": "2024-12-14T15:41:29.118Z",
               "EditorCaption": ""
             }
           ]

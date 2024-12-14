@@ -31,7 +31,7 @@ namespace App.Core.App.Command
 
 
 
-            if (oldProviderDetails != null)
+            if (oldProviderDetails == null)
             {
                 return new ResponceDto
                 {

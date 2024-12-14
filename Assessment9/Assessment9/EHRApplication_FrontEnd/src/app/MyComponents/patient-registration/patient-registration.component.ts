@@ -119,7 +119,7 @@ export class PatientRegistrationComponent {
               BloodGroup:this.userForm.get('bloodGroup')?.value||'',
               Address: this.userForm.get('address')?.value || '',
               PinCode: (this.userForm.get('zipcode')?.value || ''),
-              CityID: this.userForm.get('city_Id')?.value || 0,
+              CityId: this.userForm.get('city_Id')?.value || 0,
               StateId: this.userForm.get('state_Id')?.value || 0,
               Gender:this.userForm.get('gender')?.value||'',
               Profile: imagePath,
@@ -144,7 +144,7 @@ export class PatientRegistrationComponent {
           BloodGroup:this.userForm.get('bloodGroup')?.value||'',
           Address: this.userForm.get('address')?.value || '',
           PinCode: (this.userForm.get('zipcode')?.value || ''),
-          CityID: this.userForm.get('city_Id')?.value || 0,
+          CityId: this.userForm.get('city_Id')?.value || 0,
           StateId: this.userForm.get('state_Id')?.value || 0,
           Gender:this.userForm.get('gender')?.value||'',
 
@@ -160,7 +160,7 @@ export class PatientRegistrationComponent {
     }
   }
   saveUser(Payload: any) {
-   
+   debugger
     this.service.DoRegistration(Payload).subscribe({
       next: (res: any) => {
         if (res.isSuccess == true) {

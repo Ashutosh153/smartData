@@ -171,7 +171,7 @@ export class DashboardComponent implements OnInit {
 
   Initializers() {
     this.productForm = new FormGroup(
-      {
+      { 
         productName: new FormControl('', [
           Validators.required,
           Validators.minLength(3),

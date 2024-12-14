@@ -1,65 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\domain\\user\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\domain\\user\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\core\\app\\command\\saveimagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\saveimagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\domain\\user\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\core\\app\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\domain\\user\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\domain\\user\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\domain\\user\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\domain\\user\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\domain\\user\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\domain\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\domain\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CEEDCA2-4A3E-4A1F-82B6-58FCA26B5A32}|Domain\\Domain.csproj|solutionrelative:domain\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\interface\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\core\\interface\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\interface\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\core\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\model\\changepasswordcto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\core\\model\\changepasswordcto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\model\\changepasswordcto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\app\\query\\getinvoicedetailsquerry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\core\\app\\query\\getinvoicedetailsquerry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\app\\query\\getinvoicedetailsquerry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\downloads\\assessment8_10\\assessment8\\ecommerce\\backend\\core\\app\\command\\addproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\ecommerce\\backend\\core\\app\\command\\addproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\addproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,15 +82,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SaveImageCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App\\Command\\SaveImageCommand.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Command\\SaveImageCommand.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App\\Command\\SaveImageCommand.cs",
+              "RelativeToolTip": "Core\\App\\Command\\SaveImageCommand.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAMwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:17:07.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App\\Command\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Command\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App\\Command\\CreateUserCommand.cs",
+              "RelativeToolTip": "Core\\App\\Command\\CreateUserCommand.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T07:10:31.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T06:54:28.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserType.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\UserType.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\User\\UserType.cs",
               "RelativeDocumentMoniker": "Domain\\User\\UserType.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\UserType.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\User\\UserType.cs",
               "RelativeToolTip": "Domain\\User\\UserType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,11 +138,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Otp.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\Otp.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\User\\Otp.cs",
               "RelativeDocumentMoniker": "Domain\\User\\Otp.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\Otp.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\User\\Otp.cs",
               "RelativeToolTip": "Domain\\User\\Otp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,23 +150,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "State.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\State.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\User\\State.cs",
               "RelativeDocumentMoniker": "Domain\\User\\State.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\State.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\User\\State.cs",
               "RelativeToolTip": "Domain\\User\\State.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T12:56:05.089Z"
+              "WhenOpened": "2024-12-12T12:56:05.089Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Country.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\Country.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\User\\Country.cs",
               "RelativeDocumentMoniker": "Domain\\User\\Country.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\Country.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\User\\Country.cs",
               "RelativeToolTip": "Domain\\User\\Country.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -123,11 +175,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\User.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\User\\User.cs",
               "RelativeDocumentMoniker": "Domain\\User\\User.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Domain\\User\\User.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Domain\\User\\User.cs",
               "RelativeToolTip": "Domain\\User\\User.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,11 +187,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Infrastructure\\DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Infrastructure\\DependencyInjection.cs",
               "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,11 +199,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "IFileService.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Interface\\IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\Interface\\IFileService.cs",
               "RelativeDocumentMoniker": "Core\\Interface\\IFileService.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Interface\\IFileService.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\Interface\\IFileService.cs",
               "RelativeToolTip": "Core\\Interface\\IFileService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -159,11 +211,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "IAppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Interface\\IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\Interface\\IAppDbContext.cs",
               "RelativeDocumentMoniker": "Core\\Interface\\IAppDbContext.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\Interface\\IAppDbContext.cs",
               "RelativeToolTip": "Core\\Interface\\IAppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,11 +223,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Infrastructure\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Infrastructure\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Infrastructure\\AppDbContext.cs",
               "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -183,11 +235,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "FileService.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\FileService.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\FileService.cs",
               "RelativeDocumentMoniker": "Core\\FileService.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\FileService.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\FileService.cs",
               "RelativeToolTip": "Core\\FileService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -195,11 +247,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Backend\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Backend\\appsettings.json",
               "RelativeToolTip": "Backend\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -207,11 +259,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Backend\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Backend\\Program.cs",
               "RelativeToolTip": "Backend\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -219,11 +271,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "GetInvoiceDEtailsQuerry.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
               "RelativeDocumentMoniker": "Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
               "RelativeToolTip": "Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAIwC4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,11 +283,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "AddProductCommand.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\App\\Command\\AddProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App\\Command\\AddProductCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\AddProductCommand.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\App\\Command\\AddProductCommand.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\App\\Command\\AddProductCommand.cs",
               "RelativeToolTip": "Core\\App\\Command\\AddProductCommand.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -243,11 +295,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ChangePasswordCto.cs",
-              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Model\\ChangePasswordCto.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\Model\\ChangePasswordCto.cs",
               "RelativeDocumentMoniker": "Core\\Model\\ChangePasswordCto.cs",
-              "ToolTip": "C:\\Users\\ashutoshgupta\\Downloads\\Assessment8_10\\Assessment8\\ECommerce\\Backend\\Core\\Model\\ChangePasswordCto.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\ECommerce\\Backend\\Core\\Model\\ChangePasswordCto.cs",
               "RelativeToolTip": "Core\\Model\\ChangePasswordCto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1,1 +1,209 @@
-<p>practioner-regestration works!</p>
+<div class="container mt-5">
+
+    <div class="loading" *ngIf="isLoading"></div>
+    <div class="card shadow-lg p-4 rounded" style="max-width: 800px; margin: auto;">
+      <h2 class="text-center mb-4">Practitioner Registration Form</h2>
+      <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+        
+        <!-- First Name and Last Name -->
+        <div class="row">
+          <!-- First Name -->
+          <div class="col-md-6 mb-3 position-relative">
+            <label for="firstName">First Name</label>
+            <input id="firstName" formControlName="firstName" type="text"  (input)="limitInputLength($event,35)"
+            class="form-control" placeholder="Enter first name" />
+            <div *ngIf="userForm.get('firstName')?.invalid && userForm.get('firstName')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+              First name is required and should be at least 3 characters long.
+            </div>
+          </div>
+    
+          <!-- Last Name -->
+          <div class="col-md-6 mb-3 position-relative">
+            <label for="lastName">Last Name</label>
+            <input id="lastName" formControlName="lastName" type="text" class="form-control"
+            (input)="limitInputLength($event,35)" placeholder="Enter last name" />
+            <div *ngIf="userForm.get('lastName')?.invalid && userForm.get('lastName')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+              Last name is required and should be at least 3 characters long.
+            </div>
+          </div>
+        </div>
+    
+        <!-- Email and Mobile -->
+        <div class="row">
+          <!-- Email -->
+          <div class="col-md-6 mb-3 position-relative">
+            <label for="email">Email</label>
+            <input id="email" formControlName="email" type="email" class="form-control"
+            (input)="limitInputLength($event,35)" placeholder="Enter email" />
+            <div *ngIf="userForm.get('email')?.invalid && userForm.get('email')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+              A valid email is required.
+            </div>
+          </div>
+    
+          <!-- Mobile -->
+          <div class="col-md-6 mb-3 position-relative">
+            <label for="mobile">Mobile</label>
+            <input id="mobile" formControlName="mobile" type="number" class="form-control"
+             placeholder="Enter mobile number" 
+             (input)="limitInputLength($event,10)"
+             />
+            <div *ngIf="userForm.get('mobile')?.invalid && userForm.get('mobile')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+              A valid 10-digit mobile number is required.
+            </div>
+          </div>
+        </div>
+    
+        <!-- Date of Birth -->
+        <div class="form-group mb-3 position-relative">
+          <label for="dob">Date of Birth</label>
+          <input id="dob" formControlName="dob" type="date" class="form-control"
+          [max]="maxDate"
+          />
+          <div *ngIf="userForm.get('dob')?.invalid && userForm.get('dob')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+            Date of birth is required.
+          </div>
+        </div>
+    
+    
+      
+    
+        <!-- Profile Image -->
+        <div class="form-group mb-3">
+          <label for="profileImage">Profile Image</label>
+          <input id="profileImage" formControlName="profileImage" type="file" class="form-control" (change)="onFileChange($event)"/>
+        </div>
+    
+        <!-- Address -->
+        <div class="form-group mb-3">
+          <label for="address">Address</label>
+          <textarea id="address" formControlName="address" class="form-control" placeholder="Enter address"></textarea>
+        </div>
+    
+        <!-- Zipcode -->
+        <div class="row">
+          <div class="col-md-6 mb-3 position-relative">
+            <label for="zipcode">Zipcode</label>
+            <input id="zipcode" formControlName="zipcode" type="number" class="form-control" 
+            placeholder="Enter zipcode" (input)="limitInputLength($event,6)"/>
+            <div *ngIf="userForm.get('zipcode')?.invalid && userForm.get('zipcode')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+              A valid  zipcode is required.
+            </div>
+          </div>
+    
+          <!-- Country -->
+          <div class="col-md-6 mb-3">
+            <label for="state_Id">states</label>
+            <select id="state_Id" formControlName="state_Id" class="form-select" (change)="onChange(this.userForm.get('state_Id')?.value)">
+              <option value="">Select staes</option>
+              <option *ngFor="let item of allState"  [value]=item.id >{{item.name}}</option>
+            </select>
+            <!-- <select formControlName="country" (change)="onChange(this.patientForm.value.country)"   name="country" class="form-select">
+              <option value="">Select Country</option>
+              <option *ngFor="let item of allCountry"  [value]="item.countryId" >{{item.name}}</option>
+          </select> -->
+  
+  
+            <div *ngIf="userForm.get('countryId')?.invalid && userForm.get('countryId')?.touched" class="error animated fadeIn">
+              Country is required.
+            </div>
+          </div>
+        </div>
+    
+       
+        <div class="form-group mb-3">
+          <label for="city_Id">city</label>
+          <select id="city_Id" formControlName="city_Id" class="form-select">
+            <option value="">Select city</option>
+            <option *ngFor="let item of allCities"  [value]=item.id >{{item.cityName}}</option>
+          </select>
+          <div *ngIf="userForm.get('city_Id')?.invalid && userForm.get('city_Id')?.touched" class="error animated fadeIn">
+            city is required.
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label for="bloodGroup">bloodgroup</label>
+            <select id="bloodGroup" formControlName="bloodGroup" class="form-select" >
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <!-- <option value="Unknown">Unknown</option> -->
+            </select>
+            <!-- <select formControlName="country" (change)="onChange(this.patientForm.value.country)"   name="country" class="form-select">
+              <option value="">Select Country</option>
+              <option *ngFor="let item of allCountry"  [value]="item.countryId" >{{item.name}}</option>
+          </select> -->
+  
+  
+            <div *ngIf="userForm.get('bloodGroup')?.invalid && userForm.get('bloodGroup')?.touched" class="error animated fadeIn">
+              Gender Is Required
+            </div>
+          </div>
+
+              
+        <div class="form-group mb-3">
+          <label for="gender" formControlName="gender">Select Gender:</label>
+<div>
+  <input type="radio" id="male" formControlName="gender" value="Male">
+  <label for="male">Male</label>
+</div>
+<div>
+  <input type="radio" id="female" formControlName="gender" value="Female">
+  <label for="female">Female</label>
+</div>
+    </div>
+
+    <div class="col-md-6 mb-3 position-relative">
+        <label for="qualification">Qualification</label>
+        <input id="qualification" formControlName="qualification" type="text"  (input)="limitInputLength($event,35)"
+        class="form-control" placeholder="Enter your qualification" />
+        <div *ngIf="userForm.get('qualification')?.invalid && userForm.get('qualification')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+            qualification are required
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-3">
+        <label for="Specialisation_ID">Specialisation</label>
+        <select id="Specialisation_ID" formControlName="Specialisation_ID" class="form-select" >
+          <option value="">Select Specialisation</option>
+          <option *ngFor="let item of allSpecilizations"  [value]=item.id >{{item.specialisationType}}</option>
+        </select>
+    
+        <div class="col-md-6 mb-3 position-relative">
+            <label for="Registration_Number">Registration Number</label>
+            <input id="Registration_Number" formControlName="Registration_Number" type="text"  (input)="limitInputLength($event,35)"
+            class="form-control" placeholder="Enter your Registration_Number" />
+            <div *ngIf="userForm.get('Registration_Number')?.invalid && userForm.get('Registration_Number')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+                Registration_Number id required
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-3 position-relative">
+            <label for="Visiting_Charge">Visiting_Charge</label>
+            <input id="Visiting_Charge" formControlName="Visiting_Charge" type="number" class="form-control" 
+            placeholder="Enter Visiting_Charge" (input)="limitInputLength($event,6)"/>
+            <div *ngIf="userForm.get('Visiting_Charge')?.invalid && userForm.get('Visiting_Charge')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+                Visiting_Charge are required.
+            </div>
+          </div>
+
+
+        <div *ngIf="userForm.get('Specialisation_ID')?.invalid && userForm.get('Specialisation_ID')?.touched" class="error animated fadeIn">
+            Specialisation is required
+        </div>
+      </div>
+
+        <!-- Submit Button -->
+        <button type="submit"  [disabled]="userForm.invalid"  class="btn btn-primary w-100 py-2 mt-4 hover-zoom">
+          Submit
+        </button>
+      <P>  already have an account:<a routerLink="/login">login</a></P>
+      </form>
+    </div>
+  </div>
+  
