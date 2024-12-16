@@ -36,6 +36,7 @@ namespace App.Core.App.Command
 
             return new ResponceDto
             {
+                message="appointment created successfully",
                 isSuccess = true,
                 
             };

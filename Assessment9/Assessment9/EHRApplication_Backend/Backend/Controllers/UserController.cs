@@ -90,12 +90,7 @@ namespace EHRApplication.Controllers
             var result= await _mediator.Send(new UpdateProviderCommand { providerDto = updateProvider });
             return Ok(result);
         }
-        [HttpPost("createAppointment")]
-        public async Task<IActionResult>DoCreateAppointment(AddAppointmentDto addAppointment)
-        {
-            var result = await _mediator.Send(new CreateApponintmentCommand { AddAppointmentDto = addAppointment });
-            return Ok(result);
-        }
+      
         [HttpGet("getPractionersAsRequired/{id}")]
         public async Task<IActionResult>DoGetPractionersAsRequired(int id)
         {

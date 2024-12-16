@@ -58,4 +58,20 @@ public getPractionersApPerRequired(obj:any)
 {
   return this.http.get(`https://localhost:7053/api/User/getPractionersAsRequired/${obj}`)
 }
+public DoCraeteAppointment(obj:any)
+{
+  return this.http.post("https://localhost:7053/api/Appointment/createAppointment",obj)
+}
+public DoverifyAvailableAppointment(obj:any)
+{
+  return this.http.post("https://localhost:7053/api/Appointment/checkAvailableAppointment",obj)
+}
+public DoGetAllAppointmentsById(id:number)
+{
+  return this.http.get(`https://localhost:7053/api/Appointment/getAllAppointments/${id}`)
+}
+public DoUpdateAppointment(obj:any)
+{
+  return this.http.post("https://localhost:7053/api/Appointment/updateAppointment",obj)
+}
 }

@@ -36,7 +36,8 @@ namespace App.Core.App.Query
             if (request.specilizationId == 0) {
 
                 const string sql = @"
- select u.FirstName as FirstName,
+ select u.id as id,
+        u.FirstName as FirstName,
 		u.LastName as LastName,
 		u.Profile as Profile,
 		u.Qualification as Qualification,

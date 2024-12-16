@@ -109,19 +109,19 @@
                             <hr>
                             <div class="row profile-detail">
                               <div class="col-sm-3">
-                                <p class="mb-0 profile-label">Mobile</p>
+                                <p class="mb-0 profile-label">Qualifications</p>
                               </div>
                               <div class="col-sm-9">
-                                <p class="text-muted mb-0 profile-value">{{UserObject?.mobile}}</p>
+                                <p class="text-muted mb-0 profile-value">{{UserObject?.qualification}}</p>
                               </div>
                             </div>
                             <hr>
                             <div class="row profile-detail">
                                 <div class="col-sm-3">
-                                  <p class="mb-0 profile-label">Gender</p>
+                                  <p class="mb-0 profile-label">specilization</p>
                                 </div>
                                 <div class="col-sm-9">
-                                  <p class="text-muted mb-0 profile-value">{{UserObject?.gender}}</p>
+                                  <p class="text-muted mb-0 profile-value">{{UserObject?.specialisationType}}</p>
                                 </div>
                               </div>
 
@@ -154,9 +154,48 @@
       </div>
     </div>
   </div>
+
+
+  <table border="1" style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+       
+        
+        <th>Doctor Name</th>
+        <th>specialization</th>
+        <th>fees</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>status</th>
+        <th [width]="150">chiefComplaint</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let appointment of allAppointments">
+       
+        <td>{{ appointment.practionerFullName }}</td>
+        <td>{{ appointment.practionerSpecialisation }}</td>
+        <td>{{ appointment.fee }}</td>
+
+        <td>{{ appointment.appointmentDate | date:'yyyy/MM/dd'}}</td>
+        <td>{{ appointment.appointmentTime }}</td>
+        <td>{{appointment.appointmentStatus}}</td>
+        <td >{{appointment.chiefComplaint}}</td>
+        
+        <td><button class="btn btn-primary"  (click)="onClickEditAppointment(appointment)">edit</button>&nbsp;
+        <button class="btn btn-danger"  (click)="onClickEditAppointment(appointment)">cancel</button></td>
+     
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
   <div class="form-group mb-3">
     <label for="specialities">specilization</label>
-    <select id="specialist_id"  class="form-select" (change)="onChange()">
+    <select id="specialist_id"  class="form-select" (change)="onChangeSpecilization()">
       <option value=0>get all specialist</option>
       <option *ngFor="let item of allSpecilisation"  [value]=item.id >{{item.specialisationType}}</option>
     </select>
@@ -185,8 +224,170 @@
         <td>{{ doctor.registration_Number }}</td>
         <td>{{ doctor.specialisationType }}</td>
         <td>{{ doctor.visiting_Charge }}</td>
-        <td><button class="btn btn-primary">Book AppointMent</button></td>
+        <td><button class="btn btn-primary"  (click)="onclickBookAppointment(doctor)">Book AppointMent</button></td>
       </tr>
     </tbody>
   </table>
   
+
+  
+
+
+
+<div class="modal" id="BooAppointmentModel">
+  <div class="modal-dialog">
+    <div class="modal-content profile-modal" style="width: 700px;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">Book Appointment </h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeBooAppointmentModal()"></button>
+      </div>
+
+      <!-- Modal Body -->
+      <form [formGroup]="bookAppointmentForm">
+
+         <div class="form-group mb-3 position-relative">
+          <label for="appointmentDate">Date of appointment</label>
+          <input id="appointmentDate"  type="date" formControlName="appointmentDate"  class="form-control"
+          [min]="maxDate"
+          />
+          <div *ngIf="bookAppointmentForm.get('appointmentDate')?.invalid && bookAppointmentForm.get('appointmentDate')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+           appointment date is required.
+          </div>
+         </div>
+    
+            <div class="form-group mb-3 position-relative">
+           <label for="appointmentTime">Time of appointment</label>
+            <input id="appointmentTime" formControlName="appointmentTime" type="time" class="form-control"  />
+            <!-- <span>select the time at which you want to have appointment</span> -->
+            <div *ngIf="bookAppointmentForm.get('appointmentTime')?.invalid && bookAppointmentForm.get('appointmentTime')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+            Appointment Time  is required.
+           </div>
+             </div>
+             <div class="form-group mb-3 position-relative">
+           <label>chief compalint</label>
+           <textarea formControlName="chiefComplained"
+             class="form-control" id="chiefComplained"
+             placeholder="enter the complaints reagarding your health you want to discuss with doctor">
+            </textarea>
+    
+             </div>
+             <div *ngIf="bookAppointmentForm.get('chiefComplained')?.invalid && bookAppointmentForm.get('chiefComplained')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+              chiefComplainedis required.
+              </div>
+    
+    </form>
+      <!-- Modal Footer -->
+      <div class="modal-footer profile-modal-footer">
+        <button class="btn btn-primary"  (click)="onSubmitCreateAppointment()"> submit</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="closeBooAppointmentModal()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="modal" id="A">
+  <div class="modal-dialog">
+    <div class="modal-content profile-modal" style="width: 700px;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">MakePAyment </h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeMakePaymentModel()"></button>
+      </div>
+
+      <!-- Modal Body -->
+ 
+      <!-- Modal Footer -->
+      <div class="modal-footer profile-modal-footer">
+        <button class="btn btn-primary" 
+        (click)="onclickMakePayment()"> makePayment</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" 
+        (click)="closeMakePaymentModel()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="MakePaymentModel">
+  <div class="modal-dialog">
+    <div class="modal-content profile-modal" style="width: 700px;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">MakePAyment </h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeMakePaymentModel()"></button>
+      </div>
+
+      <!-- Modal Body -->
+ 
+      <!-- Modal Footer -->
+      <div class="modal-footer profile-modal-footer">
+        <button class="btn btn-primary" 
+        (click)="onclickMakePayment()"> makePayment</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" 
+        (click)="closeMakePaymentModel()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="modal" id="EditAppointmentModel">
+  <div class="modal-dialog">
+    <div class="modal-content profile-modal" style="width: 700px;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">Edit Appointment </h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeEditAppointmentModel()"></button>
+      </div>
+
+      <!-- Modal Body -->
+      <form [formGroup]="bookAppointmentForm">
+
+         <div class="form-group mb-3 position-relative">
+          <label for="appointmentDate">Date of appointment</label>
+         
+          <input id="appointmentDate"  type="date" formControlName="appointmentDate"   class="form-control"
+          [min]="maxDate"
+          />
+          <div *ngIf="bookAppointmentForm.get('appointmentDate')?.invalid && bookAppointmentForm.get('appointmentDate')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+           appointment date is required.
+          </div>
+         </div>
+    
+            <div class="form-group mb-3 position-relative">
+              
+           <label for="appointmentTime">Time of appointment</label>
+            <input id="appointmentTime" formControlName="appointmentTime" type="time" class="form-control"  />
+            <!-- <span>select the time at which you want to have appointment</span> -->
+            <div *ngIf="bookAppointmentForm.get('appointmentTime')?.invalid && bookAppointmentForm.get('appointmentTime')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+            Appointment Time  is required.
+           </div>
+             </div>
+             <div class="form-group mb-3 position-relative">
+           <label>chief compalint</label>
+           <textarea formControlName="chiefComplained"
+             class="form-control" id="chiefComplained"
+             placeholder="enter the complaints reagarding your health you want to discuss with doctor">
+            </textarea>
+    
+             </div>
+             <div *ngIf="bookAppointmentForm.get('chiefComplained')?.invalid && bookAppointmentForm.get('chiefComplained')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
+              chiefComplainedis required.
+              </div>
+    
+    </form>
+      <!-- Modal Footer -->
+      <div class="modal-footer profile-modal-footer">
+        <button class="btn btn-primary"  (click)="onClickUpdateAppointment()"> update</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="closeEditAppointmentModel()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
