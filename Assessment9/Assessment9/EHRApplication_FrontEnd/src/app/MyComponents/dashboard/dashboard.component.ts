@@ -6,6 +6,7 @@ import { RouterLink } from '@angular/router';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Toast, ToastrService } from 'ngx-toastr';
 
+
 @Component({
   selector: 'app-dashboard',
   standalone: true,
@@ -13,8 +14,10 @@ import { Toast, ToastrService } from 'ngx-toastr';
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
+
 export class DashboardComponent implements OnInit{
 
+  minTime: string = '';
   userId:any=0
   PatientObject:any
   UserObject:any
@@ -30,6 +33,7 @@ export class DashboardComponent implements OnInit{
   practionerChargesForAppointment:any
   allPractioners?:any[]=[]
   allAppointments:any[]=[]
+  allPatients:any[]=[]
   allSpecilisation:any
   LoginUser:any
   TodaysDate: Date = new Date();
@@ -38,8 +42,13 @@ export class DashboardComponent implements OnInit{
   toaster=inject(ToastrService)
 
   ngOnInit(): void {
+    const now = new Date();
+    const nextHour = new Date(now.setHours(now.getHours() + 1));
+    this.minTime = nextHour.toISOString().substring(11, 16);
+
    // const token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYXZldG9rZW5zIiwiaWQiOiIzIiwiZW1haWwiOiJhc2h1dG9zaGd1cHRhNjE2ODZAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMiIsImV4cCI6MTczNDExNjI5NiwiaXNzIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIiwiYXVkIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIn0.NGD2eGG_58s40CyQCCVYf2V0RQHpbixRxSlI-4aMBJM"
-   const token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYXZldG9rZW5zIiwiaWQiOiI2IiwiZW1haWwiOiJhc2h1dG9zaGd1cHRhQHlvcG1haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTczNDMyNzI4MiwiaXNzIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIiwiYXVkIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIn0.Py3QCkuA7H-5oJyIyw2RiGS-VuCQ-CIWSjUe0g_nKt8"
+   //const token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYXZldG9rZW5zIiwiaWQiOiI2IiwiZW1haWwiOiJhc2h1dG9zaGd1cHRhQHlvcG1haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTczNDMyNzI4MiwiaXNzIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIiwiYXVkIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIn0.Py3QCkuA7H-5oJyIyw2RiGS-VuCQ-CIWSjUe0g_nKt8"
+   const token=localStorage.getItem("token")
    if(token)
     {
       const decodeToken: any = jwtDecode(token);
@@ -59,6 +68,7 @@ export class DashboardComponent implements OnInit{
             );
             if(res.data[0].userType_ID==1)
             {
+              debugger
               
               this.UserObject={
               firstName:res.data[0].firstName,
@@ -74,7 +84,7 @@ export class DashboardComponent implements OnInit{
                 stateId: res.data[0].stateId,
                 pinCode: res.data[0].pinCode,
                 profile: res.data[0].profile,
-                userType_ID: res.data[0].userType_ID
+                userType_ID: res.data[0].userType_ID,
             }
 
             }
@@ -82,7 +92,7 @@ export class DashboardComponent implements OnInit{
             if(res.data[0].userType_ID==2)
             {
               //debugger
-              //console.log(res);
+              console.log(res);
              
               this.isProvider=true
               this.UserObject={
@@ -104,6 +114,8 @@ export class DashboardComponent implements OnInit{
                 specialisation_ID: res.data[0].specialisation_ID,
                 registration_Number: res.data[0].registration_Number,
                 visiting_Charge: res.data[0].visiting_Charge,
+                specialisation:res.data[0].specilisation
+
               }
             
             }
@@ -128,10 +140,37 @@ export class DashboardComponent implements OnInit{
 
     }
 
+
+    this.getAllAppointments()
+
+
+
+
+    this.getPractioners(0)
+  
+    console.log(this.allPractioners);
+    this.getAllSpecilization()
+
+    this.getAllPAtients()
+    
+  }
+
+getAllPAtients()
+{
+  this.service.DoGetOtherTypeUser(this.userId).subscribe({
+    next:(res:any)=>{
+      this.allPatients=res.data
+    }
+  })
+}
+
+  getAllAppointments()
+{
     this.service.DoGetAllAppointmentsById(this.userId).subscribe({
       next:(res:any)=>{
         if(res.isSuccess)
         {
+          debugger
           this.allAppointments=res.data
        
         }
@@ -142,17 +181,6 @@ export class DashboardComponent implements OnInit{
       }
     })
 
-   
-
-
-
-
-
-    this.getPractioners(0)
-  
-    console.log(this.allPractioners);
-    this.getAllSpecilization()
-    
   }
 
 getAllSpecilization()
@@ -223,6 +251,20 @@ getAllSpecilization()
     }
   }
   
+  openaddAppointmentModel() {
+    const modal = document.getElementById('addAppointment');
+    if (modal != null) {
+      modal.style.display = 'block';
+     
+    }
+  }
+
+  closeaddAppointmentModel() {
+    const modal = document.getElementById('addAppointment');
+    if (modal != null) {
+      modal.style.display = 'none';
+    }
+  }
 
   toggleNavbar() {
     this.isNavbarOpen = !this.isNavbarOpen;
@@ -255,6 +297,7 @@ getAllSpecilization()
   {
   
    this.openBooAppointmentModal()
+   this.closeaddAppointmentModel()
    this.practionerChargesForAppointment=data.visiting_Charge
     this.practionerIdForAppointment=data.id 
    
@@ -262,7 +305,7 @@ getAllSpecilization()
 
   onSubmitCreateAppointment()
   {
-   
+    this.closeBooAppointmentModal()
     this.appointObj={
       providerId:this.practionerIdForAppointment,
       fee:this.practionerChargesForAppointment,
@@ -297,6 +340,7 @@ getAllSpecilization()
       next:(res:any)=>{
         if(res.isSuccess)
         {
+          this.getAllAppointments()
           this.toaster.success(res.message)
         }
         else{
@@ -334,11 +378,15 @@ getAllSpecilization()
       chiefComplaint:this.bookAppointmentForm.get("chiefComplained").value
     }
    
-debugger
+
     console.log(this.editAppointmentObj);
     
   }
  
+  onClickCancelAppointment(data:any)
+  {
+
+  }
   
 
 }

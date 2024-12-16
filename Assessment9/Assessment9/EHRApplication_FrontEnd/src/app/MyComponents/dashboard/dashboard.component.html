@@ -1,132 +1,149 @@
 <nav class="navbar">
-    <div class="navbar-container">
-      <!-- Brand Name -->
-      <a class="navbar-brand" href="/">MyApp</a>
-  
-      <!-- Hamburger menu for small screens -->
-      <button class="navbar-toggler" (click)="toggleNavbar()">
-        <span class="navbar-toggler-icon">☰</span>
-      </button>
-  
-      <!-- Links -->
-      <div class="navbar-links" [class.active]="isNavbarOpen">
-        <a routerLink="/specialities" routerLinkActive="active">Specialities</a>
-        <a routerLink="/appointments" routerLinkActive="active">Appointments</a>
-        <a routerLink="/providers" routerLinkActive="active">Providers</a>
-      </div>
-  
-      <!-- Profile Icon -->
-      <div class="navbar-profile">
-        <img
-          [src]="UserObject?.profile"
-          alt="."
-          class="profile-icon"
-         (click)="openProfileModal()"
-        />
-      </div>
+  <div class="navbar-container">
+    <!-- Brand Name -->
+    <a class="navbar-brand" >MyApp</a>
+
+    <!-- Hamburger menu for small screens -->
+    <button class="navbar-toggler" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon">☰</span>
+    </button>
+
+    <!-- Links -->
+    <div class="navbar-links" [class.active]="isNavbarOpen">
+      <a routerLink="/appointments" (click)="openaddAppointmentModel()">Add Appointments</a>
     </div>
-  </nav>
-  
-  <div class="modal" id="myProfileModal">
-    <div class="modal-dialog">
-      <div class="modal-content profile-modal" style="width: 700px;">
-  
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h2 class="modal-title">Profile</h2>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeProfilrModal()"></button>
-        </div>
-  
-        <!-- Modal Body -->
-        <div class="modal-body profile-modal-body">
-          <div>
-            <section class="profile-section">
-              <div class="container py-5">
-                <div class="row"></div>
-                <div class="row">
-                  <!-- Profile Picture -->
-                  <div class="col-lg-4">
-                    <div class="card profile-card">
-                      <div class="card-body text-center">
-                        <img [src]="UserObject?.profile" alt="avatar" class="rounded-circle img-fluid profile-img">
-                        <h5 class="my-3 profile-username">UserName: {{UserObject?.userName}}</h5>
-                      </div>
+
+    <!-- Profile Icon -->
+    <div class="navbar-profile">
+      <img [src]="UserObject?.profile" alt="." class="profile-icon" (click)="openProfileModal()" />
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+<div class="container" *ngIf="allAppointments.length==0">
+
+  <h1>No Appointment Found</h1>
+  <p>It seems like there are no appointments scheduled at the moment.</p>
+  <button class="btn btn-primary" (click)="openaddAppointmentModel()"> add New Appointment</button>
+</div>
+
+
+
+<div class="modal" id="myProfileModal">
+  <div class="modal-dialog">
+    <div class="modal-content profile-modal" style="width: 700px;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">Profile</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeProfilrModal()"></button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body profile-modal-body">
+        <div>
+          <section class="profile-section">
+            <div class="container py-5">
+              <div class="row"></div>
+              <div class="row">
+                <!-- Profile Picture -->
+                <div class="col-lg-4">
+                  <div class="card profile-card">
+                    <div class="card-body text-center">
+                      <img [src]="UserObject?.profile" alt="avatar" class="rounded-circle img-fluid profile-img">
+                      <h5 class="my-3 profile-username">UserName: {{UserObject?.userName}}</h5>
                     </div>
                   </div>
-  
-                  <!-- Profile Details -->
-                  <div class="col-lg-8">
-                    <div class="card profile-details-card">
-                      <div class="card-body">
+                </div>
+
+                <!-- Profile Details -->
+                <div class="col-lg-8">
+                  <div class="card profile-details-card">
+                    <div class="card-body">
+                      <div class="row profile-detail">
+                        <div class="col-sm-3">
+                          <p class="mb-0 profile-label"> Name</p>
+                        </div>
+                        <div class="col-sm-9">
+                          <p class="text-muted mb-0 profile-value">{{UserObject?.firstName}} {{UserObject?.lastName}}
+                          </p>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row profile-detail">
+                        <div class="col-sm-3">
+                          <p class="mb-0 profile-label">Email</p>
+                        </div>
+                        <div class="col-sm-9">
+                          <p class="text-muted mb-0 profile-value">{{UserObject?.email}}</p>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row profile-detail">
+                        <div class="col-sm-3">
+                          <p class="mb-0 profile-label">DOB</p>
+                        </div>
+                        <div class="col-sm-9">
+                          <p class="text-muted mb-0 profile-value">{{UserObject?.dateOfBirth}}</p>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row profile-detail">
+                        <div class="col-sm-3">
+                          <p class="mb-0 profile-label">Mobile</p>
+                        </div>
+                        <div class="col-sm-9">
+                          <p class="text-muted mb-0 profile-value">{{UserObject?.mobile}}</p>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row profile-detail">
+                        <div class="col-sm-3">
+                          <p class="mb-0 profile-label">Gender</p>
+                        </div>
+                        <div class="col-sm-9">
+                          <p class="text-muted mb-0 profile-value">{{UserObject?.gender}}</p>
+                        </div>
+                      </div>
+
+                      <div *ngIf="isProvider">
+
+
+                        <hr>
                         <div class="row profile-detail">
                           <div class="col-sm-3">
-                            <p class="mb-0 profile-label"> Name</p>
+                            <p class="mb-0 profile-label">Qualifications</p>
                           </div>
                           <div class="col-sm-9">
-                            <p class="text-muted mb-0 profile-value">{{UserObject?.firstName}} {{UserObject?.lastName}}</p>
+                            <p class="text-muted mb-0 profile-value">{{UserObject?.qualification}}</p>
                           </div>
                         </div>
                         <hr>
                         <div class="row profile-detail">
                           <div class="col-sm-3">
-                            <p class="mb-0 profile-label">Email</p>
+                            <p class="mb-0 profile-label">specilization</p>
                           </div>
                           <div class="col-sm-9">
-                            <p class="text-muted mb-0 profile-value">{{UserObject?.email}}</p>
+                            <p class="text-muted mb-0 profile-value">{{UserObject?.specialisation}}</p>
                           </div>
                         </div>
                         <hr>
                         <div class="row profile-detail">
                           <div class="col-sm-3">
-                            <p class="mb-0 profile-label">DOB</p>
+                            <p class="mb-0 profile-label">fees</p>
                           </div>
                           <div class="col-sm-9">
-                            <p class="text-muted mb-0 profile-value">{{UserObject?.dateOfBirth}}</p>
+                            <p class="text-muted mb-0 profile-value">{{UserObject?.visiting_Charge}}</p>
                           </div>
                         </div>
-                        <hr>
-                        <div class="row profile-detail">
-                          <div class="col-sm-3">
-                            <p class="mb-0 profile-label">Mobile</p>
-                          </div>
-                          <div class="col-sm-9">
-                            <p class="text-muted mb-0 profile-value">{{UserObject?.mobile}}</p>
-                          </div>
-                        </div>
-                        <hr>
-                        <div class="row profile-detail">
-                            <div class="col-sm-3">
-                              <p class="mb-0 profile-label">Gender</p>
-                            </div>
-                            <div class="col-sm-9">
-                              <p class="text-muted mb-0 profile-value">{{UserObject?.gender}}</p>
-                            </div>
-                          </div>
 
-                          <div *ngIf="isProvider">
-
-
-                            <hr>
-                            <div class="row profile-detail">
-                              <div class="col-sm-3">
-                                <p class="mb-0 profile-label">Qualifications</p>
-                              </div>
-                              <div class="col-sm-9">
-                                <p class="text-muted mb-0 profile-value">{{UserObject?.qualification}}</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="row profile-detail">
-                                <div class="col-sm-3">
-                                  <p class="mb-0 profile-label">specilization</p>
-                                </div>
-                                <div class="col-sm-9">
-                                  <p class="text-muted mb-0 profile-value">{{UserObject?.specialisationType}}</p>
-                                </div>
-                              </div>
-
-                          </div>
-                        <!-- <div class="row profile-detail">
+                      </div>
+                      <!-- <div class="row profile-detail">
                           <div class="col-sm-3">
                             <p class="mb-0 profile-label">Address</p>
                           </div>
@@ -134,103 +151,119 @@
                             <p class="text-muted mb-0 profile-value">{{UserObject?.address}}</p>
                           </div>
                         </div> -->
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>
-          </div>
+            </div>
+          </section>
         </div>
-  
-        <!-- Modal Footer -->
-        <div class="modal-footer profile-modal-footer">
-          <a routerLink="/profile">
-            <button type="submit" class="btn btn-primary">EDIT</button>
-          </a>
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="closeProfilrModal()">Close</button>
-        </div>
-  
       </div>
+
+      <!-- Modal Footer -->
+      <div class="modal-footer profile-modal-footer">
+        <a routerLink="/updatePractProfile" *ngIf="isProvider">
+          <button type="submit" class="btn btn-primary">EDIT</button>
+        </a>
+        <a routerLink="/updateProfile " *ngIf="!isProvider">
+          <button type="submit" class="btn btn-primary">EDIT</button>
+        </a>
+
+
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+          (click)="closeProfilrModal()">Close</button>
+      </div>
+
     </div>
   </div>
+</div>
 
 
-  <table border="1" style="width: 100%; border-collapse: collapse;">
+<div *ngIf="!isProvider">
+
+<table border="1" style="width: 100%; border-collapse: collapse;" *ngIf="allAppointments.length>0">
+  <thead>
+    <tr>
+
+
+      <th>Doctor Name</th>
+      <th>specialization</th>
+      <th>fees</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>status</th>
+      <th [width]="150">chiefComplaint</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let appointment of allAppointments"
+     [class.disabled-row]="appointment.appointmentStatus!='Scheduled'">
+
+      <td>{{ appointment.practionerFullName }}</td>
+      <td>{{ appointment.practionerSpecialisation }}</td>
+      <td>{{ appointment.fee }}</td>
+
+      <td>{{ appointment.appointmentDate | date:'yyyy/MM/dd'}}</td>
+      <td>{{ appointment.appointmentTime }}</td>
+      <td>{{appointment.appointmentStatus}}</td>
+      <td>{{appointment.chiefComplaint}}</td>
+
+      <td><button class="btn btn-primary" (click)="onClickEditAppointment(appointment)">edit</button>&nbsp;
+        <button class="btn btn-danger" (click)="onClickCancelAppointment(appointment)">cancel</button>
+      </td>
+
+    </tr>
+  </tbody>
+</table>
+
+
+</div>
+
+<div *ngIf="isProvider">
+
+  <table border="1" style="width: 100%; border-collapse: collapse;" *ngIf="allAppointments.length>0">
     <thead>
       <tr>
+  
+  
+        <th>patient name</th>
        
-        
-        <th>Doctor Name</th>
-        <th>specialization</th>
-        <th>fees</th>
+       
         <th>Date</th>
         <th>Time</th>
         <th>status</th>
+      
         <th [width]="150">chiefComplaint</th>
-       
+  
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let appointment of allAppointments">
-       
-        <td>{{ appointment.practionerFullName }}</td>
-        <td>{{ appointment.practionerSpecialisation }}</td>
-        <td>{{ appointment.fee }}</td>
-
+      <tr *ngFor="let appointment of allAppointments"
+       [class.disabled-row]="appointment.appointmentStatus!='Scheduled'">
+  
+        <td>{{ appointment.patientFullName }}</td>
+    
+  
         <td>{{ appointment.appointmentDate | date:'yyyy/MM/dd'}}</td>
         <td>{{ appointment.appointmentTime }}</td>
         <td>{{appointment.appointmentStatus}}</td>
-        <td >{{appointment.chiefComplaint}}</td>
-        
-        <td><button class="btn btn-primary"  (click)="onClickEditAppointment(appointment)">edit</button>&nbsp;
-        <button class="btn btn-danger"  (click)="onClickEditAppointment(appointment)">cancel</button></td>
-     
-      </tr>
-    </tbody>
-  </table>
-
-
-
-
-  <div class="form-group mb-3">
-    <label for="specialities">specilization</label>
-    <select id="specialist_id"  class="form-select" (change)="onChangeSpecilization()">
-      <option value=0>get all specialist</option>
-      <option *ngFor="let item of allSpecilisation"  [value]=item.id >{{item.specialisationType}}</option>
-    </select>
-    
-  </div>
-  <table border="1" style="width: 100%; border-collapse: collapse;">
-    <thead>
-      <tr>
-        <th>Profile</th>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Qualification</th>
-        <th>Registration Number</th>
-        <th>Specialisation Type</th>
-        <th>Visiting Charge</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let doctor of allPractioners">
-        <td>
-          <img [src]="doctor.profile" alt="Profile Image" width="50" height="50" style="border-radius: 50%;" />
+        <td>{{appointment.chiefComplaint}}</td>
+  
+        <td><button class="btn btn-primary" (click)="onClickEditAppointment(appointment)">edit</button>&nbsp;
+          <button class="btn btn-danger" (click)="onClickCancelAppointment(appointment)">cancel</button>
         </td>
-        <td>{{ doctor.firstName }}</td>
-        <td>{{ doctor.lastName }}</td>
-        <td>{{ doctor.qualification }}</td>
-        <td>{{ doctor.registration_Number }}</td>
-        <td>{{ doctor.specialisationType }}</td>
-        <td>{{ doctor.visiting_Charge }}</td>
-        <td><button class="btn btn-primary"  (click)="onclickBookAppointment(doctor)">Book AppointMent</button></td>
+  
       </tr>
     </tbody>
   </table>
   
-
   
+  </div> 
+  
+
+
+
 
 
 
@@ -247,41 +280,46 @@
       <!-- Modal Body -->
       <form [formGroup]="bookAppointmentForm">
 
-         <div class="form-group mb-3 position-relative">
+        <div class="form-group mb-3 position-relative">
           <label for="appointmentDate">Date of appointment</label>
-          <input id="appointmentDate"  type="date" formControlName="appointmentDate"  class="form-control"
-          [min]="maxDate"
-          />
-          <div *ngIf="bookAppointmentForm.get('appointmentDate')?.invalid && bookAppointmentForm.get('appointmentDate')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
-           appointment date is required.
+          <input id="appointmentDate" type="date" formControlName="appointmentDate" class="form-control"
+            [min]="maxDate" />
+          <div
+            *ngIf="bookAppointmentForm.get('appointmentDate')?.invalid && bookAppointmentForm.get('appointmentDate')?.touched"
+            class="error animated fadeIn position-absolute start-50 translate-middle-x">
+            appointment date is required.
           </div>
-         </div>
-    
-            <div class="form-group mb-3 position-relative">
-           <label for="appointmentTime">Time of appointment</label>
-            <input id="appointmentTime" formControlName="appointmentTime" type="time" class="form-control"  />
-            <!-- <span>select the time at which you want to have appointment</span> -->
-            <div *ngIf="bookAppointmentForm.get('appointmentTime')?.invalid && bookAppointmentForm.get('appointmentTime')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
-            Appointment Time  is required.
-           </div>
-             </div>
-             <div class="form-group mb-3 position-relative">
-           <label>chief compalint</label>
-           <textarea formControlName="chiefComplained"
-             class="form-control" id="chiefComplained"
-             placeholder="enter the complaints reagarding your health you want to discuss with doctor">
+        </div>
+
+        <div class="form-group mb-3 position-relative">
+          <label for="appointmentTime">Time of appointment</label>
+          <input id="appointmentTime" formControlName="appointmentTime" type="time" class="form-control" [min]="minTime"/>
+          <!-- <span>select the time at which you want to have appointment</span> -->
+          <div
+            *ngIf="bookAppointmentForm.get('appointmentTime')?.invalid && bookAppointmentForm.get('appointmentTime')?.touched"
+            class="error animated fadeIn position-absolute start-50 translate-middle-x">
+            Appointment Time is required.
+          </div>
+        </div>
+        <div class="form-group mb-3 position-relative">
+          <label>chief compalint</label>
+          <textarea formControlName="chiefComplained" class="form-control" id="chiefComplained"
+            placeholder="enter the complaints reagarding your health you want to discuss with doctor">
             </textarea>
-    
-             </div>
-             <div *ngIf="bookAppointmentForm.get('chiefComplained')?.invalid && bookAppointmentForm.get('chiefComplained')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
-              chiefComplainedis required.
-              </div>
-    
-    </form>
+
+        </div>
+        <div
+          *ngIf="bookAppointmentForm.get('chiefComplained')?.invalid && bookAppointmentForm.get('chiefComplained')?.touched"
+          class="error animated fadeIn position-absolute start-50 translate-middle-x">
+          chiefComplainedis required.
+        </div>
+
+      </form>
       <!-- Modal Footer -->
       <div class="modal-footer profile-modal-footer">
-        <button class="btn btn-primary"  (click)="onSubmitCreateAppointment()"> submit</button>
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="closeBooAppointmentModal()">Close</button>
+        <button class="btn btn-primary" (click)="onSubmitCreateAppointment()"> submit</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+          (click)="closeBooAppointmentModal()">Close</button>
       </div>
 
     </div>
@@ -289,29 +327,7 @@
 </div>
 
 
-<div class="modal" id="A">
-  <div class="modal-dialog">
-    <div class="modal-content profile-modal" style="width: 700px;">
 
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h2 class="modal-title">MakePAyment </h2>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeMakePaymentModel()"></button>
-      </div>
-
-      <!-- Modal Body -->
- 
-      <!-- Modal Footer -->
-      <div class="modal-footer profile-modal-footer">
-        <button class="btn btn-primary" 
-        (click)="onclickMakePayment()"> makePayment</button>
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" 
-        (click)="closeMakePaymentModel()">Close</button>
-      </div>
-
-    </div>
-  </div>
-</div>
 
 <div class="modal" id="MakePaymentModel">
   <div class="modal-dialog">
@@ -324,13 +340,12 @@
       </div>
 
       <!-- Modal Body -->
- 
+
       <!-- Modal Footer -->
       <div class="modal-footer profile-modal-footer">
-        <button class="btn btn-primary" 
-        (click)="onclickMakePayment()"> makePayment</button>
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" 
-        (click)="closeMakePaymentModel()">Close</button>
+        <button class="btn btn-primary" (click)="onclickMakePayment()"> makePayment</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+          (click)="closeMakePaymentModel()">Close</button>
       </div>
 
     </div>
@@ -349,45 +364,110 @@
       <!-- Modal Body -->
       <form [formGroup]="bookAppointmentForm">
 
-         <div class="form-group mb-3 position-relative">
+        <div class="form-group mb-3 position-relative">
           <label for="appointmentDate">Date of appointment</label>
-         
-          <input id="appointmentDate"  type="date" formControlName="appointmentDate"   class="form-control"
-          [min]="maxDate"
-          />
-          <div *ngIf="bookAppointmentForm.get('appointmentDate')?.invalid && bookAppointmentForm.get('appointmentDate')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
-           appointment date is required.
+
+          <input id="appointmentDate" type="date" formControlName="appointmentDate" class="form-control"
+            [min]="maxDate" />
+          <div
+            *ngIf="bookAppointmentForm.get('appointmentDate')?.invalid && bookAppointmentForm.get('appointmentDate')?.touched"
+            class="error animated fadeIn position-absolute start-50 translate-middle-x">
+            appointment date is required.
           </div>
-         </div>
-    
-            <div class="form-group mb-3 position-relative">
-              
-           <label for="appointmentTime">Time of appointment</label>
-            <input id="appointmentTime" formControlName="appointmentTime" type="time" class="form-control"  />
-            <!-- <span>select the time at which you want to have appointment</span> -->
-            <div *ngIf="bookAppointmentForm.get('appointmentTime')?.invalid && bookAppointmentForm.get('appointmentTime')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
-            Appointment Time  is required.
-           </div>
-             </div>
-             <div class="form-group mb-3 position-relative">
-           <label>chief compalint</label>
-           <textarea formControlName="chiefComplained"
-             class="form-control" id="chiefComplained"
-             placeholder="enter the complaints reagarding your health you want to discuss with doctor">
+        </div>
+
+        <div class="form-group mb-3 position-relative">
+
+          <label for="appointmentTime">Time of appointment</label>
+          <input id="appointmentTime" formControlName="appointmentTime" type="time" class="form-control" [min]="minTime"/>
+          <!-- <span>select the time at which you want to have appointment</span> -->
+          <div
+            *ngIf="bookAppointmentForm.get('appointmentTime')?.invalid && bookAppointmentForm.get('appointmentTime')?.touched"
+            class="error animated fadeIn position-absolute start-50 translate-middle-x">
+            Appointment Time is required.
+          </div>
+        </div>
+        <div class="form-group mb-3 position-relative">
+          <label>chief compalint</label>
+          <textarea formControlName="chiefComplained" class="form-control" id="chiefComplained"
+            placeholder="enter the complaints reagarding your health you want to discuss with doctor">
             </textarea>
-    
-             </div>
-             <div *ngIf="bookAppointmentForm.get('chiefComplained')?.invalid && bookAppointmentForm.get('chiefComplained')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
-              chiefComplainedis required.
-              </div>
-    
-    </form>
+
+        </div>
+        <div
+          *ngIf="bookAppointmentForm.get('chiefComplained')?.invalid && bookAppointmentForm.get('chiefComplained')?.touched"
+          class="error animated fadeIn position-absolute start-50 translate-middle-x">
+          chiefComplainedis required.
+        </div>
+
+      </form>
       <!-- Modal Footer -->
       <div class="modal-footer profile-modal-footer">
-        <button class="btn btn-primary"  (click)="onClickUpdateAppointment()"> update</button>
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="closeEditAppointmentModel()">Close</button>
+        <button class="btn btn-primary" (click)="onClickUpdateAppointment()"> update</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+          (click)="closeEditAppointmentModel()">Close</button>
       </div>
 
     </div>
   </div>
 </div>
+
+<div class="modal" id="addAppointment">
+  <div class="modal-dialog">
+    <div class="modal-content profile-modal" style="width: 700px;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">add Appointment </h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeaddAppointmentModel()"></button>
+      </div>
+
+      <!-- Modal Body -->
+
+      <div class="form-group mb-3">
+        <label for="specialities">specilization</label>
+        <select id="specialist_id" class="form-select" (change)="onChangeSpecilization()">
+          <option value=0>get all specialist</option>
+          <option *ngFor="let item of allSpecilisation" [value]=item.id>{{item.specialisationType}}</option>
+        </select>
+
+      </div>
+      <table border="1" style="width: 250px; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th>Profile</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Qualification</th>
+            <th>Registration Number</th>
+            <th>Specialisation Type</th>
+            <th>Visiting Charge</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let doctor of allPractioners">
+            <td>
+              <img [src]="doctor.profile" alt="Profile Image" width="50" height="50" style="border-radius: 50%;" />
+            </td>
+            <td>{{ doctor.firstName }}</td>
+            <td>{{ doctor.lastName }}</td>
+            <td>{{ doctor.qualification }}</td>
+            <td>{{ doctor.registration_Number }}</td>
+            <td>{{ doctor.specialisationType }}</td>
+            <td>{{ doctor.visiting_Charge }}</td>
+            <td><button class="btn btn-primary" (click)="onclickBookAppointment(doctor)">Book AppointMent</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+      <!-- Modal Footer -->
+      <div class="modal-footer profile-modal-footer">
+        <!-- <button class="btn btn-primary" 
+        (click)="onclickMakePayment()"> makePayment</button> -->
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+          (click)="closeaddAppointmentModel()">Close</button>
+      </div>
+      </div>
+    </div>
+    </div>

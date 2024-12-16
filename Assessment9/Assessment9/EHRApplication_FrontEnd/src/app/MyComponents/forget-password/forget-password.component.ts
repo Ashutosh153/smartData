@@ -24,7 +24,7 @@ export class ForgetPasswordComponent {
 
 
   onSubmit()
-  { 
+  {  
     this.isLoading=true
     console.log(this.forgotPasswordForm.get('email')?.value)
     var email=this.forgotPasswordForm.get('email')?.value
@@ -35,7 +35,7 @@ export class ForgetPasswordComponent {
         { this.isLoading=false 
             this.toastr.success(res.message)
            // alert(res.message)
-          this.router.navigateByUrl("");
+          this.router.navigateByUrl("login/1");
         }
         else{
           this.isLoading=false

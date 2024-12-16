@@ -211,3 +211,7 @@
     font-size: 0.875rem;
     margin-top: 5px;
   }
+  .disabled-row {
+    pointer-events: none; /* Disables all interactions */
+    opacity: 0.6;        /* Makes the row appear visually disabled */
+  }

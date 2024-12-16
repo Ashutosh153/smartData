@@ -28,7 +28,8 @@ namespace App.Core.App.Query
             var GetAppointmentDetails = await _appDbContext.Set<Appointments>()
                 .FirstOrDefaultAsync((x) => x.ProviderId == request.verifyAppointment.ProviderId
                 && x.AppointmentDate == request.verifyAppointment.AppointmentDate
-                && x.AppointmentTime == request.verifyAppointment.AppointmentTime);
+                && x.AppointmentTime == request.verifyAppointment.AppointmentTime
+                &&x.AppointmentStatus== "Scheduled");
 
             if (GetAppointmentDetails != null) 
             {

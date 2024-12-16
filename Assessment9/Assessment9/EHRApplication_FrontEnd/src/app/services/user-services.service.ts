@@ -74,4 +74,8 @@ public DoUpdateAppointment(obj:any)
 {
   return this.http.post("https://localhost:7053/api/Appointment/updateAppointment",obj)
 }
+public DoGetOtherTypeUser(obj:any)
+{
+  return this.http.get(`https://localhost:7053/api/User/getAllUsers/${obj}`)
+}
 }

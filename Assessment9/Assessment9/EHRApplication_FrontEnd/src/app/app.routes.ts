@@ -10,7 +10,7 @@ import { UpdatePractitionerProfileComponent } from './MyComponents/update-practi
 
 export const routes: Routes = [
     {
-        path:"home",
+        path:"",
         component:HomeComponetComponent
         
     },
