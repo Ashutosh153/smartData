@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\asus\\desktop\\smartdata\\smartdata\\ecommerce\\backend\\core\\model\\changepasswordcto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\model\\changepasswordcto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\asus\\desktop\\smartdata\\smartdata\\ecommerce\\backend\\core\\app\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|c:\\users\\asus\\desktop\\smartdata\\smartdata\\ecommerce\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EComApplication.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|c:\\users\\asus\\desktop\\smartdata\\smartdata\\ecommerce\\backend\\core\\model\\changepasswordcto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E23EAC5-6FF4-4338-9343-379A7611EF94}|Core\\App.Core.csproj|solutionrelative:core\\model\\changepasswordcto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,11 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SaveImageCommand.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\App\\Command\\SaveImageCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\SaveImageCommand.cs",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\App\\Command\\CreateUserCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\CreateUserCommand.cs",
@@ -111,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
@@ -119,12 +119,11 @@
               "RelativeToolTip": "Backend\\Controllers\\UserController.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAuwFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T06:54:28.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T06:54:28.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserType.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Domain\\User\\UserType.cs",
               "RelativeDocumentMoniker": "Domain\\User\\UserType.cs",
@@ -136,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Otp.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Domain\\User\\Otp.cs",
               "RelativeDocumentMoniker": "Domain\\User\\Otp.cs",
@@ -148,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "State.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Domain\\User\\State.cs",
               "RelativeDocumentMoniker": "Domain\\User\\State.cs",
@@ -160,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Domain\\User\\Country.cs",
               "RelativeDocumentMoniker": "Domain\\User\\Country.cs",
@@ -172,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Domain\\User\\User.cs",
               "RelativeDocumentMoniker": "Domain\\User\\User.cs",
@@ -184,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
@@ -196,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IFileService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\Interface\\IFileService.cs",
               "RelativeDocumentMoniker": "Core\\Interface\\IFileService.cs",
@@ -208,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IAppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\Interface\\IAppDbContext.cs",
               "RelativeDocumentMoniker": "Core\\Interface\\IAppDbContext.cs",
@@ -220,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Infrastructure\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
@@ -232,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\FileService.cs",
               "RelativeDocumentMoniker": "Core\\FileService.cs",
@@ -244,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",
@@ -256,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Backend\\Program.cs",
@@ -268,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GetInvoiceDEtailsQuerry.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
               "RelativeDocumentMoniker": "Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
@@ -276,12 +275,11 @@
               "RelativeToolTip": "Core\\App\\Query\\GetInvoiceDEtailsQuerry.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAC4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:44:33.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:44:33.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddProductCommand.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\App\\Command\\AddProductCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\AddProductCommand.cs",
@@ -289,20 +287,20 @@
               "RelativeToolTip": "Core\\App\\Command\\AddProductCommand.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAcwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T04:33:10.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T04:33:10.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "ChangePasswordCto.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\Model\\ChangePasswordCto.cs",
               "RelativeDocumentMoniker": "Core\\Model\\ChangePasswordCto.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\ECommerce\\Backend\\Core\\Model\\ChangePasswordCto.cs",
               "RelativeToolTip": "Core\\Model\\ChangePasswordCto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T17:33:25.507Z"
+              "WhenOpened": "2024-12-10T17:33:25.507Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -3,7 +3,7 @@ import { jwtDecode } from 'jwt-decode';
 import { UserServicesService } from '../../services/user-services.service';
 import { CommonModule, DatePipe } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
-import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Toast, ToastrService } from 'ngx-toastr';
 import Swal from 'sweetalert2';
 
@@ -39,12 +39,69 @@ export class DashboardComponent implements OnInit{
   allAppointments:any[]=[]
   allPatients:any[]=[]
   allSpecilisation:any
+  showPassword: boolean = false;
   LoginUser:any
   TodaysDate: Date = new Date();
   maxDate = this.TodaysDate.toISOString().substring(0, 10);
   service=inject(UserServicesService)
   toaster=inject(ToastrService)
     router=inject(Router)
+  changePasswordForm: any
+  errorMessage?: string;
+  changePassObj?: any
+    constructor(private fb: FormBuilder) {
+      this.changePasswordForm = this.fb.group(
+        {
+          password: [
+            '',
+            [
+              Validators.required,
+              Validators.minLength(8),
+              Validators.pattern(
+                /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$/
+              ),
+            ],
+          ],
+          confirmPassword: ['', Validators.required],
+        },
+        { validator: this.passwordMatchValidator }
+      );
+    }
+    passwordMatchValidator(group: FormGroup) {
+      const password = group.get('password')?.value;
+      const confirmPassword = group.get('confirmPassword')?.value;
+      return password === confirmPassword ? null : { mismatch: true };
+    }
+
+    
+  onSubmitChangePassword() {
+    if (this.changePasswordForm.invalid) {
+      this.errorMessage = 'Please correct the errors before submitting.';
+      return;
+    }
+    this.errorMessage = '';
+
+    // Perform further actions, like sending the form data to the server
+    this.changePassObj = {
+      Id: this.userId,
+      Password: this.changePasswordForm.get('confirmPassword')?.value,
+    };
+    this.service.DoChangePassword(this.changePassObj).subscribe({
+      next: (res: any) => {
+        if (res.isSuccess) {
+          this.toaster.success(res.message);
+          this.closeChangePassModel();
+        } else {
+          this.toaster.error(res.message);
+        }
+      },
+    });
+    console.log(this.changePassObj);
+  }
+
+  togglePasswordVisibility() {
+    this.showPassword = !this.showPassword;
+  }
 
   ngOnInit(): void {
     
@@ -62,7 +119,7 @@ export class DashboardComponent implements OnInit{
       
       this.service.DoGetUserById(this.userId).subscribe({
         next:(res:any)=>{
-        debugger
+        
           if(res.isSuccess)
           {
            
@@ -165,6 +222,7 @@ getAllPAtients()
 {
   this.service.DoGetOtherTypeUser(this.userId).subscribe({
     next:(res:any)=>{
+     
       this.allPatients=res.data
     }
   })
@@ -176,7 +234,7 @@ getAllPAtients()
       next:(res:any)=>{
         if(res.isSuccess)
         {
-          
+         
           this.allAppointments=res.data
        
         }
@@ -214,6 +272,7 @@ getAllSpecilization()
   }
 
   openBooAppointmentModal() {
+    this.closeaddAppointmentModelByDoctor()
     const modal = document.getElementById('BooAppointmentModel');
     if (modal != null) {
       modal.style.display = 'block';
@@ -274,7 +333,35 @@ getAllSpecilization()
       modal.style.display = 'none';
     }
   }
+  
+  openaddAppointmentModelByDoctor() {
+    const modal = document.getElementById('addAppointmentByDoctor');
+    if (modal != null) {
+      modal.style.display = 'block';
+     
+    }
+  }
 
+  closeaddAppointmentModelByDoctor() {
+    const modal = document.getElementById('addAppointmentByDoctor');
+    if (modal != null) {
+      modal.style.display = 'none';
+    }
+  }
+  openChangePassModel() {
+    const modal = document.getElementById('MyChangePassModel');
+    if (modal != null) {
+      modal.style.display = 'block';
+      //this.makePayment()
+    }
+  }
+
+  closeChangePassModel() {
+    const modal = document.getElementById('MyChangePassModel');
+    if (modal != null) {
+      modal.style.display = 'none';
+    }
+  }
   toggleNavbar() {
     this.isNavbarOpen = !this.isNavbarOpen;
   }
@@ -314,25 +401,54 @@ getAllSpecilization()
 
   onSubmitCreateAppointment()
   {
-    debugger
+    
     this.closeBooAppointmentModal()
-    this.appointObj={
-      providerId:this.practionerIdForAppointment,
-      fee:this.practionerChargesForAppointment,
 
-      patientId:this.userId,
-
-      appointmentDate:this.bookAppointmentForm.get("appointmentDate").value,
-      appointmentTime:this.bookAppointmentForm.get("appointmentTime").value,
-      chiefComplaint:this.bookAppointmentForm.get("chiefComplained").value
+    if(this.isProvider)
+    {
+      this.appointObj={
+        providerId:this.userId,
+        fee:this.UserObject.visiting_Charge,
+  
+        patientId:this.practionerIdForAppointment,
+  
+        appointmentDate:this.bookAppointmentForm.get("appointmentDate").value,
+        appointmentTime:this.bookAppointmentForm.get("appointmentTime").value,
+        chiefComplaint:this.bookAppointmentForm.get("chiefComplained").value
+      }
     }
+  
+    if(!this.isProvider)
+    {
+      this.appointObj={
+        providerId:this.practionerIdForAppointment,
+        fee:this.practionerChargesForAppointment,
+  
+        patientId:this.userId,
+  
+        appointmentDate:this.bookAppointmentForm.get("appointmentDate").value,
+        appointmentTime:this.bookAppointmentForm.get("appointmentTime").value,
+        chiefComplaint:this.bookAppointmentForm.get("chiefComplained").value
+      }
+
+    }
+      
+  
 
     this.service.DoverifyAvailableAppointment(this.appointObj).subscribe({
     next:(res:any)=>{
         if(res.isSuccess)
         {
-          this.closeBooAppointmentModal()
-          this.openMakePaymentModel()
+          if(!this.isProvider){
+            this.closeBooAppointmentModal()
+            this.openMakePaymentModel()
+          }
+          else if(this.isProvider)
+          {
+            this.onclickMakePayment()
+          }
+
+         
         }
         else
         {
@@ -346,8 +462,8 @@ getAllSpecilization()
   }
 
   onClickGoToAppointment(data:any)
-  {
-      this.router.navigateByUrl("/goToAppointment/:data.id")
+  { 
+      this.router.navigateByUrl(`/goToAppointment/${data.id}`)
   }
 
   onclickMakePayment()
@@ -375,7 +491,7 @@ getAllSpecilization()
       data.appointmentDate,
        'yyyy-MM-dd'
     );
-    debugger
+    
     console.log (apointmentDate)
 
     this.openEditAppointmentModel()
@@ -416,7 +532,7 @@ getAllSpecilization()
  
   onClickCancelAppointment(data:any)
   {
-    debugger
+    
     Swal.fire({
       title: 'Are you sure?',
       text: `Do you want to cancel the appointment?`,

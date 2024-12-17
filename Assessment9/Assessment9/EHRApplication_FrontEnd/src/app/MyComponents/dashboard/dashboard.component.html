@@ -10,7 +10,9 @@
 
     <!-- Links -->
     <div class="navbar-links" [class.active]="isNavbarOpen">
-      <a  (click)="openaddAppointmentModel()">Add Appointments</a>
+      <a  (click)="openaddAppointmentModel()" *ngIf="!isProvider">Add Appointments</a>
+      <a  (click)="openaddAppointmentModelByDoctor()" *ngIf="isProvider">Add Appointments</a>
+      <a (click)="openChangePassModel()">Change Password</a>
     </div>
 
     <!-- Profile Icon -->
@@ -29,7 +31,7 @@
 
   <h1>No Appointment Found</h1>
   <p>It seems like there are no appointments scheduled at the moment.</p>
-  <button class="btn btn-primary" (click)="openaddAppointmentModel()"> add New Appointment</button>
+  <button class="btn btn-primary" (click)="openaddAppointmentModel()" *ngIf="!isProvider"> add New Appointment</button>
 </div>
 
 
@@ -227,7 +229,7 @@
     <thead>
       <tr>
   
-  
+        <th>Appointment Id</th>
         <th>patient name</th>
        
        
@@ -243,7 +245,7 @@
       <tr *ngFor="let appointment of allAppointments"
        [class.disabled-row]="appointment.appointmentStatus!='Scheduled'"
        >
-  
+        <td>{{appointment.id}}</td>
         <td>{{ appointment.patientFullName }}</td>
     
   
@@ -253,7 +255,7 @@
         <td>{{appointment.chiefComplaint}}</td>
   
         <td><button class="btn btn-primary" (click)="onClickGoToAppointment(appointment)">Go To Appointment</button>&nbsp;
-          <button class="btn btn-danger" (click)="onClickCancelAppointment(appointment)">cancel</button>
+          <!-- <button class="btn btn-danger" (click)="onClickCancelAppointment(appointment)">cancel</button> -->
         </td>
   
       </tr>
@@ -319,7 +321,8 @@
       </form>
       <!-- Modal Footer -->
       <div class="modal-footer profile-modal-footer">
-        <button class="btn btn-primary"[disabled]="bookAppointmentForm.invalid" (click)="onSubmitCreateAppointment()"> submit</button>
+        <button class="btn btn-primary"[disabled]="bookAppointmentForm.invalid" (click)="onSubmitCreateAppointment()" *ngIf="!isProvider"> submit</button>
+        <button class="btn btn-primary"[disabled]="bookAppointmentForm.invalid" (click)="onSubmitCreateAppointment()" *ngIf="isProvider">Confirm Booking</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
           (click)="closeBooAppointmentModal()">Close</button>
       </div>
@@ -473,3 +476,126 @@
       </div>
     </div>
     </div>
+
+    <div class="modal" id="addAppointmentByDoctor">
+      <div class="modal-dialog">
+        <div class="modal-content profile-modal" style="width: 480px;">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h2 class="modal-title">add Appointment </h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeaddAppointmentModelByDoctor()"></button>
+          </div>
+    
+          <!-- Modal Body -->
+    
+          
+          <table border="1" style="width: 300px; border-collapse: collapse;">
+            <thead>
+              <tr>
+                <th>Profile</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Blood Group</th>
+                <th>Gender</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let patient of allPatients">
+                <td>
+                  <img [src]="patient.profile" alt="Profile Image" width="50" height="50" style="border-radius: 50%;" />
+                </td>
+                <td>{{ patient.firstName }}</td>
+                <td>{{ patient.lastName }}</td>
+                <td>{{ patient.bloodGroup }}</td>
+                <td>{{ patient.gender }}</td>
+               
+                <td><button class="btn btn-primary" (click)="onclickBookAppointment(patient)">Book AppointMent</button></td>
+              </tr>
+            </tbody>
+          </table>
+    
+    
+          <!-- Modal Footer -->
+          <div class="modal-footer profile-modal-footer">
+            <!-- <button class="btn btn-primary" 
+            (click)="onclickMakePayment()"> makePayment</button> -->
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+              (click)="closeaddAppointmentModelByDoctor()">Close</button>
+          </div>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="modal" id="MyChangePassModel">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h2 class="modal-title">Change password</h2>
+                <button type="button" class="btn-close " (click)="closeChangePassModel()" data-bs-dismiss="modal"></button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="container">
+        
+                  <form [formGroup]="changePasswordForm">
+                    <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+        
+                    <div>
+                      <label for="password">New Password</label>
+                      <input [type]="showPassword ? 'text' : 'password'" id="password" formControlName="password"
+                        placeholder="Enter new password"
+                        [class.invalid]="changePasswordForm.get('password')?.invalid && changePasswordForm.get('password')?.touched" />
+        
+                      <div class="error"
+                        *ngIf="changePasswordForm.get('password')?.errors?.['required'] && changePasswordForm.get('password')?.touched">
+                        Password is required.
+                      </div>
+                      <div class="error"
+                        *ngIf="changePasswordForm.get('password')?.errors?.['minlength'] && changePasswordForm.get('password')?.touched">
+                        Password must be at least 8 characters long.
+                      </div>
+                      <div class="error"
+                        *ngIf="changePasswordForm.get('password')?.errors?.['pattern'] && changePasswordForm.get('password')?.touched">
+                        Password must contain an uppercase letter, a number, and a special character.
+                      </div>
+                    </div>
+        
+                    <div>
+                      <label for="confirmPassword">Confirm Password</label>
+                      <input [type]="showPassword ? 'text' : 'password'" id="confirmPassword" formControlName="confirmPassword"
+                        placeholder="Confirm new password"
+                        [class.invalid]="changePasswordForm.get('confirmPassword')?.invalid && changePasswordForm.get('confirmPassword')?.touched" />
+                      <div class="error"
+                        *ngIf="changePasswordForm.errors?.['mismatch'] && changePasswordForm.get('confirmPassword')?.touched">
+                        Passwords do not match.
+                      </div>
+                      <button type="button" class="btn btn-outline-secondary" (click)="togglePasswordVisibility()">show
+                        Password</button>
+        
+                    </div>
+        
+        
+                  </form>
+                </div>
+        
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary " [disabled]="changePasswordForm.invalid"
+                  (click)="onSubmitChangePassword()">Submit</button>
+        
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
+                  (click)="closeChangePassModel()">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+        

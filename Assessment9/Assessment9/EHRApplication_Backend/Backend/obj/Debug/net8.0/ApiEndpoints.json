@@ -145,6 +145,22 @@
   },
   {
     "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "DoChangePassword",
+    "RelativePath": "api/User/changePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changepass",
+        "Type": "App.Core.ModelsDto.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
     "Method": "DoCompleteAppointment",
     "RelativePath": "api/User/CompleteAppointment/{id}",
     "HttpMethod": "POST",

@@ -109,5 +109,11 @@ namespace EHRApplication.Controllers
             var result= await _mediator.Send(new CompleteAppointmentCommand { AppointmentId = id });
             return Ok(result);
         }
+        [HttpPost("changePassword")]
+        public async Task<IActionResult>DoChangePassword(ChangePasswordDto changepass)
+        {
+            var result=await _mediator.Send(new ChangePasswordCommand { chnagePassObj = changepass });
+            return Ok(result);
+        }
     }
 }

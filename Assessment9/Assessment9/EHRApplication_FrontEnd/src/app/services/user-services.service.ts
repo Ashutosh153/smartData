@@ -94,4 +94,8 @@ public DoAddSoapNoteAndCompleteAppointment(obj:any)
 {
   return this.http.post("https://localhost:7053/api/Appointment/AddSoapNoteAndCompleteAppointment",obj)
 }
+public DoChangePassword(obj:any)
+{
+  return this.http.post("https://localhost:7053/api/User/changePassword",obj)
+}
 }
