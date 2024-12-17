@@ -17,7 +17,7 @@ export class HomeComponetComponent {
   }
   onClickDoctor(){
     debugger
-    this.router.navigate(["login/2"])
+    this.router.navigateByUrl("login/2")
   }
 
 }

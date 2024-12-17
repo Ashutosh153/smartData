@@ -1,6 +1,7 @@
 ﻿using App.Core.App.Command;
 using App.Core.App.Query;
 using App.Core.ModelsDto;
+using Domain.Models.User;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -53,7 +54,18 @@ namespace EHRApplication.Controllers
             return Ok(result);
         }
 
-
+        [HttpGet("getUserDetailsForAppointment/{id}")]
+        public async Task<IActionResult>DoGetUserdetailsForAppointment(int id)
+        {
+            var result = await _mediator.Send(new GetUserForAppointmentQuerry { id = id });
+            return Ok(result);
+        }
+        [HttpPost("AddSoapNoteAndCompleteAppointment")]
+        public async Task<IActionResult>DoAddSoapNote(SOAPNotesDetails soapNote)
+        {
+            var result= await _mediator.Send(new AddNewSoapNoteCommand { newSoapNote = soapNote });
+            return Ok(result);
+        }
 
     }
 }

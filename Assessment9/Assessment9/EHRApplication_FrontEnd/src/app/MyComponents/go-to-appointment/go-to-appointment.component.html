@@ -1,0 +1,115 @@
+
+<section style="background-color: #eee;">
+    <button class="btn btn-secondary">back to home</button>
+    <div class="container py-5">
+        
+      <div class="row">
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-body text-center">
+              <img [src]="patientObject?.profile" alt="avatar" class="rounded-circle img-fluid"
+                style="width: 150px;height: 140px;">
+             
+             
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-8">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-3">
+                  <p >Full Name </p>
+                </div>{{patientObject?.patientName}}
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0"></p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p >DOB </p>
+                </div>{{patientObject?.dob}}
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0"></p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Gender </p>
+                </div>{{patientObject?.gender}}
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0"></p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">AppointMent Date </p>
+                </div>{{patientObject?.appointmentDate}}
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0"></p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">AppointMent Time </p>
+                </div>{{patientObject?.appointmentTime}}
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0"></p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Chief complaint </p>
+                </div>{{patientObject?.chiefComplaint}}
+                <div class="col-sm-9">
+                  <p class="text-muted mb-0"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <form [formGroup]="SOAPForm">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <label>Subjective</label>
+            <textarea class="form-control" formControlName="Subjective"></textarea>
+          </div>
+          <div class="col-md-6">
+              <label>Objective</label>
+            <textarea class="form-control" formControlName="Objective"></textarea>
+          </div>
+        </div>
+        
+        <div class="row mt-3">
+            <div class="col-md-6">
+              <label>Assessment</label>
+            <textarea class="form-control" formControlName="Assessment"></textarea>
+          </div>
+          <div class="col-md-6">
+              <label>Plan </label>
+            <textarea class="form-control" formControlName="Plan"></textarea>
+          </div>
+        </div>
+      </div>
+    </form>
+
+
+    </div>
+   
+      <button type="button" [disabled]="SOAPForm.invalid" 
+      class="btn btn-primary" (click)="onClickCompleteAppointment()">Complete Appointment</button>
+  </section>

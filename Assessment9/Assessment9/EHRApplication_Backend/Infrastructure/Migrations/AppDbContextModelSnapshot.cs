@@ -123,6 +123,38 @@ namespace Infrastructure.Migrations
                     b.ToTable("OtpDetails");
                 });
 
+            modelBuilder.Entity("Domain.Models.User.SOAPNotesDetails", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<int>("AppointmnetID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Assessment")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Objective")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Plan")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Subjective")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("soapNotes");
+                });
+
             modelBuilder.Entity("Domain.Models.User.Specialisation", b =>
                 {
                     b.Property<int>("Id")

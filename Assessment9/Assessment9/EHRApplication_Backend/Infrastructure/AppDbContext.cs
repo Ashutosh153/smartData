@@ -28,6 +28,7 @@ namespace Infrastructure
         public DbSet<Country> Country { get; set; }
 
         public DbSet<Appointments>  appointments { get; set; }
+        public DbSet<SOAPNotesDetails> soapNotes { get; set; }
     
     }
 }

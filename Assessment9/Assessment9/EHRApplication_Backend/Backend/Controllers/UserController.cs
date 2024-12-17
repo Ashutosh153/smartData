@@ -97,5 +97,17 @@ namespace EHRApplication.Controllers
             var result=await _mediator.Send(new GetAllPractionerQuerry { specilizationId = id });
             return Ok(result);
         }
+        [HttpPost("CancelAppointment/{id}")]
+        public async Task<IActionResult>DoCancelAppointment(int id)
+        {
+            var result=await _mediator.Send(new CancelAppointmentCommand { AppointmentId = id });
+            return Ok(result);
+        }
+        [HttpPost("CompleteAppointment/{id}")]
+        public async Task<IActionResult>DoCompleteAppointment(int id)
+        {
+            var result= await _mediator.Send(new CompleteAppointmentCommand { AppointmentId = id });
+            return Ok(result);
+        }
     }
 }

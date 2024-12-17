@@ -2,9 +2,10 @@ import { Component, inject, OnInit } from '@angular/core';
 import { jwtDecode } from 'jwt-decode';
 import { UserServicesService } from '../../services/user-services.service';
 import { CommonModule, DatePipe } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Toast, ToastrService } from 'ngx-toastr';
+import Swal from 'sweetalert2';
 
 
 @Component({
@@ -15,8 +16,11 @@ import { Toast, ToastrService } from 'ngx-toastr';
   styleUrl: './dashboard.component.css'
 })
 
+
 export class DashboardComponent implements OnInit{
 
+  
+  
   minTime: string = '';
   userId:any=0
   PatientObject:any
@@ -40,12 +44,14 @@ export class DashboardComponent implements OnInit{
   maxDate = this.TodaysDate.toISOString().substring(0, 10);
   service=inject(UserServicesService)
   toaster=inject(ToastrService)
+    router=inject(Router)
 
   ngOnInit(): void {
+    
     const now = new Date();
     const nextHour = new Date(now.setHours(now.getHours() + 1));
     this.minTime = nextHour.toISOString().substring(11, 16);
-
+   
    // const token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYXZldG9rZW5zIiwiaWQiOiIzIiwiZW1haWwiOiJhc2h1dG9zaGd1cHRhNjE2ODZAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMiIsImV4cCI6MTczNDExNjI5NiwiaXNzIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIiwiYXVkIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIn0.NGD2eGG_58s40CyQCCVYf2V0RQHpbixRxSlI-4aMBJM"
    //const token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYXZldG9rZW5zIiwiaWQiOiI2IiwiZW1haWwiOiJhc2h1dG9zaGd1cHRhQHlvcG1haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTczNDMyNzI4MiwiaXNzIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIiwiYXVkIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIn0.Py3QCkuA7H-5oJyIyw2RiGS-VuCQ-CIWSjUe0g_nKt8"
    const token=localStorage.getItem("token")
@@ -56,7 +62,7 @@ export class DashboardComponent implements OnInit{
       
       this.service.DoGetUserById(this.userId).subscribe({
         next:(res:any)=>{
-          
+        debugger
           if(res.isSuccess)
           {
            
@@ -68,7 +74,7 @@ export class DashboardComponent implements OnInit{
             );
             if(res.data[0].userType_ID==1)
             {
-              debugger
+              
               
               this.UserObject={
               firstName:res.data[0].firstName,
@@ -134,7 +140,7 @@ export class DashboardComponent implements OnInit{
           
           console.log(this.UserObject);
           
-          
+         
         }
       })
 
@@ -170,7 +176,7 @@ getAllPAtients()
       next:(res:any)=>{
         if(res.isSuccess)
         {
-          debugger
+          
           this.allAppointments=res.data
        
         }
@@ -216,6 +222,7 @@ getAllSpecilization()
   }
 
   closeBooAppointmentModal() {
+
     const modal = document.getElementById('BooAppointmentModel');
     if (modal != null) {
       modal.style.display = 'none';
@@ -223,6 +230,7 @@ getAllSpecilization()
   }
 
   openMakePaymentModel() {
+        this.bookAppointmentForm.reset();
     const modal = document.getElementById('MakePaymentModel');
     if (modal != null) {
       modal.style.display = 'block';
@@ -231,6 +239,7 @@ getAllSpecilization()
   }
 
   closeMakePaymentModel() {
+       this.bookAppointmentForm.reset();
     const modal = document.getElementById('MakePaymentModel');
     if (modal != null) {
       modal.style.display = 'none';
@@ -305,6 +314,7 @@ getAllSpecilization()
 
   onSubmitCreateAppointment()
   {
+    debugger
     this.closeBooAppointmentModal()
     this.appointObj={
       providerId:this.practionerIdForAppointment,
@@ -331,7 +341,13 @@ getAllSpecilization()
     }
     })
 
- 
+    this.getAllAppointments()
+
+  }
+
+  onClickGoToAppointment(data:any)
+  {
+      this.router.navigateByUrl("/goToAppointment/:data.id")
   }
 
   onclickMakePayment()
@@ -342,6 +358,7 @@ getAllSpecilization()
         {
           this.getAllAppointments()
           this.toaster.success(res.message)
+          this.closeMakePaymentModel()
         }
         else{
           this.toaster.error(res.message)
@@ -377,6 +394,20 @@ getAllSpecilization()
       appointmentTime: this.bookAppointmentForm.get("appointmentTime").value,
       chiefComplaint:this.bookAppointmentForm.get("chiefComplained").value
     }
+
+    this.service.DoUpdateAppointment(this.editAppointmentObj).subscribe({
+      next:(res:any)=>{
+        if(res.isSuccess)
+        {
+          this.toaster.success(res.message)
+          this.closeEditAppointmentModel()
+          this.getAllAppointments()
+        }
+        else{
+          this.toaster.error(res.message)
+        }
+      }
+    })
    
 
     console.log(this.editAppointmentObj);
@@ -385,8 +416,46 @@ getAllSpecilization()
  
   onClickCancelAppointment(data:any)
   {
+    debugger
+    Swal.fire({
+      title: 'Are you sure?',
+      text: `Do you want to cancel the appointment?`,
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Yes',
+      cancelButtonText: 'Cancel',
+      reverseButtons: true,
+    }).then((result: any) => {
+      if (result.isConfirmed) {
+        this.service.DoCancelAppointment(data.id).subscribe({
+          next: (res: any) => {
+            if (res.isSuccess) {
+              console.log('success');
+              Swal.fire(res.message, '', 'success');
+              //alert(res.message)
 
+              this.getAllAppointments();
+            } else this.getAllAppointments();
+          },
+          error: (e: any) => {
+            console.log(e);
+          },
+        });
+      } else {
+        // If user cancels, do nothing
+        console.log('error occured while deleting product');
+      }
+    });
   }
   
+  
+  isDisabledRow(appointment: any): boolean {
+
+    const formattedAppointmentDate = new Date(appointment.appointmentDate).toISOString().split('T')[0];
+    return appointment.appointmentStatus !== 'Scheduled' || formattedAppointmentDate < this.maxDate;
+  }
+
 
 }
+
+

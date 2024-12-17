@@ -7,6 +7,7 @@ import { ForgetPasswordComponent } from './MyComponents/forget-password/forget-p
 import { DashboardComponent } from './MyComponents/dashboard/dashboard.component';
 import { UpdateProfileComponent } from './MyComponents/update-profile/update-profile.component';
 import { UpdatePractitionerProfileComponent } from './MyComponents/update-practitioner-profile/update-practitioner-profile.component';
+import { GoToAppointmentComponent } from './MyComponents/go-to-appointment/go-to-appointment.component';
 
 export const routes: Routes = [
     {
@@ -40,5 +41,8 @@ export const routes: Routes = [
     },{
         path:"updatePractProfile",
         component:UpdatePractitionerProfileComponent
+    },{
+        path:"goToAppointment/:id",
+        component:GoToAppointmentComponent
     }
 ];

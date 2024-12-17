@@ -10,7 +10,7 @@
 
     <!-- Links -->
     <div class="navbar-links" [class.active]="isNavbarOpen">
-      <a routerLink="/appointments" (click)="openaddAppointmentModel()">Add Appointments</a>
+      <a  (click)="openaddAppointmentModel()">Add Appointments</a>
     </div>
 
     <!-- Profile Icon -->
@@ -198,7 +198,8 @@
   </thead>
   <tbody>
     <tr *ngFor="let appointment of allAppointments"
-     [class.disabled-row]="appointment.appointmentStatus!='Scheduled'">
+    [class.disabled-row]="isDisabledRow(appointment)"
+     >
 
       <td>{{ appointment.practionerFullName }}</td>
       <td>{{ appointment.practionerSpecialisation }}</td>
@@ -240,7 +241,8 @@
     </thead>
     <tbody>
       <tr *ngFor="let appointment of allAppointments"
-       [class.disabled-row]="appointment.appointmentStatus!='Scheduled'">
+       [class.disabled-row]="appointment.appointmentStatus!='Scheduled'"
+       >
   
         <td>{{ appointment.patientFullName }}</td>
     
@@ -250,7 +252,7 @@
         <td>{{appointment.appointmentStatus}}</td>
         <td>{{appointment.chiefComplaint}}</td>
   
-        <td><button class="btn btn-primary" (click)="onClickEditAppointment(appointment)">edit</button>&nbsp;
+        <td><button class="btn btn-primary" (click)="onClickGoToAppointment(appointment)">Go To Appointment</button>&nbsp;
           <button class="btn btn-danger" (click)="onClickCancelAppointment(appointment)">cancel</button>
         </td>
   
@@ -317,7 +319,7 @@
       </form>
       <!-- Modal Footer -->
       <div class="modal-footer profile-modal-footer">
-        <button class="btn btn-primary" (click)="onSubmitCreateAppointment()"> submit</button>
+        <button class="btn btn-primary"[disabled]="bookAppointmentForm.invalid" (click)="onSubmitCreateAppointment()"> submit</button>
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal"
           (click)="closeBooAppointmentModal()">Close</button>
       </div>

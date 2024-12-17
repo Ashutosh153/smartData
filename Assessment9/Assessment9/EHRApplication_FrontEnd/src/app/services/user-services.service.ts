@@ -78,4 +78,20 @@ public DoGetOtherTypeUser(obj:any)
 {
   return this.http.get(`https://localhost:7053/api/User/getAllUsers/${obj}`)
 }
+public DoCancelAppointment(obj:any)
+{
+  return this.http.post(`https://localhost:7053/api/User/CancelAppointment/${obj}`,obj)
+}
+public DoCompleteAppointment(obj:any)
+{
+  return this.http.post(`https://localhost:7053/api/User/CompleteAppointment/${obj}`,obj)
+}
+public DoGetPatientDetailsForAppointment(obj:any)
+{
+  return this.http.get(`https://localhost:7053/api/Appointment/getUserDetailsForAppointment/${obj}`)
+}
+public DoAddSoapNoteAndCompleteAppointment(obj:any)
+{
+  return this.http.post("https://localhost:7053/api/Appointment/AddSoapNoteAndCompleteAppointment",obj)
+}
 }
