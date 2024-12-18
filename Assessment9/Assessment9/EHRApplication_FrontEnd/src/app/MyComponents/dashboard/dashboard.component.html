@@ -1,7 +1,7 @@
 <nav class="navbar">
   <div class="navbar-container">
     <!-- Brand Name -->
-    <a class="navbar-brand" >MyApp</a>
+    <a class="navbar-brand" >MyEHRApplication</a>
 
     <!-- Hamburger menu for small screens -->
     <button class="navbar-toggler" (click)="toggleNavbar()">
@@ -13,6 +13,8 @@
       <a  (click)="openaddAppointmentModel()" *ngIf="!isProvider">Add Appointments</a>
       <a  (click)="openaddAppointmentModelByDoctor()" *ngIf="isProvider">Add Appointments</a>
       <a (click)="openChangePassModel()">Change Password</a>
+      <a routerLink="/">LogOut</a>
+      <a routerLink="/viewCompleteAppointment">view Completed Appointments</a>
     </div>
 
     <!-- Profile Icon -->
@@ -243,6 +245,7 @@
     </thead>
     <tbody>
       <tr *ngFor="let appointment of allAppointments"
+      
        [class.disabled-row]="appointment.appointmentStatus!='Scheduled'"
        >
         <td>{{appointment.id}}</td>
@@ -419,7 +422,7 @@
 
 <div class="modal" id="addAppointment">
   <div class="modal-dialog">
-    <div class="modal-content profile-modal" style="width: 700px;">
+    <div class="modal-content profile-modal" style="width: 720px;">
 
       <!-- Modal Header -->
       <div class="modal-header">
@@ -437,7 +440,9 @@
         </select>
 
       </div>
-      <table border="1" style="width: 250px; border-collapse: collapse;">
+      <div *ngIf="allPractioners.length==0"><h3>No Doctor With required specialization is available 
+        right now,Please select other specialisation. </h3></div>
+      <table border="1" style="width: 250px; border-collapse: collapse;" *ngIf="allPractioners.length>0">
         <thead>
           <tr>
             <th>Profile</th>

@@ -1,18 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|c:\\users\\asus\\desktop\\smartdata\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\backend\\controllers\\razorpaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|solutionrelative:backend\\controllers\\razorpaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\backend\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|solutionrelative:backend\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\modelsdto\\addappointmentbypaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\modelsdto\\addappointmentbypaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\command\\addappointmentafterpaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\addappointmentafterpaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\command\\addnewsoapnotecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\addnewsoapnotecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\command\\createapponintmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\createapponintmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|solutionrelative:backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\asus\\desktop\\smartdata\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\modelsdto\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\modelsdto\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|c:\\users\\asus\\desktop\\smartdata\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\modelsdto\\addappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\modelsdto\\addappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA88485B-A25F-4136-BE73-0D84BD125FF9}|Backend\\EHRApplication.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\modelsdto\\paymentverificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\modelsdto\\paymentverificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\infrastructure\\service\\razorpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD3F7DD-21E3-456E-85CB-92D1A6545B4D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\service\\razorpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\interface\\irazorpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\interface\\irazorpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\query\\getallappointmentsquerry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\query\\getallappointmentsquerry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\query\\getallsoapnotesbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\query\\getallsoapnotesbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\modelsdto\\getallsoapnotesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\modelsdto\\getallsoapnotesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\query\\verifyotpquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\query\\verifyotpquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\command\\updateappointmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\updateappointmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ashutoshgupta\\AppData\\Local\\SourceServer\\24136630b11384f3b8b22d32c7f4f63707a8d07a0487ad6b61d0fb0340932f37\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddNewSoapNoteCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\modelsdto\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\modelsdto\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +89,249 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddAppointmentAfterPaymentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddAppointmentAfterPaymentCommand.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Command\\AddAppointmentAfterPaymentCommand.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddAppointmentAfterPaymentCommand.cs",
+              "RelativeToolTip": "Core\\App\\Command\\AddAppointmentAfterPaymentCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T11:27:50.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddAppointmentByPaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\AddAppointmentByPaymentDto.cs",
+              "RelativeDocumentMoniker": "Core\\ModelsDto\\AddAppointmentByPaymentDto.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\AddAppointmentByPaymentDto.cs",
+              "RelativeToolTip": "Core\\ModelsDto\\AddAppointmentByPaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T11:26:20.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddAppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\AddAppointmentDto.cs",
+              "RelativeDocumentMoniker": "Core\\ModelsDto\\AddAppointmentDto.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\AddAppointmentDto.cs",
+              "RelativeToolTip": "Core\\ModelsDto\\AddAppointmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T11:25:04.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateApponintmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\CreateApponintmentCommand.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Command\\CreateApponintmentCommand.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\CreateApponintmentCommand.cs",
+              "RelativeToolTip": "Core\\App\\Command\\CreateApponintmentCommand.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T11:12:35.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAgwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:10:26.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentVerificationDto.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\PaymentVerificationDto.cs",
+              "RelativeDocumentMoniker": "Core\\ModelsDto\\PaymentVerificationDto.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\PaymentVerificationDto.cs",
+              "RelativeToolTip": "Core\\ModelsDto\\PaymentVerificationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:01:32.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RazorpayService.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Infrastructure\\Service\\RazorpayService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Service\\RazorpayService.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Infrastructure\\Service\\RazorpayService.cs",
+              "RelativeToolTip": "Infrastructure\\Service\\RazorpayService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:57:16.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRazorpayService.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\Interface\\IRazorpayService.cs",
+              "RelativeDocumentMoniker": "Core\\Interface\\IRazorpayService.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\Interface\\IRazorpayService.cs",
+              "RelativeToolTip": "Core\\Interface\\IRazorpayService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:52:04.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RazorpayController.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\RazorpayController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\RazorpayController.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\RazorpayController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\RazorpayController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:48:18.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VerifyOtpQuery.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\VerifyOtpQuery.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Query\\VerifyOtpQuery.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\VerifyOtpQuery.cs",
+              "RelativeToolTip": "Core\\App\\Query\\VerifyOtpQuery.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwD4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T08:21:53.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T08:03:59.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllSoapNotesDto.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\GetAllSoapNotesDto.cs",
+              "RelativeDocumentMoniker": "Core\\ModelsDto\\GetAllSoapNotesDto.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\GetAllSoapNotesDto.cs",
+              "RelativeToolTip": "Core\\ModelsDto\\GetAllSoapNotesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T07:52:36.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetAllSoapNotesById.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\GetAllSoapNotesById.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Query\\GetAllSoapNotesById.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\GetAllSoapNotesById.cs",
+              "RelativeToolTip": "Core\\App\\Query\\GetAllSoapNotesById.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:38:56.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateAppointmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\UpdateAppointmentCommand.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Command\\UpdateAppointmentCommand.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\UpdateAppointmentCommand.cs",
+              "RelativeToolTip": "Core\\App\\Command\\UpdateAppointmentCommand.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAIBJwCsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:31:20.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddNewSoapNoteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\AppData\\Local\\SourceServer\\24136630b11384f3b8b22d32c7f4f63707a8d07a0487ad6b61d0fb0340932f37\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddNewSoapNoteCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\24136630b11384f3b8b22d32c7f4f63707a8d07a0487ad6b61d0fb0340932f37\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddNewSoapNoteCommand.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\AppData\\Local\\SourceServer\\24136630b11384f3b8b22d32c7f4f63707a8d07a0487ad6b61d0fb0340932f37\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddNewSoapNoteCommand.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\24136630b11384f3b8b22d32c7f4f63707a8d07a0487ad6b61d0fb0340932f37\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddNewSoapNoteCommand.cs [Read Only]",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwCQAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:45:05.3Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddNewSoapNoteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddNewSoapNoteCommand.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Command\\AddNewSoapNoteCommand.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddNewSoapNoteCommand.cs",
+              "RelativeToolTip": "Core\\App\\Command\\AddNewSoapNoteCommand.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAtwA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:23:25.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetAllAppointmentsQuerry.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\GetAllAppointmentsQuerry.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Query\\GetAllAppointmentsQuerry.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\GetAllAppointmentsQuerry.cs",
+              "RelativeToolTip": "Core\\App\\Query\\GetAllAppointmentsQuerry.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T04:41:18.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\UserController.cs",
               "RelativeToolTip": "Backend\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAwHEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAwGwAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T18:48:35.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 19,
               "Title": "ChangePasswordDto.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\ChangePasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\ChangePasswordDto.cs",
               "RelativeDocumentMoniker": "Core\\ModelsDto\\ChangePasswordDto.cs",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\ChangePasswordDto.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\ChangePasswordDto.cs",
               "RelativeToolTip": "Core\\ModelsDto\\ChangePasswordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,13 +340,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\appsettings.json",
               "RelativeToolTip": "Backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-17T15:22:34.744Z",
               "EditorCaption": ""

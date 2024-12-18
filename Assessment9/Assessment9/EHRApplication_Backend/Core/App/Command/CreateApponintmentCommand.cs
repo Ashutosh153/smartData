@@ -45,6 +45,8 @@ namespace App.Core.App.Command
                            $"the appointment has been scheduled on {request.AddAppointmentDto.AppointmentDate}  at{request.AddAppointmentDto.AppointmentTime} \n successfully");
 
 
+
+
             return new ResponceDto
             {
                 message="appointment created successfully",

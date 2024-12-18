@@ -66,6 +66,13 @@ namespace EHRApplication.Controllers
             var result= await _mediator.Send(new AddNewSoapNoteCommand { newSoapNote = soapNote });
             return Ok(result);
         }
+        [HttpGet("getAllSoapNotes/{id}")]
+
+        public async Task<IActionResult>DoGEtAllSOapNotes(int id)
+        {
+            var result = await _mediator.Send(new GetAllSoapNotesById { Id = id });
+            return Ok(result);
+        }
 
     }
 }

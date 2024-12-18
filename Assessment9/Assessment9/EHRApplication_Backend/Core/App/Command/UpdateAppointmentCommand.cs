@@ -38,9 +38,9 @@ namespace App.Core.App.Command
                 await _appDbContext.SaveChangesAsync();
 
 
-                if(OldAppointment.AppointmentDate!=request.updateappointment.AppointmentDate||
-                    OldAppointment.AppointmentTime!=request.updateappointment.AppointmentTime||
-                    OldAppointment.ChiefComplaint!=request.updateappointment.ChiefComplaint)
+                //if(OldAppointment.AppointmentDate!=request.updateappointment.AppointmentDate||
+                //    OldAppointment.AppointmentTime!=request.updateappointment.AppointmentTime||
+                //    OldAppointment.ChiefComplaint!=request.updateappointment.ChiefComplaint)
                 {
 
                     var patient = await _appDbContext.Set<UserDetails>().FirstOrDefaultAsync((x) => x.Id == OldAppointment.PatientId);

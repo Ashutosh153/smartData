@@ -8,6 +8,8 @@ import { DashboardComponent } from './MyComponents/dashboard/dashboard.component
 import { UpdateProfileComponent } from './MyComponents/update-profile/update-profile.component';
 import { UpdatePractitionerProfileComponent } from './MyComponents/update-practitioner-profile/update-practitioner-profile.component';
 import { GoToAppointmentComponent } from './MyComponents/go-to-appointment/go-to-appointment.component';
+import { authGuard } from './guards/auth.guard';
+import { ViewCompleteAppointmentsComponent } from './MyComponents/view-complete-appointments/view-complete-appointments.component';
 
 export const routes: Routes = [
     {
@@ -33,16 +35,25 @@ export const routes: Routes = [
     },
     {
         path:"dashboard",
-        component:DashboardComponent
+        component:DashboardComponent,
+        canActivate:[authGuard]
     },
     {
         path:"updateProfile",
-        component:UpdateProfileComponent
+        component:UpdateProfileComponent,
+        canActivate:[authGuard]
     },{
         path:"updatePractProfile",
-        component:UpdatePractitionerProfileComponent
+        component:UpdatePractitionerProfileComponent,
+        canActivate:[authGuard]
     },{
         path:"goToAppointment/:id",
-        component:GoToAppointmentComponent
+        component:GoToAppointmentComponent,
+        canActivate:[authGuard]
+    },
+    {
+        path:"viewCompleteAppointment",
+        component:ViewCompleteAppointmentsComponent,
+        canActivate:[authGuard]
     }
 ];

@@ -81,6 +81,22 @@
   },
   {
     "ContainingType": "EHRApplication.Controllers.AppointmentController",
+    "Method": "DoGEtAllSOapNotes",
+    "RelativePath": "api/Appointment/getAllSoapNotes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.AppointmentController",
     "Method": "DoGetUserdetailsForAppointment",
     "RelativePath": "api/Appointment/getUserDetailsForAppointment/{id}",
     "HttpMethod": "GET",
@@ -112,6 +128,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EHRApplication.Controllers.RazorpayController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Razorpay/create-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.RazorpayController",
+    "Method": "VerifyPayment",
+    "RelativePath": "api/Razorpay/verify-payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "App.Core.ModelsDto.PaymentVerificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EHRApplication.Controllers.SaveImageController",
     "Method": "DoUploadFile",
     "RelativePath": "api/SaveImage/saveImage",
@@ -123,6 +171,22 @@
         "Name": "file",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRApplication.Controllers.UserController",
+    "Method": "DoAddAppointmentAfterPayment",
+    "RelativePath": "api/User/addAppointmentAfterPayment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addAppointmentByPaymentDto",
+        "Type": "App.Core.ModelsDto.AddAppointmentByPaymentDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

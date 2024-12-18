@@ -60,6 +60,7 @@ namespace App.Core.App.Query
                                  new Claim(JwtRegisteredClaimNames.Sub,_configuration["jwt:subject"]),
                                  new Claim("id",isExist.Id.ToString()),
                                  new Claim("email",isExist.Email),
+                                 new Claim("userType",isExist.UserType_ID.ToString()),
                                  new Claim(ClaimTypes.Role,isExist.UserType_ID.ToString())
                           };
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["jwt:key"]));

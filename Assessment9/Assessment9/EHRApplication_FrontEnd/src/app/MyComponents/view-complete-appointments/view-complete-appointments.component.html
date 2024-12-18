@@ -1,0 +1,47 @@
+<div >
+    <a routerLink="/dashboard"><button type="button" class="btn btn-secondary">Back To Dashboard</button></a>
+
+<div *ngIf="allSoapNotesDetails.length==0"><h2>No Completed Appointment with SOAPNOOTES is  Available</h2> </div>
+
+    <table border="1" style="width: 100%; border-collapse: collapse;" *ngIf="allSoapNotesDetails.length>0">
+      <thead>
+        <tr>
+    
+    
+          <th [width]="150">AppointMent ID</th>
+          <th>Date Of Appointment</th>
+            <th *ngIf="isPatient">Doctor Name</th>
+          <th *ngIf="isProvider">Patient Name</th>
+          <th>ChiefComplaint</th>
+          <th>subjective</th>
+          <th>objective</th>
+          <th>assessment</th>
+          <th>plan</th>
+         
+    
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let soapnoteObj of allSoapNotesDetails"
+        
+         >
+            <td>{{soapnoteObj.appointmnetID}}</td>
+            <td>{{soapnoteObj.appointmentDate | date:'yyyy/MM/dd'}}</td>
+          <td *ngIf="isPatient">{{ soapnoteObj.providerName }}</td>
+          <td *ngIf="isProvider">{{ soapnoteObj.patientName }}</td>
+          <td>{{ soapnoteObj.chiefComplaint }}</td>
+          <td>{{ soapnoteObj.subjective }}</td>
+    
+          <td>{{ soapnoteObj.objective }}</td>
+          <td>{{ soapnoteObj.assessment }}</td>
+          <td>{{soapnoteObj.plan}}</td>
+         
+    
+         
+    
+        </tr>
+      </tbody>
+    </table>
+    
+    
+    </div>

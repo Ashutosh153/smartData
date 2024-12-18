@@ -1,5 +1,7 @@
+using App.Core.Interface;
 using Core;
 using Infrastructure;
+using Infrastructure.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
@@ -83,6 +85,10 @@ namespace Backend
             // Add services to the container.
             builder.Services.AddApplication();
             builder.Services.AddInfrastructure(configuration);
+
+            builder.Services.AddTransient<IRazorpayService>(provider =>
+      new RazorpayService(configuration["Razorpay:KeyId"], configuration["Razorpay:KeySecret"]));
+
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

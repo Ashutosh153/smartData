@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { UserServicesService } from '../../services/user-services.service';
 import { CommonModule, DatePipe } from '@angular/common';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
@@ -81,8 +81,11 @@ export class GoToAppointmentComponent {
                 this.toaster.success(res.message)
                 this.router.navigateByUrl("/dashboard")
             }
-
-            this.toaster.warning(res.message)
+            else{
+              this.toaster.warning(res.message)
+            }
+            
+            
 
           }
          

@@ -86,6 +86,27 @@ public DoCompleteAppointment(obj:any)
 {
   return this.http.post(`https://localhost:7053/api/User/CompleteAppointment/${obj}`,obj)
 }
+
+public DoChangePassword(obj:any)
+{
+  return this.http.post("https://localhost:7053/api/User/changePassword",obj)
+}
+public DoGetAllSoapNotesDetails(obj:any)
+{
+  return this.http.get(`https://localhost:7053/api/Appointment/getAllSoapNotes/${obj}`)
+}
+public DoCreateOrder(obj:any)
+{
+  return this.http.post("https://localhost:7053/api/Razorpay/create-order",obj)
+}
+public DoVerifyPayment(paymentId:any,OrderId:any)
+{
+  return this.http.post("https://localhost:7053/api/Razorpay/verify-payment",{paymentId,OrderId})
+}
+public DoAddAppointmentAfterPayment(obj:any)
+{
+  return this.http.post("https://localhost:7053/api/User/addAppointmentAfterPayment",obj)
+}
 public DoGetPatientDetailsForAppointment(obj:any)
 {
   return this.http.get(`https://localhost:7053/api/Appointment/getUserDetailsForAppointment/${obj}`)
@@ -93,9 +114,5 @@ public DoGetPatientDetailsForAppointment(obj:any)
 public DoAddSoapNoteAndCompleteAppointment(obj:any)
 {
   return this.http.post("https://localhost:7053/api/Appointment/AddSoapNoteAndCompleteAppointment",obj)
-}
-public DoChangePassword(obj:any)
-{
-  return this.http.post("https://localhost:7053/api/User/changePassword",obj)
 }
 }

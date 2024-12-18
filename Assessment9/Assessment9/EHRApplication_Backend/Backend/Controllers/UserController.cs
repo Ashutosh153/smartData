@@ -103,6 +103,13 @@ namespace EHRApplication.Controllers
             var result=await _mediator.Send(new CancelAppointmentCommand { AppointmentId = id });
             return Ok(result);
         }
+        [HttpPost("addAppointmentAfterPayment")]
+        public async Task<IActionResult>DoAddAppointmentAfterPayment(AddAppointmentByPaymentDto addAppointmentByPaymentDto)
+        {
+            var result=await _mediator.Send(new AddAppointmentAfterPaymentCommand { AddAppointmentDto = addAppointmentByPaymentDto });
+            return Ok(result);
+        }
+
         [HttpPost("CompleteAppointment/{id}")]
         public async Task<IActionResult>DoCompleteAppointment(int id)
         {

@@ -35,7 +35,7 @@ export class DashboardComponent implements OnInit{
   editAppointmentId:any
   practionerIdForAppointment:any
   practionerChargesForAppointment:any
-  allPractioners?:any[]=[]
+  allPractioners:any[]=[]
   allAppointments:any[]=[]
   allPatients:any[]=[]
   allSpecilisation:any
@@ -423,10 +423,8 @@ getAllSpecilization()
       this.appointObj={
         providerId:this.practionerIdForAppointment,
         fee:this.practionerChargesForAppointment,
-  
         patientId:this.userId,
-  
-        appointmentDate:this.bookAppointmentForm.get("appointmentDate").value,
+       appointmentDate:this.bookAppointmentForm.get("appointmentDate").value,
         appointmentTime:this.bookAppointmentForm.get("appointmentTime").value,
         chiefComplaint:this.bookAppointmentForm.get("chiefComplained").value
       }
@@ -436,15 +434,83 @@ getAllSpecilization()
   
 
     this.service.DoverifyAvailableAppointment(this.appointObj).subscribe({
+      
     next:(res:any)=>{
         if(res.isSuccess)
         {
           if(!this.isProvider){
             this.closeBooAppointmentModal()
-            this.openMakePaymentModel()
+debugger
+            this.service.DoCreateOrder(parseFloat(this.practionerChargesForAppointment)).subscribe({
+              next:(res:any)=>{
+                const options = {
+                  key: 'rzp_test_j1n3HfglIVc3GS',  
+                  amount: res.amount,
+                  currency: res.currency,
+                  order_id: res.id,
+                  handler: (response: any) => {
+                    this.appointObj={
+                      PaymentId:response.razorpay_payment_id,
+                      OrderId:res.id
+                    }
+                    this.service.DoAddAppointmentAfterPayment(this.appointObj).subscribe({
+                      next:(res:any)=>{
+                        console.log(res.data)
+                        if(res.isSuccess)
+                          {
+                            this.getAllAppointments()
+                            this.toaster.success(res.message)
+                           // this.closeMakePaymentModel()
+                          }
+                          else{
+                            this.toaster.error(res.message)
+                          }
+        
+                      }
+                    })
+
+                    //this.bookAppointment(response.razorpay_payment_id, order.id);
+                    // this.verifyPayment(response.razorpay_payment_id, order.id)
+                  },
+
+
+                };
+                if (window.Razorpay) {
+                  const razorpay = new Razorpay(options);
+                  razorpay.open();
+                } else {
+                  console.error('Razorpay SDK is not loaded properly');
+                }
+              }
+            })
+            //need to open razorpay over here 
+            // with new method
+
+            // this.appointObj={
+            //   providerId:this.practionerIdForAppointment,
+            //   fee:this.practionerChargesForAppointment,
+        
+            //   patientId:this.userId,
+        
+            //   appointmentDate:this.bookAppointmentForm.get("appointmentDate").value,
+            //   appointmentTime:this.bookAppointmentForm.get("appointmentTime").value,
+            //   chiefComplaint:this.bookAppointmentForm.get("chiefComplained").value
+            //   OrderId
+            //   PaymentId
+            // }
+            // need to alter this payload
+
+            
+      
+
+
+
+           // this.openMakePaymentModel()
+           this.bookAppointmentForm.reset();
           }
           else if(this.isProvider)
           {
+            // method creating new appointment
             this.onclickMakePayment()
           }
 
@@ -568,7 +634,7 @@ getAllSpecilization()
   isDisabledRow(appointment: any): boolean {
 
     const formattedAppointmentDate = new Date(appointment.appointmentDate).toISOString().split('T')[0];
-    return appointment.appointmentStatus !== 'Scheduled' || formattedAppointmentDate < this.maxDate;
+    return appointment.appointmentStatus !== 'Scheduled' || (formattedAppointmentDate < this.maxDate);
   }
 
 

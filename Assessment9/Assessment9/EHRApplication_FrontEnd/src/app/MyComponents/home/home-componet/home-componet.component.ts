@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 
 @Component({
@@ -9,14 +9,17 @@ import { Router, RouterLink } from '@angular/router';
   templateUrl: './home-componet.component.html',
   styleUrl: './home-componet.component.css'
 })
-export class HomeComponetComponent {
+export class HomeComponetComponent implements OnInit {
+  ngOnInit(): void {
+    localStorage.removeItem("token")
+  }
  router=inject(Router)
   onClickPatient()
-  { debugger
+  { 
     this.router.navigateByUrl("login/1");
   }
   onClickDoctor(){
-    debugger
+    
     this.router.navigateByUrl("login/2")
   }
 

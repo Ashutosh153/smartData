@@ -173,13 +173,12 @@ export class PractionerRegestrationComponent {
           if (res.isSuccess == true) {
             this.isLoading = false;
            this.toastr.success(res.message);
-             alert(`${res.message}`)
+            
             console.log('success' + Payload);
-            this.router.navigateByUrl('');
+            this.router.navigateByUrl('/login/1');
           } else {
             this.isLoading = false;
            this.toastr.error(res.message);
-            alert(`${res.message}`)
             console.log('fail' + Payload);
           }
         },
