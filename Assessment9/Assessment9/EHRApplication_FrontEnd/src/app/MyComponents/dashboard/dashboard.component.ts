@@ -18,8 +18,11 @@ import Swal from 'sweetalert2';
 
 
 export class DashboardComponent implements OnInit{
-
-  
+  timeMin?: string;
+  timeMax?: string;
+  todayDate?: string;
+  earliestTime?: string;
+  latestTime?: string;
   
   minTime: string = '';
   userId:any=0
@@ -49,7 +52,20 @@ export class DashboardComponent implements OnInit{
   changePasswordForm: any
   errorMessage?: string;
   changePassObj?: any
+
+  
     constructor(private fb: FormBuilder) {
+      this.todayDate = new Date().toISOString().split('T')[0];
+
+      // Set the earliest appointment time as current time
+      const now = new Date();
+      this.earliestTime = now.toTimeString().split(' ')[0];
+  
+      // Set the latest appointment time as one hour from now
+      now.setHours(now.getHours() + 1);
+      this.latestTime = now.toTimeString().split(' ')[0];
+
+
       this.changePasswordForm = this.fb.group(
         {
           password: [
@@ -67,7 +83,7 @@ export class DashboardComponent implements OnInit{
         { validator: this.passwordMatchValidator }
       );
     }
-    passwordMatchValidator(group: FormGroup) {
+   async  passwordMatchValidator(group: FormGroup) {
       const password = group.get('password')?.value;
       const confirmPassword = group.get('confirmPassword')?.value;
       return password === confirmPassword ? null : { mismatch: true };
@@ -154,7 +170,6 @@ export class DashboardComponent implements OnInit{
 
             if(res.data[0].userType_ID==2)
             {
-              //debugger
               console.log(res);
              
               this.isProvider=true
@@ -233,7 +248,7 @@ getAllPAtients()
     this.service.DoGetAllAppointmentsById(this.userId).subscribe({
       next:(res:any)=>{
         if(res.isSuccess)
-        {
+        { 
          
           this.allAppointments=res.data
        
@@ -440,7 +455,7 @@ getAllSpecilization()
         {
           if(!this.isProvider){
             this.closeBooAppointmentModal()
-debugger
+
             this.service.DoCreateOrder(parseFloat(this.practionerChargesForAppointment)).subscribe({
               next:(res:any)=>{
                 const options = {
@@ -450,6 +465,13 @@ debugger
                   order_id: res.id,
                   handler: (response: any) => {
                     this.appointObj={
+                      providerId:this.practionerIdForAppointment,
+                      fee:this.practionerChargesForAppointment,
+                      patientId:this.userId,
+                     appointmentDate:this.bookAppointmentForm.get("appointmentDate").value,
+                      appointmentTime:this.bookAppointmentForm.get("appointmentTime").value,
+                      chiefComplaint:this.bookAppointmentForm.get("chiefComplained").value,
+                    
                       PaymentId:response.razorpay_payment_id,
                       OrderId:res.id
                     }
@@ -481,32 +503,19 @@ debugger
                 } else {
                   console.error('Razorpay SDK is not loaded properly');
                 }
+                          this.bookAppointmentForm.reset();
+
+
               }
             })
-            //need to open razorpay over here 
-            // with new method
-
-            // this.appointObj={
-            //   providerId:this.practionerIdForAppointment,
-            //   fee:this.practionerChargesForAppointment,
-        
-            //   patientId:this.userId,
-        
-            //   appointmentDate:this.bookAppointmentForm.get("appointmentDate").value,
-            //   appointmentTime:this.bookAppointmentForm.get("appointmentTime").value,
-            //   chiefComplaint:this.bookAppointmentForm.get("chiefComplained").value
-            //   OrderId
-            //   PaymentId
-            // }
-            // need to alter this payload
-
+         
             
       
 
 
 
            // this.openMakePaymentModel()
-           this.bookAppointmentForm.reset();
+          // this.bookAppointmentForm.reset();
           }
           else if(this.isProvider)
           {
@@ -631,12 +640,59 @@ debugger
   }
   
   
-  isDisabledRow(appointment: any): boolean {
+  // isDisabledRow(appointment: any): boolean {
 
-    const formattedAppointmentDate = new Date(appointment.appointmentDate).toISOString().split('T')[0];
-    return appointment.appointmentStatus !== 'Scheduled' || (formattedAppointmentDate < this.maxDate);
+  //   const formattedAppointmentDate = new Date(appointment.appointmentDate).toISOString().split('T')[0];
+  //   return appointment.appointmentStatus !== 'Scheduled' || (formattedAppointmentDate < this.maxDate);
+  // }
+  isDisabledRow(appointment: any): boolean {
+    // Get the appointment date in local time without time components
+    const appointmentDate = new Date(appointment.appointmentDate);
+    const formattedAppointmentDate = new Date(
+      appointmentDate.getFullYear(),
+      appointmentDate.getMonth(),
+      appointmentDate.getDate()
+    );
+  
+    // Get today's date in local time without time components
+    const today = new Date();
+    const localToday = new Date(
+      today.getFullYear(),
+      today.getMonth(),
+      today.getDate()
+    );
+  
+    // Check if the appointment date is in the past or status is not 'Scheduled'
+    return (
+      appointment.appointmentStatus !== 'Scheduled' ||
+      formattedAppointmentDate < localToday
+    );
   }
 
+  
+ // Custom time validator to restrict times to one hour ahead
+ timeValidator(control: any) {
+  const selectedTime = new Date(`1970-01-01T${control.value}:00`);
+  const minTime = new Date(`1970-01-01T${this.timeMin}:00`);
+  const maxTime = new Date(`1970-01-01T${this.timeMax}:00`);
+  if (selectedTime < minTime || selectedTime > maxTime) {
+    return { timeInvalid: true };
+  }
+  return null;
+}
+
+onDateChange() {
+  const selectedDate = new Date(this.bookAppointmentForm.get('appointmentDate')?.value);
+  if (selectedDate.toISOString().split('T')[0] === this.todayDate) {
+    this.timeMin = new Date().toTimeString().split(' ')[0]; // Reset to current time
+    this.timeMax = new Date(new Date().setHours(new Date().getHours() + 1)).toTimeString().split(' ')[0]; // Set max to one hour from now
+  } else {
+    const now = new Date();
+    now.setHours(now.getHours() + 1);
+    this.timeMin = now.toTimeString().split(' ')[0];
+    this.timeMax = new Date(new Date().setHours(new Date().getHours() + 1)).toTimeString().split(' ')[0];
+  }
+}
 
 }
 

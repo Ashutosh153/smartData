@@ -169,7 +169,7 @@
         <a routerLink="/updatePractProfile" *ngIf="isProvider">
           <button type="submit" class="btn btn-primary">EDIT</button>
         </a>
-        <a routerLink="/updateProfile " *ngIf="!isProvider">
+        <a routerLink="/updateProfile" *ngIf="!isProvider">
           <button type="submit" class="btn btn-primary">EDIT</button>
         </a>
 
@@ -290,7 +290,7 @@
         <div class="form-group mb-3 position-relative">
           <label for="appointmentDate">Date of appointment</label>
           <input id="appointmentDate" type="date" formControlName="appointmentDate" class="form-control"
-            [min]="maxDate" />
+            [min]="todayDate" (change)="onDateChange()" />
           <div
             *ngIf="bookAppointmentForm.get('appointmentDate')?.invalid && bookAppointmentForm.get('appointmentDate')?.touched"
             class="error animated fadeIn position-absolute start-50 translate-middle-x">
@@ -300,7 +300,7 @@
 
         <div class="form-group mb-3 position-relative">
           <label for="appointmentTime">Time of appointment</label>
-          <input id="appointmentTime" formControlName="appointmentTime" type="time" class="form-control" [min]="minTime"/>
+          <input id="appointmentTime" formControlName="appointmentTime" type="time" class="form-control"  [min]="timeMin" [max]="timeMax" />
           <!-- <span>select the time at which you want to have appointment</span> -->
           <div
             *ngIf="bookAppointmentForm.get('appointmentTime')?.invalid && bookAppointmentForm.get('appointmentTime')?.touched"

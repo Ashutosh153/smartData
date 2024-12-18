@@ -563,3 +563,6 @@ C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_
 C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Backend\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Backend\bin\Debug\net8.0\BouncyCastle.Crypto.dll
 C:\Users\ashutoshgupta\Desktop\smartData\Assessment9\Assessment9\EHRApplication_Backend\Backend\bin\Debug\net8.0\Razorpay.dll
+C:\Users\Asus\Desktop\smartData\smartData\Assessment9\Assessment9\EHRApplication_Backend\Backend\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Asus\Desktop\smartData\smartData\Assessment9\Assessment9\EHRApplication_Backend\Backend\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\Asus\Desktop\smartData\smartData\Assessment9\Assessment9\EHRApplication_Backend\Backend\bin\Debug\net8.0\Razorpay.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tjH4VXv8J37JwidUCkCrMUEmuJCaYo88xxDvGf1B95Q=",
+  "Hash": "2HyPj4yHNPvrj+Hmy/ZNrxbBUX4tahGWgqbOBMNCSf0=",
   "Source": "EHRApplication",
   "BasePath": "_content/EHRApplication",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "EHRApplication\\wwwroot",
       "Source": "EHRApplication",
-      "ContentRoot": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
       "BasePath": "_content/EHRApplication",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\a29381c9-1bdd-48d8-b18e-d0af564650db.jpeg",
+      "Identity": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\a29381c9-1bdd-48d8-b18e-d0af564650db.jpeg",
       "SourceId": "EHRApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
       "BasePath": "_content/EHRApplication",
       "RelativePath": "Uploads/a29381c9-1bdd-48d8-b18e-d0af564650db.jpeg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\a29381c9-1bdd-48d8-b18e-d0af564650db.jpeg"
     },
     {
-      "Identity": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\c3186c4e-9245-4e48-9380-ebefb04bd655.jpeg",
+      "Identity": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\c3186c4e-9245-4e48-9380-ebefb04bd655.jpeg",
       "SourceId": "EHRApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
       "BasePath": "_content/EHRApplication",
       "RelativePath": "Uploads/c3186c4e-9245-4e48-9380-ebefb04bd655.jpeg",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\c3186c4e-9245-4e48-9380-ebefb04bd655.jpeg"
     },
     {
-      "Identity": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\cc286c94-2969-4c5f-8a3b-17e98fd2ec0c.jpeg",
+      "Identity": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\cc286c94-2969-4c5f-8a3b-17e98fd2ec0c.jpeg",
       "SourceId": "EHRApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
       "BasePath": "_content/EHRApplication",
       "RelativePath": "Uploads/cc286c94-2969-4c5f-8a3b-17e98fd2ec0c.jpeg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\cc286c94-2969-4c5f-8a3b-17e98fd2ec0c.jpeg"
     },
     {
-      "Identity": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\d028d79f-f9de-41fb-9543-f50ff3f0aa64.jpeg",
+      "Identity": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\d028d79f-f9de-41fb-9543-f50ff3f0aa64.jpeg",
       "SourceId": "EHRApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
       "BasePath": "_content/EHRApplication",
       "RelativePath": "Uploads/d028d79f-f9de-41fb-9543-f50ff3f0aa64.jpeg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\d028d79f-f9de-41fb-9543-f50ff3f0aa64.jpeg"
     },
     {
-      "Identity": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\d40f96cf-0bbe-4d14-ad18-b0b45166dc7a.jpeg",
+      "Identity": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\Uploads\\d40f96cf-0bbe-4d14-ad18-b0b45166dc7a.jpeg",
       "SourceId": "EHRApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\wwwroot\\",
       "BasePath": "_content/EHRApplication",
       "RelativePath": "Uploads/d40f96cf-0bbe-4d14-ad18-b0b45166dc7a.jpeg",
       "AssetKind": "All",

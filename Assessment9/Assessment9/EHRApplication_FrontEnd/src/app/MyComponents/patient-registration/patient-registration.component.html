@@ -20,7 +20,7 @@
           <!-- Last Name -->
           <div class="col-md-6 mb-3 position-relative">
             <label for="lastName">Last Name</label>
-            <input id="lastName" formControlName="lastName" type="text" class="form-control"
+            <input id="lastName" formControlName="lastName" t ype="text" class="form-control"
             (input)="limitInputLength($event,35)" placeholder="Enter last name" />
             <div *ngIf="userForm.get('lastName')?.invalid && userForm.get('lastName')?.touched" class="error animated fadeIn position-absolute start-50 translate-middle-x">
               Last name is required and should be at least 3 characters long.
@@ -147,7 +147,7 @@
 
               
         <div class="form-group mb-3">
-          <label for="gender" formControlName="gender">Select Gender:</label>
+          <label for="gender" >Select Gender:</label>
 <div>
   <input type="radio" id="male" formControlName="gender" value="Male">
   <label for="male">Male</label>

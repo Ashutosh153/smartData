@@ -154,7 +154,7 @@ constructor()
   private _profileForm = new FormGroup({
     // UserType_Id: new FormControl(0, Validators.required),
     // Email: new FormControl('', [Validators.required, Validators.email]),
-    id: new FormControl(0, Validators.required),
+    id: new FormControl(0),
     FirstName: new FormControl('', [Validators.required, Validators.minLength(2)]),
     LastName: new FormControl('', [Validators.required, Validators.minLength(2)]),
     //  Username: new FormControl('', [Validators.required, Validators.minLength(4)]),
