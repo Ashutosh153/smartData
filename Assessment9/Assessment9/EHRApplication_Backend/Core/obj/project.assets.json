@@ -3612,19 +3612,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\ashutoshgupta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App.Core.csproj",
       "projectName": "App.Core",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App.Core.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\obj\\",
+      "projectPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App.Core.csproj",
+      "packagesPath": "C:\\Users\\ashutoshgupta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ashutoshgupta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3639,8 +3639,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Asus\\Desktop\\smartData\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj"
+            "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Domain\\Domain.csproj"
             }
           }
         }

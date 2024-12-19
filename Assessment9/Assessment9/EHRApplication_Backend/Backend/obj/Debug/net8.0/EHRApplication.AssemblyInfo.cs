@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EHRApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dd93d6c3236998c042ca0c6167d9fb1ff890e86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe95a55e645b26c7bb874846ed030bdab8df94f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("EHRApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EHRApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

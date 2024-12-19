@@ -49,16 +49,16 @@ Stripe payment gateway should be integrated here
 	Appointment can not be edit if it is completed and passed the date.
 
 	2.Provider Login:
-	- If provider Login in App, show the Dashboard with the Upcoming Appointment listing(if no appointment is schedule then display "No Appointment found"). And 	Add Appointment button.
-	Upcoming appointment need to display from Appointment table (will find schema below the explanation). Only Todays & future Appointment will come whose status 	is "Scheduled". Also display the Go To Appointment button in list.
+	- If provider Login in App, show the Dashboard with the Upcoming Appointment listing(if no appointment is schedule then display "No Appointment found"). And 		Add Appointment button.
+	Upcoming appointment need to display from Appointment table (will find schema below the explanation). Only Todays & future Appointment will come whose status 		is "Scheduled". Also display the Go To Appointment button in list.
  
 	- Add Appointment button: When Provider clicks on the button new Page will open where Add Appointment form will be there with following field:
 	Patient list(display dropdown for all patient type from User table)
 	Date Picker(Only Today & future dates are allowed)
-Time Picker(Only 1hr onward from current time get selected) e.g if current time is 1pm then in time picker we will able to select 2pm onward time for selected date.
+	Time Picker(Only 1hr onward from current time get selected) e.g if current time is 1pm then in time picker we will able to select 2pm onward time for selected 	date.
 	Chief complaint (Text box to add the complain)
 	Add Button to save the appointment.
-	- If valid then save the details then show success message, save the information in Appointment table with status as "Scheduled" and send the Email to Patient 	& Provider both for the Appointment schedule.
+	- If valid then save the details then show success message, save the information in Appointment table with status as "Scheduled" and send the Email to Patient 		& Provider both for the Appointment schedule.
  
 	Follwoing are the table schema for this module:
 

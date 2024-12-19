@@ -18,6 +18,7 @@ namespace App.Core.App.Command
     public class ChangePasswordCommandHandler : IRequestHandler<ChangePasswordCommand, ResponceDto>
     {
         private readonly IAppDbContext _appDbContext;
+
         public ChangePasswordCommandHandler(IAppDbContext appDbContext)
         {
             _appDbContext = appDbContext;

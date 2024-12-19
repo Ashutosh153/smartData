@@ -178,10 +178,10 @@ constructor()
   }
 
 
-getUserValue()
+  getUserValue()
 {
-  //const token:any=localStorage.getItem('token')
-  const token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYXZldG9rZW5zIiwiaWQiOiIzIiwiZW1haWwiOiJhc2h1dG9zaGd1cHRhNjE2ODZAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMiIsImV4cCI6MTczNDExNjI5NiwiaXNzIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIiwiYXVkIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIn0.NGD2eGG_58s40CyQCCVYf2V0RQHpbixRxSlI-4aMBJM"
+  const token:any=localStorage.getItem('token')
+  //const token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYXZldG9rZW5zIiwiaWQiOiIzIiwiZW1haWwiOiJhc2h1dG9zaGd1cHRhNjE2ODZAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMiIsImV4cCI6MTczNDExNjI5NiwiaXNzIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIiwiYXVkIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vIn0.NGD2eGG_58s40CyQCCVYf2V0RQHpbixRxSlI-4aMBJM"
   console.log("ghsfgghw"+token)
   if(token)
   {
@@ -195,6 +195,7 @@ debugger
       next:(res:any)=>{
         console.log(res)
         if(res.isSuccess)
+          debugger
         {
           this.LoginUser=res.data[0]
           this.oldProfile=res.data[0].profile
@@ -205,7 +206,7 @@ debugger
             this.LoginUser.dateOfBirth,
             'yyyy-MM-dd'
           );
-           
+           debugger
            this.profileForm.get('id')?.setValue(res.data.id)
           this.profileForm.get('FirstName')?.setValue(res.data[0].firstName)
           this.profileForm.get('LastName')?.setValue(res.data[0].lastName)
@@ -220,6 +221,7 @@ debugger
           this.profileForm.get('State')?.setValue(res.data[0].stateId)
           this.profileForm.get('gender')?.setValue(res.data[0].gender)
           this.profileForm.get('bloodGroup')?.setValue(res.data[0].bloodGroup)
+          
 
           this.loadcities(res.data[0].stateId)
         }

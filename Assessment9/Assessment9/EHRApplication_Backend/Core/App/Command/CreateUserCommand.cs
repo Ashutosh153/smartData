@@ -87,7 +87,9 @@ namespace App.Core.App.Command
                 var isSend = await _emailService.SendEmailAsync
                     ($"Welcome {newUserObj.FirstName} {newUserObj.LastName} "
                     , newUserObj.Email
-                    , $"your User Name is : {newUserObj.UserName},\n Your Password is : {pass}");
+                    , $" Welcome <b>{newUserObj.FirstName}  {newUserObj.LastName}</b>" +
+                    $"your User Name is : <b>{newUserObj.UserName}</b>,<br> Your Password is : <b>{pass}</b>" +
+                    $"<b> DONT SHARE YOUR CREDENTIALS WITH ANYONE ELSE</b>");
 
                 await _appDbContext.SaveChangesAsync();
 

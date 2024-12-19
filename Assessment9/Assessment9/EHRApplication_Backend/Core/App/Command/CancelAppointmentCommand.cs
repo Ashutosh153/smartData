@@ -39,10 +39,10 @@ namespace App.Core.App.Command
                 var practioner = await _appDbContext.Set<UserDetails>().FirstOrDefaultAsync((x) => x.Id == completedAppointment.ProviderId);
 
                 await _emailService.SendEmailAsync(" Appointmwnt Cancelletion", practioner.Email,  
-                    $"the appointment with appointmentID {completedAppointment.Id}been cancelled \n  sorry for inconvinence");
+                    $"the appointment with appointmentID {completedAppointment.Id}been <b>Cancelled</b> <br>  sorry for inconvinence");
 
                 await _emailService.SendEmailAsync("Appointmwnt Cancelletion", patient.Email,
-                               $"the appointment with appointmentID {completedAppointment.Id}been successfully");
+                               $"the appointment with appointmentID {completedAppointment.Id}been Cancelled successfully");
 
 
 

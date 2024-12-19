@@ -50,7 +50,7 @@ namespace App.Core.App.Command
             isExist.Password = BCrypt.Net.BCrypt.HashPassword(pass);
             await _appDbContext.SaveChangesAsync();
 
-            var isSend = await _emailService.SendEmailAsync("password recovery", isExist.Email, $"your new Password is {pass}");
+            var isSend = await _emailService.SendEmailAsync("password recovery", isExist.Email, $"your new Password is <b>{pass}</b>");
 
 
             //if (isSend == false) {

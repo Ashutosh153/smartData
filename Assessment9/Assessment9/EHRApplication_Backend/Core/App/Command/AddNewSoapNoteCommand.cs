@@ -53,7 +53,7 @@ namespace App.Core.App.Command
                         var patientObj = await _appDbContext.Set<UserDetails>()
                             .FirstOrDefaultAsync((x) => x.Id == appdetails.PatientId);
                         await _emailService.SendEmailAsync(" Appointment Completed ", practobj.Email,
-                     $"the appointment with appointmentID {appointmentStatus.Id} has been completed successfully  ");
+                         $"the appointment with appointmentID {appointmentStatus.Id} has been completed successfully  ");
 
                         await _emailService.SendEmailAsync("Appointmwnt Completed", patientObj.Email,
                                        $"the appointment with appointmentID {appointmentStatus.Id}been successfully Completed " +

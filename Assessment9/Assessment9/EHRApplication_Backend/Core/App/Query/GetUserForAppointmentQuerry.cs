@@ -42,7 +42,7 @@ u.Gender as gender,
 u.Profile
 from appointments a
 left join Users u on a.PatientId=u.Id 
-where a.id=@id";
+where a.id=@id ";
 
             var parameters = new { id = request.id };
             var userDetails = await connection.QueryAsync<GetUserForAppointmentDto>(sql, parameters);

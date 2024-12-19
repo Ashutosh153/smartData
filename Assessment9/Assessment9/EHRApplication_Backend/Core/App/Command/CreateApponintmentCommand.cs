@@ -39,10 +39,12 @@ namespace App.Core.App.Command
             await _appDbContext.SaveChangesAsync();
 
             await _emailService.SendEmailAsync("New Appointmwnt Scheduled", practioner.Email,
-                $"new appointment has been scheduled on {request.AddAppointmentDto.AppointmentDate}  at{request.AddAppointmentDto.AppointmentTime} \n please be available at that moment");
+                $"new appointment has been scheduled on <b>{request.AddAppointmentDto.AppointmentDate}</b> " +
+                $" at<b>{request.AddAppointmentDto.AppointmentTime}</ b> <br> please  be available at that moment");
 
             await _emailService.SendEmailAsync("Appointmwnt Scheduled", patient.Email,
-                           $"the appointment has been scheduled on {request.AddAppointmentDto.AppointmentDate}  at{request.AddAppointmentDto.AppointmentTime} \n successfully");
+                           $"the appointment is scheduled on <b> {request.AddAppointmentDto.AppointmentDate}  </b>" +
+                           $"at<b>{request.AddAppointmentDto.AppointmentTime}</b> Successfully");
 
 
 

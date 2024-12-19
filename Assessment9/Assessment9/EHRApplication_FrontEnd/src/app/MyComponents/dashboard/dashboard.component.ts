@@ -23,6 +23,7 @@ export class DashboardComponent implements OnInit{
   todayDate?: string;
   earliestTime?: string;
   latestTime?: string;
+  isLoading:boolean=false
   
   minTime: string = '';
   userId:any=0
@@ -287,6 +288,7 @@ getAllSpecilization()
   }
 
   openBooAppointmentModal() {
+    this.bookAppointmentForm.reset();
     this.closeaddAppointmentModelByDoctor()
     const modal = document.getElementById('BooAppointmentModel');
     if (modal != null) {
@@ -381,7 +383,7 @@ getAllSpecilization()
     this.isNavbarOpen = !this.isNavbarOpen;
   }
 
-  getPractioners(id:number)
+ async getPractioners(id:number)
   {
     this.service.getPractionersApPerRequired(id).subscribe({
       next:(res:any)=>{
@@ -418,6 +420,7 @@ getAllSpecilization()
   {
     
     this.closeBooAppointmentModal()
+    
 
     if(this.isProvider)
     {
@@ -475,24 +478,30 @@ getAllSpecilization()
                       PaymentId:response.razorpay_payment_id,
                       OrderId:res.id
                     }
+                    
+                    this.isLoading=true
                     this.service.DoAddAppointmentAfterPayment(this.appointObj).subscribe({
                       next:(res:any)=>{
                         console.log(res.data)
                         if(res.isSuccess)
                           {
+                            this.isLoading=false
                             this.getAllAppointments()
                             this.toaster.success(res.message)
                            // this.closeMakePaymentModel()
                           }
                           else{
+                            this.isLoading=false
                             this.toaster.error(res.message)
                           }
         
+                      },
+                      error:(e:any)=>{
+                        this.isLoading=false
                       }
                     })
 
-                    //this.bookAppointment(response.razorpay_payment_id, order.id);
-                    // this.verifyPayment(response.razorpay_payment_id, order.id)
+                   
                   },
 
 
@@ -503,7 +512,7 @@ getAllSpecilization()
                 } else {
                   console.error('Razorpay SDK is not loaded properly');
                 }
-                          this.bookAppointmentForm.reset();
+                          
 
 
               }
@@ -515,7 +524,8 @@ getAllSpecilization()
 
 
            // this.openMakePaymentModel()
-          // this.bookAppointmentForm.reset();
+           //this.bookAppointmentForm.reset();
+
           }
           else if(this.isProvider)
           {
@@ -543,15 +553,18 @@ getAllSpecilization()
 
   onclickMakePayment()
   {
+    this.isLoading=true
     this.service.DoCraeteAppointment(this.appointObj).subscribe({
       next:(res:any)=>{
         if(res.isSuccess)
         {
+          this.isLoading=false
           this.getAllAppointments()
           this.toaster.success(res.message)
           this.closeMakePaymentModel()
         }
         else{
+          this.isLoading=false
           this.toaster.error(res.message)
         }
       }
@@ -614,7 +627,7 @@ getAllSpecilization()
       icon: 'warning',
       showCancelButton: true,
       confirmButtonText: 'Yes',
-      cancelButtonText: 'Cancel',
+      cancelButtonText: 'No',
       reverseButtons: true,
     }).then((result: any) => {
       if (result.isConfirmed) {

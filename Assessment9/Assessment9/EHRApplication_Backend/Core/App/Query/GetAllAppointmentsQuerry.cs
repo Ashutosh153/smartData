@@ -78,7 +78,7 @@ from appointments a
 left join Users upat on upat.id=a.PatientId
 left join Users upract on upract.id=a.ProviderId
 left join SpecialisationDetails sd on sd.Id=upract.Specialisation_ID
-where a.PatientId=@id or a.ProviderId=@id and a.AppointmentStatus !='Completed'";
+where (a.PatientId=@id or a.ProviderId=@id) and a.AppointmentStatus !='Completed'";
 
                     var parameters = new { id = request.Id };
                     var appointments = await connection.QueryAsync<GetAllAppointmentDto>(sql, parameters);

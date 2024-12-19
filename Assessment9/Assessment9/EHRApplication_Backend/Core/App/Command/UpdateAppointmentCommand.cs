@@ -46,10 +46,14 @@ namespace App.Core.App.Command
                     var patient = await _appDbContext.Set<UserDetails>().FirstOrDefaultAsync((x) => x.Id == OldAppointment.PatientId);
                     var practioner = await _appDbContext.Set<UserDetails>().FirstOrDefaultAsync((x) => x.Id == OldAppointment.ProviderId);
                     await _emailService.SendEmailAsync("Update in Appointmwnt Scheduled", practioner.Email,
-                        $"the appointment with appointment id {OldAppointment.Id} has been updated and rescheduled on {request.updateappointment.AppointmentDate}  at {request.updateappointment.AppointmentTime} \n please be available at that moment");
+                        $"the appointment with appointment id {OldAppointment.Id}" +
+                        $" has been updated and rescheduled on <b>{request.updateappointment.AppointmentDate}</b>  " +
+                        $"at <b>{request.updateappointment.AppointmentTime}</b><br> please be available at that moment");
 
                     await _emailService.SendEmailAsync("Update Appointment Scheduled", patient.Email,
-                                   $"the appointment id  appointment id {OldAppointment.Id} has been updated  scheduled on {request.updateappointment.AppointmentDate}  at{request.updateappointment.AppointmentTime} \n successfully");
+                                   $"the appointment with  AppointmentId {OldAppointment.Id}" +
+                                   $" has been updated  and Successfully rescheduled on <b>{request.updateappointment.AppointmentDate}  </b>" +
+                                   $"at<b>{request.updateappointment.AppointmentTime} </b> ");
 
 
 

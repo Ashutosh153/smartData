@@ -71,7 +71,8 @@ namespace App.Core.App.Query
 
                 var isSend = await _emailService.SendEmailAsync("Otp Authentication"
                    , isExist.Email
-                   , $"Your otp is {otpVal}");
+                   , $"Your otp for verification is <b>{otpVal}</b><br>" +
+                   $"Please don't share it with any other person");
 
 
 

@@ -1,3 +1,4 @@
+<div class="loading" *ngIf="isLoading"></div>
 <nav class="navbar">
   <div class="navbar-container">
     <!-- Brand Name -->
@@ -290,7 +291,7 @@
         <div class="form-group mb-3 position-relative">
           <label for="appointmentDate">Date of appointment</label>
           <input id="appointmentDate" type="date" formControlName="appointmentDate" class="form-control"
-            [min]="todayDate" (change)="onDateChange()" />
+            [min]="todayDate"  />
           <div
             *ngIf="bookAppointmentForm.get('appointmentDate')?.invalid && bookAppointmentForm.get('appointmentDate')?.touched"
             class="error animated fadeIn position-absolute start-50 translate-middle-x">
@@ -433,7 +434,7 @@
       <!-- Modal Body -->
 
       <div class="form-group mb-3">
-        <label for="specialities">specilization</label>
+        <label for="specialist_id">specilization</label>
         <select id="specialist_id" class="form-select" (change)="onChangeSpecilization()">
           <option value=0>get all specialist</option>
           <option *ngFor="let item of allSpecilisation" [value]=item.id>{{item.specialisationType}}</option>
