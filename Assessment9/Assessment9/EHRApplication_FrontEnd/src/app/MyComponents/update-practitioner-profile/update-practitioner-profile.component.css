@@ -1,0 +1,30 @@
+/* Form container */
+.container {
+    max-width: 800px;
+}
+
+/* Form fields and inputs */
+input.form-control, select.form-select {
+    border-radius: 10px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Error messages */
+.text-danger {
+    font-size: 0.9rem;
+    color: #dc3545;
+}
+
+/* Form container style */
+.shadow-lg {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
