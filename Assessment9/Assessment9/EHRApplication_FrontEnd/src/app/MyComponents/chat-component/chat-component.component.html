@@ -1,0 +1,29 @@
+<div class="container mt-5">
+  <div class="card shadow-sm">
+    <div class="card-header bg-primary text-white">
+      <h4>Chat with Receiver</h4>
+    </div>
+    
+    <!-- Chat Messages Section -->
+    <div class="card-body">
+      <div class="message-list">
+        <div *ngFor="let msg of messages" class="message-item mb-3" [ngClass]="{'sent-message': msg.senderId === senderId, 'received-message': msg.senderId !== senderId}">
+          <p><strong>{{ msg.senderId }}:</strong></p>
+          <p>{{ msg.message }}</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Fixed input and button -->
+    <div class="card-footer bg-light">
+    
+
+      <div class="form-group mb-3">
+        <label for="message" class="form-label">Your Message</label>
+        <textarea [(ngModel)]="message" class="form-control" id="message" placeholder="Type your message" rows="4"></textarea>
+      </div>
+
+      <button (click)="sendMessage(receiverId, message)" class="btn btn-primary btn-block mt-3">Send</button>
+    </div>
+  </div>
+</div>

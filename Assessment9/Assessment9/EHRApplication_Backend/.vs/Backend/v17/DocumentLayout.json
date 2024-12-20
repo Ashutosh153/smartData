@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\command\\updatepatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\updatepatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\app\\command\\updateprovidercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\app\\command\\updateprovidercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|c:\\users\\ashutoshgupta\\desktop\\smartdata\\assessment9\\assessment9\\ehrapplication_backend\\core\\modelsdto\\addappointmentbypaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DFA3C70-720A-44F5-BFF1-A30F7882A24F}|Core\\App.Core.csproj|solutionrelative:core\\modelsdto\\addappointmentbypaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -113,11 +121,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "UpdatePatientCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\UpdatePatientCommand.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Command\\UpdatePatientCommand.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\UpdatePatientCommand.cs",
+              "RelativeToolTip": "Core\\App\\Command\\UpdatePatientCommand.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:31:33.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateProviderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\UpdateProviderCommand.cs",
+              "RelativeDocumentMoniker": "Core\\App\\Command\\UpdateProviderCommand.cs",
+              "ToolTip": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\UpdateProviderCommand.cs",
+              "RelativeToolTip": "Core\\App\\Command\\UpdateProviderCommand.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:31:15.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ChangePasswordCommand.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\ChangePasswordCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\ChangePasswordCommand.cs",
@@ -129,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CancelAppointmentCommand.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\CancelAppointmentCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\CancelAppointmentCommand.cs",
@@ -141,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CreateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\CreateUserCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\CreateUserCommand.cs",
@@ -153,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "LoginQuery.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\LoginQuery.cs",
               "RelativeDocumentMoniker": "Core\\App\\Query\\LoginQuery.cs",
@@ -165,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "GetUserForAppointmentQuerry.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\GetUserForAppointmentQuerry.cs",
               "RelativeDocumentMoniker": "Core\\App\\Query\\GetUserForAppointmentQuerry.cs",
@@ -177,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ForgetPasswordCommand.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\ForgetPasswordCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\ForgetPasswordCommand.cs",
@@ -189,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AddAppointmentAfterPaymentCommand.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddAppointmentAfterPaymentCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\AddAppointmentAfterPaymentCommand.cs",
@@ -201,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AddAppointmentByPaymentDto.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\AddAppointmentByPaymentDto.cs",
               "RelativeDocumentMoniker": "Core\\ModelsDto\\AddAppointmentByPaymentDto.cs",
@@ -209,12 +242,11 @@
               "RelativeToolTip": "Core\\ModelsDto\\AddAppointmentByPaymentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:26:20.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T11:26:20.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "AddAppointmentDto.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\AddAppointmentDto.cs",
               "RelativeDocumentMoniker": "Core\\ModelsDto\\AddAppointmentDto.cs",
@@ -226,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CreateApponintmentCommand.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\CreateApponintmentCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\CreateApponintmentCommand.cs",
@@ -238,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Backend\\Program.cs",
@@ -250,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "PaymentVerificationDto.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\PaymentVerificationDto.cs",
               "RelativeDocumentMoniker": "Core\\ModelsDto\\PaymentVerificationDto.cs",
@@ -262,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RazorpayService.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Infrastructure\\Service\\RazorpayService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Service\\RazorpayService.cs",
@@ -274,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "IRazorpayService.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\Interface\\IRazorpayService.cs",
               "RelativeDocumentMoniker": "Core\\Interface\\IRazorpayService.cs",
@@ -286,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RazorpayController.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\RazorpayController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\RazorpayController.cs",
@@ -298,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "VerifyOtpQuery.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\VerifyOtpQuery.cs",
               "RelativeDocumentMoniker": "Core\\App\\Query\\VerifyOtpQuery.cs",
@@ -310,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "AppointmentController.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\AppointmentController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\AppointmentController.cs",
@@ -322,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "GetAllSoapNotesDto.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\GetAllSoapNotesDto.cs",
               "RelativeDocumentMoniker": "Core\\ModelsDto\\GetAllSoapNotesDto.cs",
@@ -334,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "GetAllSoapNotesById.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\GetAllSoapNotesById.cs",
               "RelativeDocumentMoniker": "Core\\App\\Query\\GetAllSoapNotesById.cs",
@@ -346,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UpdateAppointmentCommand.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\UpdateAppointmentCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\UpdateAppointmentCommand.cs",
@@ -358,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "AddNewSoapNoteCommand.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\AppData\\Local\\SourceServer\\24136630b11384f3b8b22d32c7f4f63707a8d07a0487ad6b61d0fb0340932f37\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddNewSoapNoteCommand.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\24136630b11384f3b8b22d32c7f4f63707a8d07a0487ad6b61d0fb0340932f37\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddNewSoapNoteCommand.cs",
@@ -371,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AddNewSoapNoteCommand.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Command\\AddNewSoapNoteCommand.cs",
               "RelativeDocumentMoniker": "Core\\App\\Command\\AddNewSoapNoteCommand.cs",
@@ -383,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GetAllAppointmentsQuerry.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\App\\Query\\GetAllAppointmentsQuerry.cs",
               "RelativeDocumentMoniker": "Core\\App\\Query\\GetAllAppointmentsQuerry.cs",
@@ -395,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\UserController.cs",
@@ -407,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ChangePasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Core\\ModelsDto\\ChangePasswordDto.cs",
               "RelativeDocumentMoniker": "Core\\ModelsDto\\ChangePasswordDto.cs",
@@ -419,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ashutoshgupta\\Desktop\\smartData\\Assessment9\\Assessment9\\EHRApplication_Backend\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",

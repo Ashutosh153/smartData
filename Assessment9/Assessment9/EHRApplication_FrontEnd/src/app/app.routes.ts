@@ -10,6 +10,7 @@ import { UpdatePractitionerProfileComponent } from './MyComponents/update-practi
 import { GoToAppointmentComponent } from './MyComponents/go-to-appointment/go-to-appointment.component';
 import { authGuard } from './guards/auth.guard';
 import { ViewCompleteAppointmentsComponent } from './MyComponents/view-complete-appointments/view-complete-appointments.component';
+import { ChatComponentComponent } from './MyComponents/chat-component/chat-component.component';
 
 export const routes: Routes = [
     {
@@ -55,5 +56,8 @@ export const routes: Routes = [
         path:"viewCompleteAppointment",
         component:ViewCompleteAppointmentsComponent,
         canActivate:[authGuard]
+    },{
+        path:"chat/:id",
+        component:ChatComponentComponent
     }
 ];

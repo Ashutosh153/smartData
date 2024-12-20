@@ -58,7 +58,7 @@ namespace App.Core.App.Command
                 return new ResponceDto
                 {
                     isSuccess = true,
-                    message = "patient updated successfully"
+                    message = "profile updated successfully"
                 };
             }
 

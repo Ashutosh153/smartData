@@ -66,7 +66,7 @@ namespace App.Core.App.Command
                 return new ResponceDto
                 {
                     isSuccess = true,
-                    message = "practitioner updated successfully"
+                    message = "Profile updated successfully"
                 };
 
 

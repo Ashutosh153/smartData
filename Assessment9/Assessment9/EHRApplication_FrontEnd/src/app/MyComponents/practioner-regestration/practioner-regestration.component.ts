@@ -59,7 +59,7 @@ export class PractionerRegestrationComponent {
     qualification:new FormControl('',Validators.required),
     Specialisation_ID:new FormControl(0,Validators.required),
     Registration_Number:new FormControl('',Validators.required),
-    Visiting_Charge:new FormControl(0,Validators.required)
+    Visiting_Charge:new FormControl('',Validators.required)
 
   });
   limitInputLength(event: Event, maxLength: number): void {

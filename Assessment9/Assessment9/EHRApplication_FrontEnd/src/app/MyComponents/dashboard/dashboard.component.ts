@@ -91,7 +91,7 @@ export class DashboardComponent implements OnInit{
     }
 
     
-  onSubmitChangePassword() {
+async  onSubmitChangePassword() {
     if (this.changePasswordForm.invalid) {
       this.errorMessage = 'Please correct the errors before submitting.';
       return;
@@ -238,6 +238,7 @@ getAllPAtients()
 {
   this.service.DoGetOtherTypeUser(this.userId).subscribe({
     next:(res:any)=>{
+     console.log(res);
      
       this.allPatients=res.data
     }
@@ -251,6 +252,7 @@ getAllPAtients()
         if(res.isSuccess)
         { 
          
+          console.log(res)
           this.allAppointments=res.data
        
         }
@@ -374,6 +376,7 @@ getAllSpecilization()
   }
 
   closeChangePassModel() {
+    this.changePasswordForm.reset()
     const modal = document.getElementById('MyChangePassModel');
     if (modal != null) {
       modal.style.display = 'none';
@@ -401,7 +404,7 @@ getAllSpecilization()
      
     })
   }
-  onChangeSpecilization() {
+ async onChangeSpecilization() {
     const selectElement = document.getElementById('specialist_id') as HTMLSelectElement; 
     const id = selectElement.value; 
     this.getPractioners(parseInt(id))
@@ -705,6 +708,11 @@ onDateChange() {
     this.timeMin = now.toTimeString().split(' ')[0];
     this.timeMax = new Date(new Date().setHours(new Date().getHours() + 1)).toTimeString().split(' ')[0];
   }
+}
+goToChat(data:any)
+{
+this.router.navigateByUrl(`/chat/${data}`)
+
 }
 
 }

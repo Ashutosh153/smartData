@@ -1,0 +1,53 @@
+/* Chat message area: Make messages scrollable */
+.message-list {
+  max-height: 300px; /* You can adjust this value as per your needs */
+  overflow-y: auto;  /* Allow vertical scrolling */
+  padding-right: 15px;
+}
+
+/* Ensures card body doesn't take up too much space and message area remains scrollable */
+.card-body {
+  padding-bottom: 100px; /* Adjust the padding to give space for the fixed footer */
+}
+
+/* Fixed footer for input and button */
+.card-footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-top: 1px solid #e1e1e1;
+}
+
+/* Style for message bubbles */
+.sent-message {
+  background-color: #007bff;
+  color: white;
+  text-align: right;
+  border-radius: 10px;
+  margin-left: 20%;
+  padding: 10px;
+}
+
+.received-message {
+  background-color: #f1f1f1;
+  color: black;
+  text-align: left;
+  border-radius: 10px;
+  margin-right: 20%;
+  padding: 10px;
+}
+
+/* Styling for input and button */
+textarea, input {
+  border-radius: 8px;
+}
+
+/* Styling for the send button */
+button {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
